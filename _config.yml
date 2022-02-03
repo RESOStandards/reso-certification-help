@@ -1,7 +1,4 @@
-remote_theme: gustavoquinalha/jekyll-help-center-theme
-
-
-#theme: jekyll-theme-slate
+theme: jekyll-theme-slate
 title: RESO Certification User Guide
-#github:
-#  is_project_page: false
+github:
+  is_project_page: false

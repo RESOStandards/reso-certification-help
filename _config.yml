@@ -1,4 +1,6 @@
-theme: jekyll-theme-slate
+remote_theme: pmarsceill/just-the-docs
+
+# theme: jekyll-theme-slate
 title: RESO Certification User Guide
 github:
   is_project_page: false

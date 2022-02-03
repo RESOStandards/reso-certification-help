@@ -1,22 +1,4 @@
-
-## Just the Docs Theme Settings
-remote_theme: pmarsceill/just-the-docs
-
-has_children: true
-
-#search 
-search_enabled: true
-search.heading_level: 2
-search.previews: 3
-search.preview_words_before: 5
-search.preview_words_after: 10
-
-#footer
-footer_content: "Copyright &copy; 2022 <a href='https://reso.org'>Real Estate Standards Organization (RESO)</a>."
-
-
-# OLD - theme: jekyll-theme-slate
+theme: jekyll-theme-slate
 title: RESO Certification User Guide
 github:
   is_project_page: false
-  

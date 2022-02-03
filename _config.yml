@@ -11,6 +11,9 @@ search.previews: 3
 search.preview_words_before: 5
 search.preview_words_after: 10
 
+#footer
+footer_content: "Copyright &copy; 2022 <a href='https://reso.org'>Real Estate Standards Organization (RESO)</a>."
+
 
 # OLD - theme: jekyll-theme-slate
 title: RESO Certification User Guide

@@ -85,9 +85,9 @@ The report shows which version of OData the RESO Web API Server was using and th
 # Notifications
 Endorsements must be reviewed and approved by customers before they are certified. The review requests are sent via email.
 
-Sending notification of the Data Dictionary report will send the approval requests together in a bundle along with the Web API Core report. The recipient will be able to explore and approve both reports from either link in the case of a bundled notification.
+Sending notification of the Data Dictionary report will send also send the Web API Core report together in a bundled review notification where the recipient will be able to review and approve both reports from a single link.
 
-**Note:** the only time the email is a bundle is when BOTH Data Dictionary and Web API are in Passed status. Otherwise, the email will only be for the endorsement selected.
+**Note:** the only time the bundled notification is available is when BOTH Data Dictionary and Web API are in Passed status. Otherwise, the email will only be for the endorsement selected.
 
 ***Important: The email linking to the report should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 

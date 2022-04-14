@@ -91,7 +91,7 @@ Sending notification of the Data Dictionary report will send the approval reques
 
 ***Important: The email linking to the report should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 
-##Sending Notifications
+## Sending Notifications
 Select the Passed button from the endorsements page or any report page.
 
 Enter the email address for your customer and select Send Now.

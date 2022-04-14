@@ -60,8 +60,11 @@ The metadata viewer allows you to explore the data elements through a data tree.
 The Data Elements buttons allow you to filter by the following data sets:
 
 **RESO** - All Resources, Fields and Lookups matching RESO Data Dictionary
+
 **Local** - Market specific custom Resources, Fields and Lookups
+
 **All** - The combination of RESO + Local
+
 **IDX** - Resources, Fields and Lookups for public display by an MLS broker participant
 
 The text filter box allows you to search for fields across all resources.

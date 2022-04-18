@@ -142,9 +142,19 @@ Select the **Create Token** button.
 
 _[Create Token Button]_
 
-The token will then be displayed along with options to copy it to the clipboard or to delete (only in the case of multiple tokens).
+The token will then be displayed along with options to copy it to the clipboard or to delete (in the case of multiple tokens).
 
 _[token buttons]_
+
+Select the copy icon to copy the token to the clipboard.
+
+_[copy icon]_
+
+Select the trash can icon to delete the token. 
+
+_[trash can icon]_
+
+You may contact certification@reso.org for assistance.
 
 
 

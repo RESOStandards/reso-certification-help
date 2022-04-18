@@ -149,3 +149,29 @@ _[Certified Button]_
 
 # My Account
 Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
+
+## Creating a Token
+
+A token is needed in order to access the certification data via Web API.
+
+Log in to certification.reso.org with your Username and Password.
+
+Select **My Account** from the top toolbar.
+
+Select the **Create Token** button.
+
+_[Create Token Button]_
+
+The token will then be displayed along with options to copy it to the clipboard or to delete (in the case of multiple tokens).
+
+_[token buttons]_
+
+Select the copy icon to copy the token to the clipboard.
+
+_[copy icon]_
+
+Select the trash can icon to delete the token. 
+
+_[trash can icon]_
+
+You may contact certification@reso.org for assistance.

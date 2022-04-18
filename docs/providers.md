@@ -1,11 +1,9 @@
 # Endorsements
-The RESO Certification process requires providers (MLS vendors) to review their customers’ (MLSs) testing reports and then use the RESO Certification System to notify them. The customers will then review the results and approve them to receive certification for the given endorsement.
+The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
 
-At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and Web **API Core 2.0.0**, which have different reports available.
+At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
-After logging in to [certification.reso.org](certification.reso.org), the endorsements are shown under their respective organizations.
-
-There are several sorting and filtering options at the top of the endorsements page.
+After logging in to [certification.reso.org](certification.reso.org), endorsements are shown under their respective organizations with several sorting and filtering options at the top of the endorsements page.
 
 _[Endorsement List]_
 
@@ -31,7 +29,7 @@ Select **View Details** to the right of the endorsement to view the report.
 
 _[Endorsement List Block]_
 
-You may also access your endorsements by selecting the **Endorsements** option at the top of the page. This option is hidden if you are currently on the endorsements page.
+You may also access your endorsements by selecting the **Endorsements** option at the top of the page. This option is hidden if you are currently on the endorsements page itself.
 
 _[Endorsement on Toolbar]_
 
@@ -42,11 +40,11 @@ _[Organization Name Blue Box]_
 
 Summary reports show information about the resources, fields and lookups that were found on your server for that organization.
 
-Each report contains two views, Data Elements and Performance, accessed through a dropdown at the top of the page.
+Each report contains two views, Data Elements and Performance, accessed from a dropdown at the top of the page.
 
 _[Views Dropdown]_
 
-The Data Elements view shows the field and lookup counts and how they compare to the industry averages. The counts are broken down by Advertised and Available data.
+The Data Elements view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
 
 **Advertised** refers to the data elements that were found in the server metadata.
 
@@ -64,13 +62,13 @@ _[Performance View Chart]_
 
 Performance is measured on:
 
-**Payload Size** - a measure of how much data was retrieved when sampling the selected resource. When All is selected, it's the average across all resources found, measured in megabytes (MB).
+**Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
 
-**Response Time**- shows how long, on average, a request to the given server took to complete, measured in seconds (s).
+**Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
 
 **Seconds per 1K Records** -  is an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
 
-**N/A** means that the given recipient has not completed Data Dictionary Availability 1.7 testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification.
@@ -89,7 +87,7 @@ The Data Elements buttons allow you to filter by the following data sets:
 
 **RESO** - All resources, fields and lookups matching the RESO Data Dictionary
 
-**Local** - Market specific custom resources, fields and lookups
+**Local** - Market-specific custom resources, fields and lookups
 
 **All** - The combination of RESO + local
 
@@ -102,11 +100,11 @@ The text filter box allows you to search for fields across all resources.
 _[Filter Search Box]
 [Results of Search]_
 
-Selecting a field displays the lookups (if applicable), OData information and link to it’s [Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17/RESO+Data+Dictionary+Wiki+1.7) entry.
+Selecting a field displays the lookups (if applicable), OData information and a link to its [Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17/RESO+Data+Dictionary+Wiki+1.7) entry.
 
 _[Standard Status Selected]_
 
-The lookup filter buttons above the lookup values give you the ability to filter by All, RESO and Local. Data Dictionary lookup values are also linked to the Data Dictionary Wiki while local lookup values are not.
+The lookup filter buttons above the lookup values give you the ability to filter by All, RESO and Local. Data Dictionary lookup values are also linked to the Data Dictionary Wiki, but Local lookup values are not.
 
 _[Lookup Values (Appliances as example)]_
 
@@ -130,10 +128,10 @@ Selecting **Notify** for either Data Dictionary or the Web API Core report will 
 
 **Note:** The bundled notification is available ONLY when BOTH Data Dictionary and Web API are in **Passed** status. Otherwise, the email will only include the single endorsement that was selected for notification.
 
-**Important: The email linking to the report should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
+**IMPORTANT: The email that includes a link to the report should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 
 ## Sending Notifications
-Select the **Passed** button from the endorsements page or any report page and select **Notify Recipient**.
+Select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
 
 _[Passed Button with Notify Dropdown]_
 
@@ -145,7 +143,7 @@ An email with a link to the report will be sent to your customer for review and 
 
 _[Notified Button]_
 
-Once the customer has approved the results, the button will change to indicate Certified.
+Once the customer has approved the results, the button will change to indicate **Certified**.
 
 _[Certified Button]_
 

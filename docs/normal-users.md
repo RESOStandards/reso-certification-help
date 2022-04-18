@@ -63,7 +63,7 @@ Performance is measured on:
 
 **Seconds per 1K Records** - is an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
 
-**N/A** means that the given recipient has not completed Data Dictionary Availability 1.7 testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.
@@ -122,10 +122,29 @@ _[Web API Report]_
 
 # My Account
 
-Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
+Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. 
+
+If any of this information is incorrect, please contact RESO at certification@reso.org.
 
 _[My Account on Toolbar]_
 
 _[User Details Screen]_
+
+## Creating a Token
+
+A token is needed in order to access the certification data via Web API.
+
+Log in to certification.reso.org with your Username and Password.
+
+Select **My Account** from the top toolbar.
+
+Select the **Create Token** button.
+
+_[Create Token Button]_
+
+The token will then be displayed along with options to copy it to the clipboard or to delete (only in the case of multiple tokens).
+
+_[token buttons]_
+
 
 

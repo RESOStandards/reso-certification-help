@@ -1,9 +1,9 @@
 # Notifications
-You will receive an email from certification@reso.org with link(s) to review and approve your results. The body of the email will contain a review link for the endorsements that were submitted by your Provider.
+You will receive an email from certification@reso.org with a link to review and approve your results. The body of the email will contain a review link for the endorsement(s) that were submitted by your provider. If both **Data Dictionary 1.7** and **Web API Core 2.0.0** were submitted, they may be reviewed from the same link.
 
-Select the review and approve results link below the endorsement you would like to review.
+Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) to be taken to the Certification Summary Report.
 
-_[Body of Email]_
+_[Body of Bundled Email]_
 
 # Endorsements
 The RESO Certification process requires providers (MLS vendors) to review their customers’ (MLSs’) testing reports and then use the RESO Certification System to notify them. The customers will then review the results and approve them to receive certification for the given endorsement.
@@ -43,17 +43,17 @@ Performance is measured on:
 
 **Payload Size** - a measure of how much data was retrieved when sampling the selected resource. When All is selected, it's the average across all resources found, measured in megabytes (MB).
 
-**Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds(s).
+**Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
 
 **Seconds per 1K Records** - an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
 
-**N/A** means that the given recipient has not completed Data Dictionary Availability 1.7 testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 Your endorsements along with the count of Data Dictionary elements are shown below the charts.
 
 _[Endorsement List]_
 
-If you have reviewed and are satisfied with the report, select the Approve button next to the endorsement to be taken to the Terms and Conditions page.
+Once you have reviewed and are satisfied with the report, select the Approve button next to the endorsement to be taken to the Terms and Conditions page.
 
 _[Approve Button]_
 

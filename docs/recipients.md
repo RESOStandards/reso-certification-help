@@ -70,7 +70,7 @@ Your guide to RESO certification terms:
 
 **Resources** are at the top level of the data structure. Think of a resource as the category of the items contained within it. Examples of resources are **Property**, **Member** and **Office**.
 
-**Fields** are contained within resources and are the descriptions of the listing components themselves. Examples of fields are ListPrice, Appliances and YearBuilt.
+**Fields** are contained within resources and are the descriptions of the listing components themselves. Examples of fields are **ListPrice**, **Appliances** and **YearBuilt**.
 
 **Lookups** are the options within certain fields (e.g., **Appliances**). Within **Appliances**, there are lookups such as **Dishwasher**, **Gas Oven** and **Dryer**.
 
@@ -93,7 +93,7 @@ The Data Elements buttons allow you to filter by the following data sets:
 
 **Local** - Market-specific custom resources, fields and lookups
 
-**All** - The combination of RESO + local
+**All** - The combination of RESO + Local
 
 **IDX** - Resources, fields and lookups for public display by an MLS broker participant
 

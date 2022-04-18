@@ -1,14 +1,14 @@
 # Notifications
-You will receive an email from certification@reso.org with a link to review and approve your results. The body of the email will contain a review link for the endorsement(s) that were submitted by your provider. If both **Data Dictionary 1.7** and **Web API Core 2.0.0** were submitted, they may be reviewed from the same link.
+You will receive an email from certification@reso.org with a link to review and approve your results. The body of the email will contain a review link for any endorsements that were submitted by your provider. If both **Data Dictionary 1.7** and **Web API Core 2.0.0** were submitted, they may be reviewed from the same link.
 
 Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) to be taken to the Certification Summary Report.
 
 _[Body of Bundled Email]_
 
 # Endorsements
-The RESO Certification process requires providers (MLS vendors) to review their customers’ (MLSs’) testing reports and then use the RESO Certification System to notify them. The customers will then review the results and approve them to receive certification for the given endorsement.
+The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
 
-At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, which have different reports available.
+At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
 The Web API Core 2.0.0 endorsement must be approved prior to Data Dictionary 1.7.
 
@@ -17,11 +17,11 @@ Select your organization name with the blue button at the top to view your Certi
 
 _[Organization Name Blue Box]_
 
-Each report contains two views, Data Elements and Performance, accessed through a dropdown at the top of the page.
+Each report contains two views, Data Elements and Performance, accessed from a dropdown at the top of the page.
 
 _[Views Dropdown]_
 
-The Data Elements view shows your field and lookup counts and how they compare to the industry averages. The counts are broken down by Advertised and Available data.
+The Data Elements view shows your field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
 
 **Advertised** refers to the data elements that were found in the server metadata.
 
@@ -41,23 +41,23 @@ _[Performance View Chart]_
 
 Performance is measured on:
 
-**Payload Size** - a measure of how much data was retrieved when sampling the selected resource. When All is selected, it's the average across all resources found, measured in megabytes (MB).
+**Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
 
 **Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
 
-**Seconds per 1K Records** - an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
+**Seconds per 1K Records** -  is an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
 
-**N/A** means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
-Your endorsements along with the count of Data Dictionary elements are shown below the charts.
+Your endorsements and the count of Data Dictionary elements are shown below the charts.
 
 _[Endorsement List]_
 
-Once you have reviewed and are satisfied with the report, select the Approve button next to the endorsement to be taken to the Terms and Conditions page.
+Once you have reviewed and are satisfied with the report, select the **Approve** button next to the endorsement to be taken to the Terms and Conditions page.
 
 _[Approve Button]_
 
-Once you have read and agreed terms and conditions, check the box to confirm and select **Proceed**.
+Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
 
 The **Contact RESO** button allows you to send an email to RESO at certification@reso.org.
 
@@ -70,9 +70,9 @@ Your guide to RESO certification terms:
 
 **Resources** are at the top level of the data structure. Think of a resource as the category of the items contained within it. Examples of resources are **Property**, **Member** and **Office**.
 
-**Fields** are contained within Resources and are the descriptions of the listing components themselves. Examples of fields are ListPrice, Appliances and YearBuilt.
+**Fields** are contained within resources and are the descriptions of the listing components themselves. Examples of fields are ListPrice, Appliances and YearBuilt.
 
-**Lookups** are the options within certain fields (e.g. **Appliances**). Within **Appliances**, there are lookups such as **Dishwasher**, **Gas Oven** and **Dryer**.
+**Lookups** are the options within certain fields (e.g., **Appliances**). Within **Appliances**, there are lookups such as **Dishwasher**, **Gas Oven** and **Dryer**.
 
 ## Exploring the Data
 The top right section of the report displays the overall counts of your data elements as submitted by your data provider.
@@ -89,13 +89,13 @@ _[Standard Status Selected]_
 
 The Data Elements buttons allow you to filter by the following data sets:
 
-**RESO** - All Resources, Fields and Lookups matching the RESO Data Dictionary
+**RESO** - All resources, fields and lookups matching the RESO Data Dictionary
 
-**Local** - Market specific custom Resources, Fields and Lookups
+**Local** - Market-specific custom resources, fields and lookups
 
-**All** - The combination of RESO + Local
+**All** - The combination of RESO + local
 
-**IDX** - Resources, Fields and Lookups for public display by an MLS broker participant
+**IDX** - Resources, fields and lookups for public display by an MLS broker participant
 
 _[Data Elements Buttons]_
 
@@ -107,7 +107,7 @@ _[Filter Search Box]
 # Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.
 
-Selecting **Review and Approve** for Web **API Core 2.0.0** allows you to view your high level certification information including your Organization Name and Vendor Name. If any of this information is incorrect, please contact RESO at certification@reso.org.
+Selecting **Review and Approve** for **Web API Core 2.0.0** allows you to view your high-level certification information, including your Organization Name and Vendor Name. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
 _[Web API Report]_
 
@@ -115,6 +115,6 @@ Once you have reviewed your Web API Core 2.0.0 report, select the **Approve** bu
 
 A **Contact RESO** button on this page allows you to send an email to certification@reso.org.
 
-Once you have read and agreed terms and conditions, check the box to confirm and select **Proceed**.
+Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
 
-Your Web API Core Endorsement will then be issued and your report will be published.
+Your Web API Core Endorsement will then be issued, and your report will be published.

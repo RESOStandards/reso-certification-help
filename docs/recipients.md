@@ -72,7 +72,7 @@ Once you have read and agreed to RESO's Terms and Conditions, check the box to c
 The **Contact RESO** button allows you to send an email to RESO at certification@reso.org.
 
 # Data Dictionary Report
-The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help/edit/4-create-consumer-public-content/README.md#exploring-the-data).
+The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help/blob/4-create-consumer-public-content/README.md#exploring-the-data).
 
 The Data Dictionary Endorsement may be approved with the **Approve** button at the top of the report.
 

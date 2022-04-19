@@ -39,7 +39,7 @@ Located below the charts, the Resources dropdown menu provides a data filter to 
 
 ![image](https://user-images.githubusercontent.com/88680702/164042681-63dbff92-321f-4321-ab7d-002e4924f1e7.png)
 
-The Performance option reveals the data provider’s server metrics.
+The Performance option displays the data provider’s server metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/164044656-0c87b91e-2383-4328-9cfc-f26e589da57f.png)
 

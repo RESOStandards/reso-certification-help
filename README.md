@@ -68,6 +68,7 @@ The Data Dictionary Report allows you to explore the data elements of the organi
 
 ![image](https://user-images.githubusercontent.com/88680702/163906517-f13337f9-e88e-4f27-9725-8364a16df08c.png)
 
+## Exploring the Data
 Your guide to RESO certification terms:
 
 **Resources** are at the top level of the data structure. Think of a resource as the category of the items contained within it. Examples of resources are **Property**, **Member** and **Office**.
@@ -76,7 +77,6 @@ Your guide to RESO certification terms:
 
 **Lookups** are the options within certain fields (e.g., **Appliances**). Within **Appliances**, there are lookups such as **Dishwasher**, **Gas Oven** and **Dryer**.
 
-## Exploring the Data
 The top right section of the report displays the overall counts of data elements.
 
 ![image](https://user-images.githubusercontent.com/88680702/163905212-8143ec15-d68e-44bc-a92e-e8fb3cde5409.png)

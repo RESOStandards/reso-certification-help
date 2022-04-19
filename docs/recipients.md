@@ -10,14 +10,14 @@ To be taken to the Certification Summary Report, select the **REVIEW AND APPROVE
 # Endorsements
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
 
-See more information about veiwing [Endorsements](https://github.com/RESOStandards/reso-certification-help/blob/4-create-consumer-public-content/README.md#endorsements).
+See more information about viewing [Endorsements](https://github.com/RESOStandards/reso-certification-help/blob/4-create-consumer-public-content/README.md#endorsements).
 
 # Summary Report
 The Certification Summary Report provides a high level overview of the data found during certification testing, displayed in charts. Server performance metrics for the data provider are also included.
 
 Each report contains two views, Data Elements and Performance, accessed from a dropdown menu in the top left corner.
 
-![image](https://user-images.githubusercontent.com/88680702/164037823-fa0661db-010b-4255-a540-eacf27e387f3.png)
+![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
 
 Data Elements refers to fields and lookups as defined below:
 
@@ -61,7 +61,7 @@ Select **View Details** next to the [Data Dictionary](https://github.com/RESOSta
 
 You may return to the Certification Summary Report by selecting the blue button that contains the name of your organization.
 
-![image](https://user-images.githubusercontent.com/88680702/164037790-44199bbf-e97a-4ea1-9950-e37416b5c339.png)
+![image](https://user-images.githubusercontent.com/88680702/164071937-40d5d783-bc25-4b05-936d-778a539bc493.png)
 
 If you have reviewed and are satisfied with the report, select the **Approve** button next to the endorsement to be taken to the Terms and Conditions page.
 

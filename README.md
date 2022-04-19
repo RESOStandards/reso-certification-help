@@ -19,7 +19,7 @@ Sort alphabetically ascending or descending.
 
 ![image](https://user-images.githubusercontent.com/88680702/163903016-9c535476-a511-45d3-b41e-a5132c2be1a1.png)
 
-The endorsements view includes the endorsement version, count of data elements (Data Dictionary endorsement), status and status date.
+The endorsements view includes the endorsement version, count of data elements (Data Dictionary Endorsement), status and status date.
 
 ![image](https://user-images.githubusercontent.com/88680702/163903143-5fe7be69-1eab-4df3-af89-0965e5b9bbd5.png)
 

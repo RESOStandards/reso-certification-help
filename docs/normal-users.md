@@ -3,158 +3,39 @@ At this time, there are two possible endorsements that can be issued to data pro
 
 The results of the endorsement certification tests are available for review in the RESO Certification System at [certification.reso.org](certification.reso.org).
 
-There are several sorting and filtering options at the top of the endorsements page.
-
-_[Endorsement Toolbar]_
-
-Filter by organization name or Unique Organization Identifier (UOI).
-
-_[UOI Search Box]_
-
-Filter by endorsement type and certification status.
-
-_[Filter Options]_
-
-Sort alphabetically ascending or descending.
-
-_[Sort Options]_
-
-The endorsements view includes the current version, a count of data elements (Data Dictionary endorsement), status date and status indicator.
-
-Select **View Details** to the right of the endorsement to view the report.
-
-_[Endorsement List Box]_
-
-You may also access the endorsements page by selecting the **Endorsements** option at the top of the page. This option is hidden if you are currently on the endorsements page.
-
-_[Endorsement on Toolbar]_
+See more information about [Viewing Endorsements](https://github.com/RESOStandards/reso-certification-help#endorsements).
 
 # Summary Report
-
 Summary reports show information about the resources, fields and lookups that were found during certification testing.
 
-Each report contains two views, Data Element and Performance, accessed from a dropdown at the top of the page.
-
-_[Views Dropdown]_
-
-The Data Elements View shows the field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
-
-**Advertised** refers to the data elements that were found in the server metadata.
-
-**Available** indicates that the data element was also found in the payload during sampling.
-
-Use the Availability Threshold slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
-
-_[Data Elements Chart]_
-
-The Resources dropdown beneath the chart filters the data to the specific resource selected.
-
-_[Resources Dropdown]_
-
-The Performance View shows the data provider’s server metrics.
-
-_[Performance View Chart]_
-
-Performance is measured on:
-
-**Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
-
-**Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
-
-**Seconds per 1K Records** - is an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
-
-**N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+See more information about the [Summary Report](https://github.com/RESOStandards/reso-certification-help#summary-report).
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.
 
-_[DD Report]_
-
-Your guide to RESO certification terms:
-
-**Resources** are at the top level of the data structure. Think of a resource as the category of the items contained within it. Examples of resources are **Property**, **Member** and **Office**.
-
-**Fields** are contained within resources and are the descriptions of the listing components themselves. Examples of fields are **ListPrice**, **Appliances** and **YearBuilt**.
-
-**Lookups** are the options within certain fields (e.g., **Appliances**). Within **Appliances**, there are lookups such as **Dishwasher**, **Gas Oven** and **Dryer**.
-
-## Exploring the Data
-The top right section of the report displays the overall counts of data elements.
-
-_[Data Element Counts]_
-
-Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are also shown.
-
-_[Data Elements Boxes]_
-
-The Data Elements buttons allow you to filter by the following data sets:
-
-**RESO** - All resources, fields and lookups matching the RESO Data Dictionary
-
-**Local** - Market-specific custom resources, fields and lookups
-
-**All** - The combination of RESO + Local
-
-**IDX** - Resources, fields and lookups for public display by an MLS broker participant
-
-_[Data Elements Buttons]_
-
-The text filter box allows you to search for fields across all resources.
-
-_[Filter Search Box]_
-
-_[Results of Search]_
-
-Selecting a field displays the lookups (if applicable), OData information and a link to its [Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17) entry.
-
-_[Standard Status Selected]_
-
-The lookup filter buttons above the lookup values give you the option to filter by All, RESO and Local. RESO Data Dictionary lookup values are also linked to the Data Dictionary Wiki.
-
-_[Lookup Values (Appliances as example)]_
-
-# Web API Report
-The Web API Core report displays the name of the organization that was tested as well as that of the data provider.
-
-The report also shows which version of OData the RESO Web API Server was using, the authentication type (OAuth 2 Bearer Token or Client Credentials) and the fields that were used for testing.
-
-_[Web API Report]_
+See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help#exploring-the-data). 
 
 # My Account
-
-Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. 
-
-If any of this information is incorrect, please contact RESO at certification@reso.org.
-
-_[My Account on Toolbar]_
-
-_[User Details Screen]_
+Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
 ## Creating a Token
 
 A token is needed in order to access the certification data via Web API.
 
-Log in to certification.reso.org with your username and password.
+Log in to [certification.reso.org](https://certification.reso.org) with your Username and Password.
 
 Select **My Account** from the top toolbar.
 
+![image](https://user-images.githubusercontent.com/88680702/164083135-6c835013-5ca4-4e23-a884-118c9739eb2a.png)
+
+![image](https://user-images.githubusercontent.com/88680702/164082840-d13c0210-d33a-41b8-b49c-3a91801babfd.png)
+
 Select the **Create Token** button.
 
-_[Create Token Button]_
+![image](https://user-images.githubusercontent.com/88680702/164082516-7fcbef75-49d3-49c8-8bd3-1158535a4122.png)
 
 The token will then be displayed along with options to copy it to the clipboard or to delete (in the case of multiple tokens).
 
-_[token buttons]_
-
-Select the copy icon to copy the token to the clipboard.
-
-_[copy icon]_
-
-Select the trash can icon to delete the token.
-
-_[trash can icon]_
+![image](https://user-images.githubusercontent.com/88680702/164089795-39ccf57c-b6d6-405f-be4c-0b19cb7a22c0.png)
 
 You may contact certification@reso.org for assistance.
-
-
-

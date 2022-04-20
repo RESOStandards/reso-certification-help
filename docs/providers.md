@@ -28,10 +28,11 @@ The Resources dropdown beneath the chart filters the data to the specific resour
 
 The Performance View shows your server performance metrics.
 
-**Note:** You may opt-out of displaying your server metrics publicly. If opted-out, the performance metrics will be visible only to the provider, the customer and RESO admin staff. See Sending Notifications.
+**Note:** You may opt-out of displaying your server metrics publicly when notifying the customer. If opted-out, the performance metrics will be visible only to the the customer and RESO admin staff.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076852-3baf895f-f22f-4507-811c-22ede6c0916b.png)
 
+## Performance Metrics
 Performance is measured on:
 
 **Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).

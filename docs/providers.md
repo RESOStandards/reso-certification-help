@@ -3,7 +3,7 @@ The RESO Certification process requires a provider (MLS vendor) to review custom
 
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
-See more information about viewing [Endorsements](https://github.com/RESOStandards/reso-certification-help/blob/4-create-consumer-public-content/README.md#endorsements).
+See more information about viewing [Endorsements](https://github.com/RESOStandards/reso-certification-help#endorsements).
 
 # Summary Report
 Summary reports show information about the resources, fields and lookups that were found on your server for that organization.
@@ -27,7 +27,8 @@ The Resources dropdown beneath the chart filters the data to the specific resour
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
 
 The Performance View shows your server performance metrics.
-**Note:** You may opt out of displaying your server metrics publicly. If opted-out, the metrics would be visible only to you and RESO admin staff.
+
+**Note:** You may opt-out of displaying your server metrics publicly. If opted-out, the performance metrics will be visible only to the provider, the customer and RESO admin staff. See Sending Notifications.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076852-3baf895f-f22f-4507-811c-22ede6c0916b.png)
 
@@ -42,7 +43,7 @@ Performance is measured on:
 **N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
-The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help/blob/4-create-consumer-public-content/README.md#exploring-the-data).
+The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help#exploring-the-data).
 
 # Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.
@@ -70,6 +71,10 @@ Selecting **Notify** for either Data Dictionary or the Web API Core report will 
 Select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
 
 ![image](https://user-images.githubusercontent.com/88680702/164080561-d1c6233b-f401-46d3-8020-e3dccfb7cf21.png)
+
+Select whether to **Opt-Out** or **Accept** having the Performance Report displayed publicly and select **Next**.
+
+![image](https://user-images.githubusercontent.com/88680702/164259356-26f1c86e-b75b-461b-9c5e-9f20536efb4d.png)
 
 The email entry screen displays which endorsements will be included in the email. Enter the email address for your customer and select **Send Now**.
 

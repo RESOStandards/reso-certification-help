@@ -19,13 +19,7 @@ Each report contains two views, Data Elements and Performance, accessed from a d
 
 ![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
 
-Data Elements refers to fields and lookups as defined below:
-
-**Fields** are are the descriptions of the listing components. Examples of fields are **ListPrice**, **Appliances** and **YearBuilt**.
-
-**Lookups** are the options within certain fields (e.g., **Appliances**). Within **Appliances**, there are lookups such as **Dishwasher**, **Gas Oven** and **Dryer**.
-
-The counts of these data elements are categorized by Advertised and Available data and are shown against industry averages.
+The Data Elements View shows the field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
 
 **Advertised** refers to the data elements that were found in the server metadata.
 
@@ -43,6 +37,8 @@ The Performance option displays the data provider’s server metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/164044656-0c87b91e-2383-4328-9cfc-f26e589da57f.png)
 
+## Performance Metrics
+
 Performance is measured on:
 
 **Payload Size** – measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
@@ -53,11 +49,12 @@ Performance is measured on:
 
 **N/A** – means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
-Your endorsements are shown below the charts and may be approved from this page.  
+## Approving Endorsements
+Your endorsements are shown below the charts.
 
-Select **View Details** next to the [Data Dictionary](https://github.com/RESOStandards/reso-certification-help/edit/3-create-provider-and-recipient-content/docs/recipients.md#data-dictionary-report) and [Web API Core](https://github.com/RESOStandards/reso-certification-help/blob/4-create-consumer-public-content/README.md#web-api-report) endorsements to review the reports.
+Select **View Details** next to the Data Dictionary and Web API Core Endorsements to review the reports.
 
-![image](https://user-images.githubusercontent.com/88680702/164047765-9e0f2110-d1b4-4e48-8119-a77b74690df2.png)
+![image](https://user-images.githubusercontent.com/88680702/164266453-aac7220a-1eab-42ea-a3eb-a5d6aa1f6e0c.png)
 
 You may return to the Certification Summary Report by selecting the blue button that contains the name of your organization.
 

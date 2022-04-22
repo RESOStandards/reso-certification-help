@@ -3,7 +3,7 @@ The RESO Certification process requires a provider (MLS vendor) to review custom
 
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
-See more information about viewing [Endorsements](https://github.com/RESOStandards/reso-certification-help#endorsements).
+information about viewing [Endorsements](https://certification-help.reso.org/#endorsements).
 
 # Summary Report
 Summary reports show information about the resources, fields and lookups that were found on your server for that organization.
@@ -46,7 +46,7 @@ Performance is measured on:
 **N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
-The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help#exploring-the-data).
+The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data).
 
 # Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.

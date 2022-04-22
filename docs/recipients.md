@@ -60,7 +60,7 @@ You may return to the Certification Summary Report by selecting the blue button 
 
 ![image](https://user-images.githubusercontent.com/88680702/164071937-40d5d783-bc25-4b05-936d-778a539bc493.png)
 
-If you have reviewed and are satisfied with the report, select the **Approve** button next to the endorsement to be taken to the Terms and Conditions page.
+If you have reviewed and are satisfied with the report, select the **Approve** button next to the endorsement to be taken to the Terms and Conditions page. Approve buttons are also available at the top of each report detail page.
 
 ![image](https://user-images.githubusercontent.com/88680702/164045326-602eff64-3c72-48a4-a255-a9c9890ff5e7.png)
 
@@ -71,10 +71,15 @@ The **Contact RESO** button allows you to send an email to RESO at certification
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help#exploring-the-data).
 
-The Data Dictionary Endorsement may be approved with the **Approve** button at the top of the report.
-
 ![image](https://user-images.githubusercontent.com/88680702/164051539-9ecdd667-6d26-4ee9-8df9-0a139b97400b.png)
 
+Once you have reviewed your Data Dictionary Report, select the **Approve** button to be taken to the Terms and Conditions page.
+
+![image](https://user-images.githubusercontent.com/88680702/164054482-5f121053-f0ad-4a01-a8d8-1b9053d70f12.png)
+
+A **Contact RESO** button on this page allows you to send an email to certification@reso.org.
+
+Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
 
 # Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.

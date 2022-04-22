@@ -10,7 +10,7 @@ Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) 
 # Endorsements
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
 
-See more information about viewing [Endorsements](https://certification-help.reso.org/#endorsements).
+See more information about [Viewing Endorsements](https://certification-help.reso.org/#endorsements).
 
 # Summary Report
 The Certification Summary Report provides a high level overview of the data found during certification testing, displayed in charts. Server performance metrics for the data provider are also included.

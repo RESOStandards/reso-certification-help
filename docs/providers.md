@@ -28,7 +28,7 @@ The Resources dropdown beneath the chart filters the data to the specific resour
 
 The Performance View shows your server performance metrics.
 
-**Note:** You may opt-out of displaying your server metrics publicly when notifying the customer. If opted-out, the performance metrics will be visible only to the the customer and RESO admin staff.
+**Note:** You may opt-out of displaying your server metrics publicly when sending the norification to the customer. If opted-out, the performance metrics will be visible only to the customer and RESO admin staff.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076852-3baf895f-f22f-4507-811c-22ede6c0916b.png)
 
@@ -55,14 +55,14 @@ Select **View Details** at the right of the Web API Core 2.0.0 Endorsement to vi
 
 The Web API Core report displays the name of the organization that was tested as well as that of the data provider. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
-The report shows which version of OData the RESO Web API Server was using and the authentication type, with the current options being OAuth 2 Bearer Token or Client Credentials. The fields that were used for testing and the status button are also shown.
+The report shows which version of OData the RESO Web API Server was using and the authentication type, with the current options being OAuth 2 Bearer Token or Client Credentials. The fields that were used for testing and the status button are also shown. Notfication of the Web API Report may be sent from this page by selecting the **Passed** button at the top right.
 
 ![image](https://user-images.githubusercontent.com/88680702/164079962-e05317f9-b29c-4bc5-9273-0292946eda04.png)
 
 # Notifications
 Endorsements must be reviewed and approved by customers before they are certified. The review requests are sent via email.
 
-Selecting **Notify** for either Data Dictionary or the Web API Core report will send a bundled review notification for both endorsements. The recipient will be able to review and approve both reports from a single link that directs them to the Certification Summary page.
+Selecting **Passed** and then **Notify Recipient** for either Data Dictionary or the Web API Core report will send a bundled review notification for both endorsements. The recipient will be able to review and approve both reports from a single link that directs them to the Certification Summary page.
 
 **Note:** The bundled notification is available ONLY when BOTH Data Dictionary and Web API are in **Passed** status. Otherwise, the email will only include the single endorsement that was selected for notification.
 
@@ -73,7 +73,7 @@ Select the **Passed** button from the endorsements page or any report page, then
 
 ![image](https://user-images.githubusercontent.com/88680702/164080561-d1c6233b-f401-46d3-8020-e3dccfb7cf21.png)
 
-Select whether to **Opt-Out** or **Accept** having the Performance Report displayed publicly and select **Next**.
+Select whether to **Opt-Out** or **Accept** having the performance metrics displayed publicly and select **Next**.
 
 ![image](https://user-images.githubusercontent.com/88680702/164259356-26f1c86e-b75b-461b-9c5e-9f20536efb4d.png)
 
@@ -90,7 +90,7 @@ Once the customer has approved the results, the button will change to indicate *
 ![image](https://user-images.githubusercontent.com/88680702/164080916-825ff706-8037-40ce-b4c4-ceb351044630.png)
 
 # My Account
-Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
+Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If you believe any of this information is incorrect, please contact RESO at certification@reso.org.
 
 ## Creating a Token
 

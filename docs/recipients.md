@@ -10,7 +10,7 @@ Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) 
 # Endorsements
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
 
-See more information about viewing [Endorsements](https://github.com/RESOStandards/reso-certification-help#endorsements).
+See more information about viewing [Endorsements](https://certification-help.reso.org/#endorsements).
 
 # Summary Report
 The Certification Summary Report provides a high level overview of the data found during certification testing, displayed in charts. Server performance metrics for the data provider are also included.
@@ -70,7 +70,7 @@ Once you have read and agreed to RESO's Terms and Conditions, check the box to c
 The **Contact RESO** button allows you to send an email to RESO at certification@reso.org.
 
 # Data Dictionary Report
-The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help#exploring-the-data).
+The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data).
 
 ![image](https://user-images.githubusercontent.com/88680702/164051539-9ecdd667-6d26-4ee9-8df9-0a139b97400b.png)
 

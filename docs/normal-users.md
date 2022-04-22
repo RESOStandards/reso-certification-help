@@ -3,17 +3,17 @@ At this time, there are two possible endorsements that can be issued to data pro
 
 The results of the endorsement certification tests are available for review in the RESO Certification System at [certification.reso.org](certification.reso.org).
 
-See more information about [Viewing Endorsements](https://github.com/RESOStandards/reso-certification-help#endorsements).
+See more information about [Viewing Endorsements](https://certification-help.reso.org/#endorsements).
 
 # Summary Report
 Summary reports show information about the resources, fields and lookups that were found during certification testing.
 
-See more information about the [Summary Report](https://github.com/RESOStandards/reso-certification-help#summary-report).
+See more information about the [Summary Report](https://certification-help.reso.org/#summary-report).
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.
 
-See more information about [Exploring the Data Dictionary Report](https://github.com/RESOStandards/reso-certification-help#exploring-the-data). 
+See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data). 
 
 # My Account
 Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.

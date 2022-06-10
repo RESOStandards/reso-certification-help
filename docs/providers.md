@@ -30,7 +30,7 @@ The Resources dropdown beneath the chart filters the data to the specific resour
 ## Performance View
 The Performance View shows your server performance metrics.
 
-**Note:** You may opt-out of displaying your server metrics publicly when sending the norification to the customer. If opted-out, the performance metrics will be visible only to the customer and RESO admin staff.
+**Note:** You may opt-out of displaying your server metrics publicly when sending the notification to the customer. If opted-out, the performance metrics will be visible only to the customer and RESO admin staff.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076852-3baf895f-f22f-4507-811c-22ede6c0916b.png)
 
@@ -59,7 +59,7 @@ The Web API Core report displays the name of the organization that was tested as
 
 The report shows which version of OData the RESO Web API Server was using and the authentication type, with the current options being OAuth 2 Bearer Token or Client Credentials. The fields that were used for testing and the status button are also shown.
 
-Notfication of the Web API Report may be sent from this page by selecting the **Passed** button at the top right.
+Notification of the Web API Report may be sent from this page by selecting the **Passed** button at the top right.
 
 ![image](https://user-images.githubusercontent.com/88680702/164079962-e05317f9-b29c-4bc5-9273-0292946eda04.png)
 

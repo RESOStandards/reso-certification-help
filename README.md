@@ -3,7 +3,7 @@ At this time, there are two possible endorsements that can be issued to data pro
 
 Endorsements are shown under their respective organizations at [certification.reso.org](http://certification.reso.org).
 
-# Filtering
+# Filtering and Sorting
 
 There are several sorting and filtering options at the top of the endorsements page.
 
@@ -25,9 +25,15 @@ Filter by typing in an organization name or Unique Organization Identifier (UOI)
 <br />
 
 # Sorting
-Sort alphabetically ascending or descending.
+Sort by organization name alphabetically ascending or descending.
 
 ![image](https://user-images.githubusercontent.com/88680702/163903016-9c535476-a511-45d3-b41e-a5132c2be1a1.png)
+
+<br />
+
+Sort by the date/time certifications were issued ascending or descending. This will show each endorsement individually rather than grouped by organization.
+
+![image](https://user-images.githubusercontent.com/88680702/205765020-6e008971-dfba-450b-8c7e-e3b957a51d15.png)
 
 <br />
 
@@ -76,7 +82,7 @@ The Resources dropdown beneath the chart filters the data to the specific resour
 
 The Performance View shows the data provider’s server metrics.
 
-![image](https://user-images.githubusercontent.com/88680702/163904659-f534636b-5f2c-474c-b809-1bd81e29e4fb.png)
+![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
 <br />
 
@@ -84,14 +90,14 @@ The Performance View shows the data provider’s server metrics.
 Performance is measured on:
 * **Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
 * **Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Seconds per 1K Records** - is an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
+* **Throughput** - is the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
 **N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.
 
-![image](https://user-images.githubusercontent.com/88680702/163906517-f13337f9-e88e-4f27-9725-8364a16df08c.png)
+![image](https://user-images.githubusercontent.com/88680702/205767370-b996480b-47e4-4c17-9b19-4cadc022e77b.png)
 
 <br />
 
@@ -106,7 +112,7 @@ Your guide to RESO certification terms:
 
 The top right section of the report displays the overall counts of data elements.
 
-![image](https://user-images.githubusercontent.com/88680702/163905212-8143ec15-d68e-44bc-a92e-e8fb3cde5409.png)
+![image](https://user-images.githubusercontent.com/88680702/205769231-afe2a970-9b95-42ea-8289-2a7ce47fcb50.png)
 
 <br />
 
@@ -126,7 +132,7 @@ The Data Elements buttons allow filtering by the following data sets:
 
 Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are also shown.
 
-![image](https://user-images.githubusercontent.com/88680702/163910089-e7757bab-8f40-44d7-81b0-5f97f5f76dc3.png)
+![img](https://lh5.googleusercontent.com/axCJG0qcUmgN0I50zLChm7V7hXfUu43hjOo070NZxmRcgqsDghJkr4pUx1GeCHQSU8-ntubK_AgJyv9RVLIZ79MNjZ53k9wTusEfClZNyDSpF2LoCX8e6bY8GwDUC8fAAStvsbQ2_YrzRFVZhrU8lCACJ9NVHjmhRFh3AwWcWwN54H9M9jVHE0tbTWIQDw)
 
 <br />
 
@@ -157,7 +163,7 @@ The Web API Core report displays the name of the organization that was tested as
 
 The report also shows which version of OData the RESO Web API Server was using, the authentication type (OAuth 2 Bearer Token or Client Credentials) and the fields that were used for testing.
 
-![image](https://user-images.githubusercontent.com/88680702/163909012-2f49e226-287d-4df7-ad5f-5570340edbad.png)
+![image](https://user-images.githubusercontent.com/88680702/205768015-8cb372b1-9548-48d6-9c4f-ea4e2392874c.png)
 
 <br />
 

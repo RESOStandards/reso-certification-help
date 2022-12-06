@@ -132,7 +132,7 @@ The Data Elements buttons allow filtering by the following data sets:
 
 Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are also shown.
 
-![img](https://lh5.googleusercontent.com/axCJG0qcUmgN0I50zLChm7V7hXfUu43hjOo070NZxmRcgqsDghJkr4pUx1GeCHQSU8-ntubK_AgJyv9RVLIZ79MNjZ53k9wTusEfClZNyDSpF2LoCX8e6bY8GwDUC8fAAStvsbQ2_YrzRFVZhrU8lCACJ9NVHjmhRFh3AwWcWwN54H9M9jVHE0tbTWIQDw)
+![image](https://user-images.githubusercontent.com/88680702/205777048-95fe40ec-277a-4bd8-b508-8c3efcbb803b.png)
 
 <br />
 

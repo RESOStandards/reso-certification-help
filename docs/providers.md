@@ -27,9 +27,9 @@ The Resources dropdown beneath the chart filters the data to the specific resour
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
 
 ## Performance View
-The Performance View shows your server performance metrics.
+The **Performance** view shows your server performance metrics.
 
-**Note:** You may opt-out of displaying your server metrics publicly when sending the notification to the customer. If opted-out, the performance metrics will be visible only to the customer and RESO admin staff.
+**Note:** You may opt out of displaying your server metrics publicly when sending the notification to the customer. If opted out, the performance metrics will be visible only to the customer and RESO admin staff.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 

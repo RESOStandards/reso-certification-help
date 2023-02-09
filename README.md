@@ -39,13 +39,13 @@ Sort by the date/time certifications were issued, ascending or descending. This 
 
 # Endorsements Report
 
-The endorsements view includes the endorsement version, count of data elements (Data Dictionary Endorsement), status and status date.
+The **Endorsements** view includes the data elements (e.g., Data Dictionary, Web API), endorsement version, status and status date.
 
 ![image](https://user-images.githubusercontent.com/88680702/164103216-674fdfff-a4a3-4f49-bd94-875ebb6255af.png)
 
 <br />
 
-The endorsements page may also be accessed by selecting the Endorsements option at the top of the page. This option is hidden if you are currently on the endorsements page itself.
+The endorsements page may also be accessed by selecting the **Endorsements** option at the top of the page. This option is hidden if you are currently on the endorsements page itself.
 
 ![image](https://user-images.githubusercontent.com/88680702/163903301-816fb489-91a7-47c3-8b6c-e6c75e329734.png)
 
@@ -62,9 +62,8 @@ Each report contains two views, **Data Element** and **Performance**, accessed f
 
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
-**Advertised** refers to the data elements that were found in the server metadata.
-
-**Available** indicates that the data element was also found in the payload during sampling.
+**Advertised**: the data elements that were found in the server metadata
+**Available**: the data element was found in the payload during sampling
 
 Use the **Availability Threshold** slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 
@@ -92,7 +91,7 @@ Performance is measured on:
 * **Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
 * **Throughput** - is the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
-**N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** - means that the given recipient has not completed availability testing yet for the listed endorsement. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.

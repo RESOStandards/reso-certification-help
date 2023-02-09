@@ -42,7 +42,7 @@ Performance is measured on:
 
 **Throughput** - is payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
-**N/A** - means that the given recipient has not completed availability testing yet for the listed endorsement. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data).

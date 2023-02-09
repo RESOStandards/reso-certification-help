@@ -117,9 +117,9 @@ The top right section of the report displays the overall counts of data elements
 
 The Data Elements buttons allow filtering by the following data sets:
 
+**All** - The combination of RESO + Local<br />
 **RESO** - All resources, fields and lookups matching the RESO Data Dictionary<br />
 **Local** - Market-specific custom resources, fields and lookups<br />
-**All** - The combination of RESO + Local<br />
 **IDX** - Resources, fields and lookups for public display by an MLS broker participant
 
 ![image](https://user-images.githubusercontent.com/88680702/163905578-1b161c85-b916-43f6-9c22-6bed4a76036e.png)

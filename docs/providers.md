@@ -50,7 +50,7 @@ The Data Dictionary Report allows you to explore the data elements of the server
 # Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.
 
-Select **View Details** at the right of the Web API Core 2.0.0 Endorsement to view the report.
+For example, select **View Details** at the right of the Web API Core 2.0.0 Endorsement to view the report.
 
 ![image](https://user-images.githubusercontent.com/88680702/205773188-96dd821d-f123-46ed-82a5-f019dddcef6c.png)
 

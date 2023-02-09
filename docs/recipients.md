@@ -22,8 +22,8 @@ Each report contains two views, **Data Elements** and **Performance**, accessed 
 ## Data Elements View
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
-**Advertised**: the data elements that were found in the server metadata.
-**Available**: the data element was also found in the data during sampling.
+**Advertised**: the data elements that were found in the server metadata<br />
+**Available**: the data element was also found in the data during sampling
 
 The **Availability Threshold** slider on the right allows you to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 

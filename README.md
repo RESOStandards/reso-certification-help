@@ -3,7 +3,7 @@ At this time, there are two possible endorsements that can be issued to data pro
 
 Endorsements are shown under their respective organizations at [certification.reso.org](http://certification.reso.org).
 
-# Filtering
+# Filtering and Sorting
 
 There are several sorting and filtering options at the top of the endorsements page.
 
@@ -25,21 +25,27 @@ Filter by typing in an organization name or Unique Organization Identifier (UOI)
 <br />
 
 # Sorting
-Sort alphabetically ascending or descending.
+Sort by organization name alphabetically, ascending or descending.
 
 ![image](https://user-images.githubusercontent.com/88680702/163903016-9c535476-a511-45d3-b41e-a5132c2be1a1.png)
 
 <br />
 
+Sort by the date/time certifications were issued, ascending or descending. This will show each endorsement individually rather than grouped by organization.
+
+![image](https://user-images.githubusercontent.com/88680702/205765020-6e008971-dfba-450b-8c7e-e3b957a51d15.png)
+
+<br />
+
 # Endorsements Report
 
-The endorsements view includes the endorsement version, count of data elements (Data Dictionary Endorsement), status and status date.
+The **Endorsements** view includes the data elements (e.g., Data Dictionary, Web API), endorsement version, status and status date.
 
 ![image](https://user-images.githubusercontent.com/88680702/164103216-674fdfff-a4a3-4f49-bd94-875ebb6255af.png)
 
 <br />
 
-The endorsements page may also be accessed by selecting the Endorsements option at the top of the page. This option is hidden if you are currently on the endorsements page itself.
+The endorsements page may also be accessed by selecting the **Endorsements** option at the top of the page. This option is hidden if you are currently on the endorsements page itself.
 
 ![image](https://user-images.githubusercontent.com/88680702/163903301-816fb489-91a7-47c3-8b6c-e6c75e329734.png)
 
@@ -48,19 +54,18 @@ The endorsements page may also be accessed by selecting the Endorsements option 
 # Summary Report
 Summary reports show information about the resources, fields and lookups that were found during certification testing.
 
-Each report contains two views, Data Element and Performance, accessed from a dropdown at the top of the page.
+Each report contains two views, **Data Element** and **Performance**, accessed from a dropdown at the top of the page.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
 
 <br />
 
-The Data Elements View shows the field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
+The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
-**Advertised** refers to the data elements that were found in the server metadata.
+**Advertised**: the data elements that were found in the server metadata<br />
+**Available**: the data element was found in the payload during sampling
 
-**Available** indicates that the data element was also found in the payload during sampling.
-
-Use the Availability Threshold slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
+Use the **Availability Threshold** slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 
 <br />
 
@@ -68,15 +73,15 @@ Use the Availability Threshold slider to set a minimum data availability that ea
 
 <br />
 
-The Resources dropdown beneath the chart filters the data to the specific resource selected.
+The **Resources** dropdown beneath the chart filters the data to the specific resource selected.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904594-8453d153-a39f-4591-8742-e62d322aed88.png)
 
 <br />
 
-The Performance View shows the data provider’s server metrics.
+The **Performance** view shows the data provider’s server metrics.
 
-![image](https://user-images.githubusercontent.com/88680702/163904659-f534636b-5f2c-474c-b809-1bd81e29e4fb.png)
+![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
 <br />
 
@@ -84,14 +89,14 @@ The Performance View shows the data provider’s server metrics.
 Performance is measured on:
 * **Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
 * **Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Seconds per 1K Records** - is an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
+* **Throughput** - is the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
-**N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.
 
-![image](https://user-images.githubusercontent.com/88680702/163906517-f13337f9-e88e-4f27-9725-8364a16df08c.png)
+![image](https://user-images.githubusercontent.com/88680702/205767370-b996480b-47e4-4c17-9b19-4cadc022e77b.png)
 
 <br />
 
@@ -106,18 +111,15 @@ Your guide to RESO certification terms:
 
 The top right section of the report displays the overall counts of data elements.
 
-![image](https://user-images.githubusercontent.com/88680702/163905212-8143ec15-d68e-44bc-a92e-e8fb3cde5409.png)
+![image](https://user-images.githubusercontent.com/88680702/205769231-afe2a970-9b95-42ea-8289-2a7ce47fcb50.png)
 
 <br />
 
 The Data Elements buttons allow filtering by the following data sets:
 
-**RESO** - All resources, fields and lookups matching the RESO Data Dictionary
-
-**Local** - Market-specific custom resources, fields and lookups
-
-**All** - The combination of RESO + Local
-
+**All** - The combination of RESO + Local<br />
+**RESO** - All resources, fields and lookups matching the RESO Data Dictionary<br />
+**Local** - Market-specific custom resources, fields and lookups<br />
 **IDX** - Resources, fields and lookups for public display by an MLS broker participant
 
 ![image](https://user-images.githubusercontent.com/88680702/163905578-1b161c85-b916-43f6-9c22-6bed4a76036e.png)
@@ -126,7 +128,7 @@ The Data Elements buttons allow filtering by the following data sets:
 
 Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are also shown.
 
-![image](https://user-images.githubusercontent.com/88680702/163910089-e7757bab-8f40-44d7-81b0-5f97f5f76dc3.png)
+![image](https://user-images.githubusercontent.com/88680702/205777048-95fe40ec-277a-4bd8-b508-8c3efcbb803b.png)
 
 <br />
 
@@ -157,7 +159,7 @@ The Web API Core report displays the name of the organization that was tested as
 
 The report also shows which version of OData the RESO Web API Server was using, the authentication type (OAuth 2 Bearer Token or Client Credentials) and the fields that were used for testing.
 
-![image](https://user-images.githubusercontent.com/88680702/163909012-2f49e226-287d-4df7-ad5f-5570340edbad.png)
+![image](https://user-images.githubusercontent.com/88680702/205768015-8cb372b1-9548-48d6-9c4f-ea4e2392874c.png)
 
 <br />
 

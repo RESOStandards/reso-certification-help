@@ -15,9 +15,8 @@ Each report contains two views, Data Elements and Performance, accessed from a d
 ## Data Elements View
 The Data Elements view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
 
-**Advertised** refers to the data elements that were found in the server metadata.
-
-**Available** indicates that the data element was also found in the payload during sampling.
+**Advertised**: the data elements that were found in the server metadata<br />
+**Available**: the data element was found in the payload during sampling
 
 Use the Availability Threshold slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 
@@ -28,11 +27,11 @@ The Resources dropdown beneath the chart filters the data to the specific resour
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
 
 ## Performance View
-The Performance View shows your server performance metrics.
+The **Performance** view shows your server performance metrics.
 
-**Note:** You may opt-out of displaying your server metrics publicly when sending the notification to the customer. If opted-out, the performance metrics will be visible only to the customer and RESO admin staff.
+**Note:** You may opt out of displaying your server metrics publicly when sending the notification to the customer. If opted out, the performance metrics will be visible only to the customer and RESO admin staff.
 
-![image](https://user-images.githubusercontent.com/88680702/164076852-3baf895f-f22f-4507-811c-22ede6c0916b.png)
+![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
 ## Performance Metrics
 Performance is measured on:
@@ -41,9 +40,9 @@ Performance is measured on:
 
 **Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
 
-**Seconds per 1K Records** -  is an estimate of how many seconds it might take to pull 1,000 records using pages of 100 records. It's based on the average response time found during data sampling and validation. Measured in seconds (s).
+**Throughput** - is payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
-**N/A** - means that the given recipient has not completed Data Dictionary 1.7 availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data).
@@ -51,9 +50,9 @@ The Data Dictionary Report allows you to explore the data elements of the server
 # Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.
 
-Select **View Details** at the right of the Web API Core 2.0.0 Endorsement to view the report.
+For example, select **View Details** at the right of the Web API Core 2.0.0 Endorsement to view the report.
 
-![image](https://user-images.githubusercontent.com/88680702/164080293-b9651375-56eb-4f1f-99be-44a7316c16c5.png)
+![image](https://user-images.githubusercontent.com/88680702/205773188-96dd821d-f123-46ed-82a5-f019dddcef6c.png)
 
 The Web API Core report displays the name of the organization that was tested as well as that of the data provider. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
@@ -61,7 +60,7 @@ The report shows which version of OData the RESO Web API Server was using and th
 
 Notification of the Web API Report may be sent from this page by selecting the **Passed** button at the top right.
 
-![image](https://user-images.githubusercontent.com/88680702/164079962-e05317f9-b29c-4bc5-9273-0292946eda04.png)
+![image](https://user-images.githubusercontent.com/88680702/205771954-9dd934ba-a002-4928-bc66-e79f79ae296a.png)
 
 # Notifications
 Endorsements must be reviewed and approved by customers before they are certified. The review requests are sent via email.
@@ -83,7 +82,7 @@ Select whether to **Accept** or **Opt-Out** having the performance metrics displ
 
 The email entry screen displays which endorsements will be included in the email. Enter the email address for your customer and select **Send Now**.
 
-![image](https://user-images.githubusercontent.com/88680702/164080764-f1e0cd68-a530-4837-94ee-782fcf887697.png)
+![image](https://user-images.githubusercontent.com/88680702/205774052-6488827a-52cb-4cd2-a89b-82860f1baae3.png)
 
 An email with a link to the report will be sent to your customer for review and approval. The button will then change to indicate **Notified**.
 
@@ -93,7 +92,18 @@ Once the customer has approved the results, the button will change to indicate *
 
 ![image](https://user-images.githubusercontent.com/88680702/164080916-825ff706-8037-40ce-b4c4-ceb351044630.png)
 
+# **Archiving Reports**
+
+Providers may archive their reports should they have results they no longer want or customers they are no longer serving.
+
+A notification will be sent to the provider when a report is archived. The recipient is not notified.
+
+Select the Certified button on the endorsement you would like to archive and select Archive. 
+
+![image](https://user-images.githubusercontent.com/88680702/205774621-bbd83fb3-857d-4000-9f62-4258f05e6c81.png)
+
 # My Account
+
 Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
 ## Creating a Token

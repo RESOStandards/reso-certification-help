@@ -25,13 +25,13 @@ Filter by typing in an organization name or Unique Organization Identifier (UOI)
 <br />
 
 # Sorting
-Sort by organization name alphabetically ascending or descending.
+Sort by organization name alphabetically, ascending or descending.
 
 ![image](https://user-images.githubusercontent.com/88680702/163903016-9c535476-a511-45d3-b41e-a5132c2be1a1.png)
 
 <br />
 
-Sort by the date/time certifications were issued ascending or descending. This will show each endorsement individually rather than grouped by organization.
+Sort by the date/time certifications were issued, ascending or descending. This will show each endorsement individually rather than grouped by organization.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765020-6e008971-dfba-450b-8c7e-e3b957a51d15.png)
 
@@ -54,19 +54,19 @@ The endorsements page may also be accessed by selecting the Endorsements option 
 # Summary Report
 Summary reports show information about the resources, fields and lookups that were found during certification testing.
 
-Each report contains two views, Data Element and Performance, accessed from a dropdown at the top of the page.
+Each report contains two views, **Data Element** and **Performance**, accessed from a dropdown at the top of the page.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
 
 <br />
 
-The Data Elements View shows the field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
+The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
 **Advertised** refers to the data elements that were found in the server metadata.
 
 **Available** indicates that the data element was also found in the payload during sampling.
 
-Use the Availability Threshold slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
+Use the **Availability Threshold** slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 
 <br />
 
@@ -74,13 +74,13 @@ Use the Availability Threshold slider to set a minimum data availability that ea
 
 <br />
 
-The Resources dropdown beneath the chart filters the data to the specific resource selected.
+The **Resources** dropdown beneath the chart filters the data to the specific resource selected.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904594-8453d153-a39f-4591-8742-e62d322aed88.png)
 
 <br />
 
-The Performance View shows the data provider’s server metrics.
+The **Performance** view shows the data provider’s server metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 

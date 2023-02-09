@@ -62,7 +62,7 @@ Each report contains two views, **Data Element** and **Performance**, accessed f
 
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
-**Advertised**: the data elements that were found in the server metadata
+**Advertised**: the data elements that were found in the server metadata<br />
 **Available**: the data element was found in the payload during sampling
 
 Use the **Availability Threshold** slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
@@ -117,12 +117,9 @@ The top right section of the report displays the overall counts of data elements
 
 The Data Elements buttons allow filtering by the following data sets:
 
-**RESO** - All resources, fields and lookups matching the RESO Data Dictionary
-
-**Local** - Market-specific custom resources, fields and lookups
-
-**All** - The combination of RESO + Local
-
+**RESO** - All resources, fields and lookups matching the RESO Data Dictionary<br />
+**Local** - Market-specific custom resources, fields and lookups<br />
+**All** - The combination of RESO + Local<br />
 **IDX** - Resources, fields and lookups for public display by an MLS broker participant
 
 ![image](https://user-images.githubusercontent.com/88680702/163905578-1b161c85-b916-43f6-9c22-6bed4a76036e.png)

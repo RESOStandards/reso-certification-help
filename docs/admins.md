@@ -168,13 +168,13 @@ Admins may create new admin users by selecting the **Admin Actions** button from
 
 Select the **Create User** button under the Admins section.
 
-![image-20230410174145392](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230410174145392.png)
+![img](https://lh4.googleusercontent.com/Z2uI46adcjJmOZZfs0yFr26dHsysRihOxkjXt7aFbTJ1tT3Ozo18ulpEMVzPI1oMmE4IOamob29WTwpn6sJJKQMOwZml-f3963dZYjl_dWXLBidv9pmapUO6yw_3V-1jpouFjmol0o2x0gF_OzUvQFA) 
 
 Create a username and password.
 
 Enter a full name and email address, select **Save**.
 
-![image-20230410175010250](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230410175010250.png)  
+![img](https://lh3.googleusercontent.com/6hwmbf09CsIoL7iU7irmZrRI-lOpSJsIOUVXyVajd3Z8lCyA1wT9DPbzJIWKi-kJaD2c1vrniSaN2nhlPO6T8HwnRMASLCipNo-fCpwt5N9Y-KgZEKrylVPix_tpFPr88m835ypelbDg-nqdu7cCStE) 
 
 
 
@@ -182,7 +182,7 @@ Enter a full name and email address, select **Save**.
 
 Select **Create User** under the Users section.
 
-![image-20230410174553231](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230410174553231.png) 
+ ![img](https://lh6.googleusercontent.com/_t4LCDefXBF3PFj0uLnQPTWEIg8fyLYe7RFlrQbefNLqsMSlqi2YjH3sP4HOwvNEt1uUGmFYfJBpGzdJ_y0TXe_AaLi_gKUth4EoV8IbB2hZGdclCpXLodZFRJdSrzQAMdtTzJqfgOkmHoqTnsmcsEk) 
 
 Select **Provider User** radio button.
 
@@ -192,7 +192,7 @@ Select the organization for the provider.
 
 Enter a full name and email address, select **Save**.
 
-![image-20230410174819308](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230410174819308.png) 
+ ![img](https://lh4.googleusercontent.com/sSI8WTGLep82QSG7v3JfQ0_C1to6woNSBrzwicWNrsL3D3l1CzDkmuQq1UhoNlcEAtoe46jT3C9_bJ3lYVc3TLT-Sh-KPlSieW_PYWOEovNYqry0Hjztx77kjKGCiWjPeta_VFyJlwvKSEXOnSETjRU) 
 
 
 
@@ -200,7 +200,7 @@ Enter a full name and email address, select **Save**.
 
 Select **Create User** under the Users section.
 
-![image-20230410174553231](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230410174553231.png)  
+  ![img](https://lh4.googleusercontent.com/aI_MNeZ6MK-c4d9q-RV0t1MdTMhqcPS5zKLToM6VqYlfrQkaKmkyLQdEeaYmXrO3h8_TS6csZAvIKEzMGcn5vJOACe6ta4BDzTkRhHhFSVkdi555jhJmZZv7JhrzMpqDgH3ON_H4OAEYeJaUF-xNqrw) 
 
 Select **Normal User** radio button.
 
@@ -208,7 +208,7 @@ Create a username and password.
 
 Enter a full name and email address, select **Save**.
 
-![image-20230410175243655](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230410175243655.png) 
+![img](https://lh5.googleusercontent.com/l1aRbyk4yRlaE63Iqp8lcFrZbfqhcYVizs-IncfiJ-bvUX64CIvenzXCbVBbLV_oZT6CPmtii3UOKEn_naSZi8QQzjDXZoKyRrV5sKQpGtPcqoXHnnGpjl1RxOkrUJNaSUeOngy9NjntegjpNdHdvok)  
 
 
 

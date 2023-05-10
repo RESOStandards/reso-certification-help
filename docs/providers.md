@@ -40,7 +40,7 @@ Performance is measured on:
 
 **Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
 
-**Throughput** - is payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+**Throughput** - payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
@@ -74,7 +74,11 @@ Selecting **Passed** and then **Notify Recipient** for either the Data Dictionar
 ## Sending Notifications
 Select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
 
-![image](https://user-images.githubusercontent.com/88680702/164080561-d1c6233b-f401-46d3-8020-e3dccfb7cf21.png)
+
+
+**Screenshot of Passed button dropdown with "Notify Recipient" highlighted" and with all options visible (Cancel, Archive)**
+
+
 
 Select whether to **Accept** or **Opt-Out** having the performance metrics displayed publicly and select **Next**.
 
@@ -92,15 +96,49 @@ Once the customer has approved the results, the button will change to indicate *
 
 ![image](https://user-images.githubusercontent.com/88680702/164080916-825ff706-8037-40ce-b4c4-ceb351044630.png)
 
+## Notification Tracking
+
+Providers are allowed to send a maximum of two notifications for each recipient. 
+
+If a notification has previously been sent, the notification count and recipient email address will appear when the **Notified** button is selected.
+
+**Screenshot of Notify button dropdown when selected for a recipient with one notification**
+
+
+
+# **Canceling Certification**
+
+Providers may cancel the certification process for reports in **Passed** or **Notified** status. 
+
+Select the **Passed** or **Notified** button and select **Cancel Certification**.
+
+**Screenshot of Passed button select with "Cancel Certification" highlighted and all other options visible (notify recipient, Cancel, Archive)**
+
+A confirmation of the cancelation is sent to the provider. The recipient is not notified of a cancel action.
+
+The report will now show as Canceled and may be archived (see below).
+
+
+
 # **Archiving Reports**
 
-Providers may archive their reports should they have results they no longer want or customers they are no longer serving.
+Providers may archive their reports should they have results they no longer want to keep or for or customers they are no longer serving. 
 
-A notification will be sent to the provider when a report is archived. The recipient is not notified.
+Archiving is available for reports in **Passed**, **Notified**, **Certified** or **Canceled** status.
 
-Select the Certified button on the endorsement you would like to archive and select Archive. 
+Select the **Certified** button on the endorsement you would like to archive and select **Archive**. 
 
-![image](https://user-images.githubusercontent.com/88680702/205774621-bbd83fb3-857d-4000-9f62-4258f05e6c81.png)
+**Screenshot of Passed button dropdown with "Archive" highlighted" and with all options visible (Cancel, Archive)**
+
+A notification of the archive action will be sent to the provider. The recipient is not notified.
+
+## Auto-Archiving
+
+Certification reports are automatically archived and replaced if a new report of the same type is initiated by the provider.
+
+Auto-archiving will occur for reports in **Passed**, **Notified** or **Canceled** status.
+
+
 
 # My Account
 

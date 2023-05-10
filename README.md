@@ -7,7 +7,7 @@ Endorsements are shown under their respective organizations at [certification.re
 
 There are several sorting and filtering options at the top of the endorsements page.
 
-![image](https://user-images.githubusercontent.com/88680702/163901780-4205ed54-5228-46e7-8608-f20a29eb9ed1.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/580cc375-7282-4280-8437-5bb803889c7c)
 
 <br />
 
@@ -20,20 +20,20 @@ Filter by typing in an organization name or Unique Organization Identifier (UOI)
 
 ## Filtering by Endorsement Type
 
-![image](https://user-images.githubusercontent.com/88680702/163902906-4cc2df94-f49e-48c4-9d95-3dcdaa354d05.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ac8af5f-aa12-4bfa-b2ee-f798c2b06b1c)
 
 <br />
 
 # Sorting
 Sort by organization name alphabetically, ascending or descending.
 
-![image](https://user-images.githubusercontent.com/88680702/163903016-9c535476-a511-45d3-b41e-a5132c2be1a1.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9b207c00-c936-4029-8b23-b41a2c0ff1b9)
 
 <br />
 
 Sort by the date/time certifications were issued, ascending or descending. This will show each endorsement individually rather than grouped by organization.
 
-![image](https://user-images.githubusercontent.com/88680702/205765020-6e008971-dfba-450b-8c7e-e3b957a51d15.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3fbe9fc9-d350-4540-a219-720a0229acfb)
 
 <br />
 
@@ -41,13 +41,19 @@ Sort by the date/time certifications were issued, ascending or descending. This 
 
 The **Endorsements** view includes the data elements (e.g., Data Dictionary, Web API), endorsement version, status and status date.
 
-![image](https://user-images.githubusercontent.com/88680702/164103216-674fdfff-a4a3-4f49-bd94-875ebb6255af.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/108787f7-69a2-41c7-a454-384a347c9ec0)
 
 <br />
 
 The endorsements page may also be accessed by selecting the **Endorsements** option at the top of the page. This option is hidden if you are currently on the endorsements page itself.
 
-![image](https://user-images.githubusercontent.com/88680702/163903301-816fb489-91a7-47c3-8b6c-e6c75e329734.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3e4058c6-84a1-44c2-b889-5554799ed71e)
+
+<br />
+
+Selecting the RESO logo at the top left also directs back the Endorsement view.
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/290846fc-8c1e-4fd0-b793-4ef8439eb66e)
 
 <br />
 
@@ -89,7 +95,7 @@ The **Performance** view shows the data provider’s server metrics.
 Performance is measured on:
 * **Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
 * **Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Throughput** - is the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 

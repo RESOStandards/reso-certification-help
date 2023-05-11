@@ -5,6 +5,7 @@ At this time, there are two possible endorsements that can be issued to data pro
 
 information about viewing [Endorsements](https://certification-help.reso.org/#endorsements).
 
+</BR>
 
 # Summary Report
 Summary reports show information about the resources, fields and lookups that were found on your server for that organization.
@@ -13,6 +14,7 @@ Each report contains two views, Data Elements and Performance, accessed from a d
 
 ![image](https://user-images.githubusercontent.com/88680702/164076696-5727c0f5-5abb-486e-a3e6-63a161d7dae6.png)
 
+</BR>
 
 ## Data Elements View
 The Data Elements view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
@@ -28,6 +30,7 @@ The Resources dropdown beneath the chart filters the data to the specific resour
 
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
 
+</BR>
 
 ## Performance View
 The **Performance** view shows your server performance metrics.
@@ -36,6 +39,7 @@ The **Performance** view shows your server performance metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
+</BR>
 
 ## Performance Metrics
 Performance is measured on:
@@ -48,10 +52,12 @@ Performance is measured on:
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
+</BR>
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data).
 
+</BR>
 
 # Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.
@@ -68,6 +74,7 @@ Notification of the Web API Report may be sent from this page by selecting the *
 
 ![image](https://user-images.githubusercontent.com/88680702/205771954-9dd934ba-a002-4928-bc66-e79f79ae296a.png)
 
+</BR>
 
 # Notifications
 Endorsements must be reviewed and approved by customers before they are certified. The review requests are sent via email.
@@ -78,6 +85,7 @@ Selecting **Passed** and then **Notify Recipient** for either the Data Dictionar
 
 **IMPORTANT: The email that includes a link to the report(s) should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 
+</BR>
 
 ## Sending Notifications
 Select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
@@ -100,6 +108,8 @@ Once the customer has approved the results, the button will change to indicate *
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/7556d16a-74eb-4ffd-a190-af51012a89be)
 
+</BR>
+
 ## Notification Tracking
 
 Providers are allowed to send a maximum of two notifications for each recipient. 
@@ -107,6 +117,8 @@ Providers are allowed to send a maximum of two notifications for each recipient.
 If a notification has previously been sent, the notification count and recipient email address will appear when the **Notified** button is selected.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/aa02720f-db1b-4607-87fb-f528880c5c3f)
+
+</BR>
 
 # **Canceling Certification**
 
@@ -120,10 +132,11 @@ A confirmation of the cancelation is sent to the provider. The recipient is not 
 
 The report will now show as Canceled and may be archived (see below).
 
+</BR>
 
 # **Archiving Reports**
 
-Providers may archive their reports should they have results they no longer want to keep or for or customers they are no longer serving. 
+Providers may archive their reports should they have results they no longer want, have customers listed that they are no longer serving or no longer exist.
 
 Archiving is available for reports in **Passed**, **Notified**, **Certified**, **Canceled** or **Withdrawn** status.
 
@@ -133,6 +146,7 @@ Select the status button on the endorsement you would like to archive and select
 
 A notification of the archive action will be sent to the provider. The recipient is not notified.
 
+</BR>
 
 ## Auto-Archiving
 
@@ -140,12 +154,15 @@ Certification reports are automatically archived and replaced if a new report of
 
 Auto-archiving will occur for reports in **Passed**, **Notified**, **Canceled** or **Withdrawn** status.
 
-Reports in a permanent status (Certified, Revoked) will remain alongside the new report. The old reports may be manually archived by the provider at any time.
+Reports in a permanent status (**Certified**, **Revoked**) will remain alongside the new report. The old reports may be manually archived by the provider at any time.
+
+</BR>
 
 # My Account
 
 Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
+</BR>
 
 ## Creating a Token
 A token is needed in order to access the certification data via Web API.

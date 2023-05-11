@@ -7,10 +7,14 @@ Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) 
 
 ![image](https://user-images.githubusercontent.com/88680702/205775765-d25de46f-bb2b-4326-bf33-7224e817ded5.png)
 
+</BR>
+
 # Endorsements
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
 
 See more information about [Viewing Endorsements](https://certification-help.reso.org/#endorsements).
+
+</BR>
 
 # Summary Report
 The Certification Summary Report provides a high level overview of the data found during certification testing, displayed in charts. Server performance metrics for the data provider are also included.
@@ -18,6 +22,8 @@ The Certification Summary Report provides a high level overview of the data foun
 Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown menu in the top left corner.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
+
+</BR>
 
 ## Data Elements View
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
@@ -33,10 +39,14 @@ Located below the charts, the **Resources** dropdown menu provides a data filter
 
 ![image](https://user-images.githubusercontent.com/88680702/164042681-63dbff92-321f-4321-ab7d-002e4924f1e7.png)
 
+</BR>
+
 ## Performance View
 The **Performance** view shows the data provider’s server metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
+
+</BR>
 
 ## Performance Metrics
 Performance is measured on:
@@ -48,6 +58,8 @@ Performance is measured on:
 **Throughput** - is payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+
+</BR>
 
 ## Approving Endorsements
 Your endorsements and the count of Data Dictionary elements are shown below the charts.
@@ -68,6 +80,8 @@ Once you have read and agreed to RESO's Terms and Conditions, check the box to c
 
 The **Contact RESO** button allows you to send an email to RESO at certification@reso.org.
 
+</BR>
+
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data).
 
@@ -80,6 +94,8 @@ Once you have reviewed your Data Dictionary Report, select the **Approve** butto
 A **Contact RESO** button on this page allows you to send an email to certification@reso.org.
 
 Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
+
+</BR>
 
 # Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.

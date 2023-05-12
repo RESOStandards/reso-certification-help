@@ -59,7 +59,7 @@ Performance is measured on:
 
 **Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and industry average.
 
-Providers may reach out to  certification@reso.org if they have further questions.
+Providers may reach out to certification@reso.org if they have further questions.
 
 <br />
 

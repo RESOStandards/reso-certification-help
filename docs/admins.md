@@ -113,11 +113,11 @@ The email entry screen confirms which endorsements will be included in the email
 
 ![image](https://user-images.githubusercontent.com/88680702/205774052-6488827a-52cb-4cd2-a89b-82860f1baae3.png)
 
-An email with a link to the report will be sent to the recipient for review and approval. The button will then change to indicate **Notified**.
+An email with a link to the report will be sent to the recipient for review and approval. The button will then change from **Passed** to **Notified**.
 
 ![image](https://user-images.githubusercontent.com/88680702/237753878-3ac6e616-aa59-434e-bd0a-35e454dfc50b.png) 
 
-Once the customer has approved the results, the button will change to indicate **Certified**.
+Once the customer has approved the results, the button will change to **Certified**.
 
 ![image](https://user-images.githubusercontent.com/88680702/237754344-7556d16a-74eb-4ffd-a190-af51012a89be.png) 
 

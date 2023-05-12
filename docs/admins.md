@@ -1,41 +1,41 @@
 # Endorsements 
 
-Data Providers must submit their certification tests through the self-testing UI and then notify their customer to review and approve the certification reports. The customer will then review the results and approve them to receive their certification for the given endorsement.
+Data providers must submit their certification tests through the self-testing user interface and then notify their customer to review and approve the certification reports. The customer will then review the results and approve them to receive their certification for the given endorsement.
 
-At this time, there are two possible endorsements that can be issued to data providers, Data Dictionary 1.7 and Web API Core 2.0.0, each of which have different reports.
+At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
 For data providers certifying MLS recipients, Web API Core 2.0.0 or Web API Core 2.1.0 must be passed for at least one MLS prior to testing for Data Dictionary.
 
-See more information about viewing [Endorsements]([url](https://certification-help.reso.org/#endorsements)).
+See more information about viewing **[Endorsements](https://certification-help.reso.org/#endorsements)**.
 
-</BR>
+<br />
 
 # Summary Report
 
 Each Summary Report shows information about the resources, fields and lookups that were found on the server for the organization.
 
-Each report contains two views, Data Elements and Performance, accessed from a dropdown at the top of the page.
+Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top of the page.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076696-5727c0f5-5abb-486e-a3e6-63a161d7dae6.png) 
 
-</BR>
+<br />
 
 ## Data Elements View
 
-The Data Elements view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by Advertised and Available data.
+The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
-**Advertised**: the data elements that were found in the server metadata
-**Available**: the data element was found in the payload during sampling
+**Advertised**: the data elements that were found in the server metadata<br />
+**Available**: the data elements that were found in the payload during sampling
 
-The Availability Threshold slider sets minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
+The **Availability Threshold** slider sets minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076762-2f6df7e0-d1a5-45b3-b33f-d7c9ca1561a0.png)
 
-The Resources dropdown beneath the chart filters the data to the specific resource selected.
+The **Resources** dropdown beneath the chart filters the data to the specific resource selected.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
 
-</BR>
+<br />
 
 ## Performance View
 
@@ -45,17 +45,15 @@ The **Performance** view shows the server performance metrics for the provider.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
-</BR>
+<br />
 
 ## Performance Metrics
 
 Performance is measured on:
 
-**Payload Size** - measures how much data was retrieved when sampling the selected resource. “All” represents the average across all resources found, measured in megabytes (MB).
-
-**Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
-
-**Throughput** - is payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Payload Size** - how much data was retrieved when sampling the selected resource. “All” represents the average across all resources found, measured in megabytes (MB).
+* **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
+* **Throughput** - is payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. 
 
@@ -63,13 +61,13 @@ Performance is measured on:
 
 Providers may reach out to  certification@reso.org if they have further questions.
 
-</BR>
+<br />
 
 # Data Dictionary Report
 
-The Data Dictionary Report provides a way to explore the data elements of the server submitted for RESO certification. See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data).
+The Data Dictionary Report provides a way to explore the data elements of the server submitted for RESO certification. See more information about **[Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data)**.
 
-</BR>
+<br />
 
 # Web API Report
 
@@ -87,7 +85,7 @@ Providers may send the notification of the Web API Report from this page by sele
 
 ![image](https://user-images.githubusercontent.com/88680702/205771954-9dd934ba-a002-4928-bc66-e79f79ae296a.png)
 
-</BR>
+<br />
 
 # Notifications
 
@@ -95,11 +93,11 @@ Endorsements must be reviewed and approved by recipients before they are certifi
 
 When providers select **Passed** and then **Notify Recipient** for either the Data Dictionary or the Web API Core report, a bundled review notification for both endorsements is sent to the recipient. The recipient will be able to review and approve both reports from a single link that directs them to the Certification Summary page.
 
-**Note:** The bundled notification is available ONLY when BOTH Data Dictionary and Web API are in **Passed** status. Otherwise, the email will only include the single endorsement that was selected for notification.
+**Note:** The bundled notification is only available when both Data Dictionary and Web API are in **Passed** status. Otherwise, the email will only include the single endorsement that was selected for notification.
 
 **IMPORTANT: Providers should not send a notification to any other party except the organization they are certifying. Any recipient of the email would have the ability to approve the results.**
 
-</BR>
+<br />
 
 ## Sending Notifications
 
@@ -107,7 +105,7 @@ Providers should select the **Passed** button from the endorsements page or any 
 
 ![image](https://user-images.githubusercontent.com/88680702/237737630-328de65f-5682-4681-9765-c7978b548e0b.png) 
 
-They then select whether to **Accept** or **Opt-Out** having the performance metrics displayed publicly and select **Next**.
+They then select whether to **Accept** or **Opt-Out** of having the performance metrics displayed publicly and select **Next**.
 
 ![image](https://user-images.githubusercontent.com/88680702/164259356-26f1c86e-b75b-461b-9c5e-9f20536efb4d.png) 
 
@@ -123,7 +121,7 @@ Once the customer has approved the results, the button will change to indicate *
 
 ![image](https://user-images.githubusercontent.com/88680702/237754344-7556d16a-74eb-4ffd-a190-af51012a89be.png) 
 
-</BR>
+<br />
 
 ## Notification Tracking
 
@@ -133,7 +131,7 @@ If a notification has previously been sent, the notification count and recipient
 
 ![image](https://user-images.githubusercontent.com/88680702/237749774-aa02720f-db1b-4607-87fb-f528880c5c3f.png) 
 
- </BR>
+<br />
 
 # **Canceling Certification**
 
@@ -147,21 +145,21 @@ A confirmation of the cancelation is sent to the provider. The recipient is not 
 
 The report will now show as Canceled and may be archived (see below).
 
-</BR>
+<br />
 
 # **Archiving Reports**
 
-Providers may archive their reports should they have results they no longer want, have customers listed that they are no longer serving or no longer exist.
+Providers may archive their reports with unwanted results, for organizations that they are no longer serving or for organizations that no longer exist.
 
 Archiving is available for reports in **Passed**, **Notified**, **Certified**, **Canceled** or **Withdrawn** status.
 
-Select the status button on the endorsement you would like to archive and select **Archive**.
+Select the status button on the endorsement to be archived and select **Archive**.
 
- ![image](https://user-images.githubusercontent.com/88680702/237750397-e989b730-366a-4d0a-80ac-cc1419519ccf.png) 
+![image](https://user-images.githubusercontent.com/88680702/237750397-e989b730-366a-4d0a-80ac-cc1419519ccf.png) 
 
 A notification of the archive action will be sent to the provider. The recipient is not notified.
 
-</BR>
+<br />
 
 ## Auto-Archiving
 
@@ -171,19 +169,19 @@ Auto-archiving will occur for reports in **Passed**, **Notified**, **Canceled** 
 
 Reports in a permanent status (**Certified**, **Revoked**) will remain alongside the new report. The old reports may be manually archived by the provider at any time.
 
-</BR>
+<br />
 
 # My Account
 
 Selecting **My Account** at the top of the page displays user information and the ability to copy or create a new token hash. 
 
-</BR>
+<br />
 
 ## Creating a Token
 
 Providers may create a token in order to access the certification data via Web API with the steps below.
 
-Log in to [certification.reso.org](https://certification.reso.org/) with your Username and Password.
+Log in to **[certification.reso.org](https://certification.reso.org/)** with your username and password.
 
 Select **My Account** from the top toolbar.
 
@@ -195,11 +193,11 @@ Select the **Create Token** button.
 
 ![image](https://user-images.githubusercontent.com/88680702/164082516-7fcbef75-49d3-49c8-8bd3-1158535a4122.png) 
 
-The token will then be displayed along with options to copy it to the clipboard or to delete (in the case of multiple tokens).
+The token will then be displayed along with options to copy it to the clipboard or to delete it (in the case of multiple tokens).
 
 ![image](https://user-images.githubusercontent.com/88680702/164089795-39ccf57c-b6d6-405f-be4c-0b19cb7a22c0.png) 
 
-</BR>
+<br />
 
 # Admin Actions
 
@@ -213,11 +211,11 @@ Select the **Create User** button under the Admins section.
 
 Create a username and password.
 
-Enter a full name and email address, select **Save**.
+Enter a full name and email address, then select **Save**.
 
 ![img](https://lh3.googleusercontent.com/6hwmbf09CsIoL7iU7irmZrRI-lOpSJsIOUVXyVajd3Z8lCyA1wT9DPbzJIWKi-kJaD2c1vrniSaN2nhlPO6T8HwnRMASLCipNo-fCpwt5N9Y-KgZEKrylVPix_tpFPr88m835ypelbDg-nqdu7cCStE) 
 
-</BR>
+<br />
 
 ## Creating a Provider User
 
@@ -231,11 +229,11 @@ Create a username and password.
 
 Select the organization for the provider.
 
-Enter a full name and email address, select **Save**.
+Enter a full name and email address, then select **Save**.
 
  ![img](https://lh4.googleusercontent.com/sSI8WTGLep82QSG7v3JfQ0_C1to6woNSBrzwicWNrsL3D3l1CzDkmuQq1UhoNlcEAtoe46jT3C9_bJ3lYVc3TLT-Sh-KPlSieW_PYWOEovNYqry0Hjztx77kjKGCiWjPeta_VFyJlwvKSEXOnSETjRU) 
 
-</BR>
+<br />
 
 ## Creating a Normal User
 
@@ -247,107 +245,80 @@ Select **Normal User** radio button.
 
 Create a username and password.
 
-Enter a full name and email address, select **Save**.
+Enter a full name and email address, then select **Save**.
 
 ![img](https://lh5.googleusercontent.com/l1aRbyk4yRlaE63Iqp8lcFrZbfqhcYVizs-IncfiJ-bvUX64CIvenzXCbVBbLV_oZT6CPmtii3UOKEn_naSZi8QQzjDXZoKyRrV5sKQpGtPcqoXHnnGpjl1RxOkrUJNaSUeOngy9NjntegjpNdHdvok)  
 
-</BR>
+<br />
 
-## Syncing UOI Organizations
+## Syncing Unique Organization Identifier (UOI) Organizations
 
- See the [UOI Sync Process](https://github.com/RESOStandards/reso-certification/wiki/UOI-Sync-Process)
+ See the **[UOI Sync Process](https://github.com/RESOStandards/reso-certification/wiki/UOI-Sync-Process)**.
 
-</BR>
+<br />
 
 ## Admin FAQ
 
 ### Notifications
 
-**How many notifications can a provider send to their recipient (customer)?**
+**How many notifications can a provider send to their recipient (customer)?**<br />
+Two notifications, partly due to spam concerns.
 
-- Two (2) notifications, partly due to spam concerns
+**What if a provider has used their maximum number of two notifications?**<br />
+Providers should be encouraged to reach out to their customers directly through other methods. RESO staff may provide the original notification emails through copies of the email or the certification-alerts Slack channel to providers to relay to their customers, including date sent, destination email address and the original sender (i.e., certification@reso.org).
 
-</BR>
+**What if the provider reports that their customer cannot locate the notification emails?**<br />
+Confirm the recipient's email address with the recipient, copy the "magic link" used to review results from the original notification emails and send it directly to the recipient with instructions that the link is sensitive and not to be shared. Here is a sample email:
 
-**What if a provider has used their maximum (2) number of notifications?**
+Greetings,
 
-- Providers should be encouraged to reach out to their customers directly through other methods
-- Staff may locate the original notification emails through copies of the email or the certification-alerts Slack channel
-- Give the email details for provider to relay to customers - date sent, destination email address, from email (certification@reso.org)
+The most recent notification email was sent to [recipient email address] on [date] and came from certification@reso.org. The email contains a link to review and approve your certification endorsements. If you are unable to locate the email, the following link may be used to access and approve the results:
 
-</BR>
+[paste magic link here]
 
-**What if the provider reports their customer cannot locate the notification emails?**
+**Note:** This is a sensitive link akin to a password and should not be shared outside of the appropriate staff at your organization.
 
-- Confirm recipient email address with recipient
+Help with viewing and approving the certification endorsements may be found **[here](https://certification-help.reso.org/docs/recipients.html)**.
 
-- Copy the "magic link" (link to review results) from original notification emails 
-
-- Send magic link directly to recipient with instructions that the link is sensitive and not to be shared
-
-  **Sample Email:**
-
-  Greetings,
-
-  The most recent notification email was sent to *<u>recipient email address</u>* on *<u>date</u>* and came from certification@reso.org. The email contains a link to review and approve your certification endorsements. Help with viewing and approving the certification endorsements may be found [here](https://certification-help.reso.org/docs/recipients.html). 
-
-  If you are unable to locate the email, the link below may be used to access and approve the results. 
-
-  **Note:** this is a sensitive link akin to a password and should not be shared outside of the appropriate staff at your organization.
-
-  Review and Approve Results for *Sample MLS* - *magic link*
-
-</BR>
+<br />
 
 ### Archiving Reports
 
-**Why would an admin need to archive an endorsement?**
+**Why would an admin need to archive an endorsement?**<br />
+* A recipient organization is disabled in the UOI sheet as the result of a merger
+* A recipient organization is disabled as a result of non-payment
+* A non-member organization purchases a single use report and then goes defunct (inactive)
 
-- A recipient organization is disabled in the UOI sheet as the result of a merger
+<br />
 
-- A recipient organization is disabled as a result of non-payment
+**What statuses may be archived by an admin?**<br />
+All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn.
 
-- A non-member organization purchases a single use report and then goes defunct (inactive)
-
-  </BR>
-
-**What statuses may be archived by an admin?**
-
-- All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn
-
-</BR>
+<br />
 
 ### Canceling Certification
 
-**Can RESO staff cancel a certification at the request of a recipient?**
+**Can RESO staff cancel a certification at the request of a recipient?**<br />
+Recipients should be directed to their provider for requests regarding cancelation.
 
-- Recipients should be directed to their provider for requests regarding cancelation
+<br />
 
-</BR>
+**What if a recipient asks why their certification was canceled?**<br />
+Recipients should be directed to their provider for the reason.
 
-**What if a recipient asks why their certification was canceled?**
-
-- Recipients should be directed to their provider for the reason
-
-</BR>
+<br />
 
 ### Revoking Certification
 
-**Why would an admin revoke a certification?**
+**Why would an admin revoke a certification?**<br />
+A certified provider or recipient may be found to be out of compliance in practice. The provider should be contacted and informed of the compliance issue
 
-- A certified provider or recipient may be found to be out of compliance in practice
-- The provider should be contacted and informed of the compliance issue
+**Can a provider revoke certification?**<br />
+No, Revoke is a RESO admin-only function.
 
-</BR>
-
-**Can a provider revoke certification?**
-
-- No, revoke is a RESO admin-only function
-
-</BR>
+<br />
 
 ### Recipient Organization Mergers
 
-**Do certified organizations that merge to create a new organization need to retest?**
-
-- Yes, the new organization will need to retest regardless of the statuses of the organizations that comprise it
+**Do certified organizations that merge to create a new organization need to retest?**<br />
+Yes, the new organization will need to retest regardless of the statuses of the organizations that comprise it.

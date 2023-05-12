@@ -1,7 +1,7 @@
 # Endorsements
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
-Endorsements are shown under their respective organizations at [certification.reso.org](http://certification.reso.org).
+Endorsements are shown under their respective organizations at **[certification.reso.org](http://certification.reso.org)**.
 
 # Filtering and Sorting
 
@@ -148,7 +148,7 @@ The text filter box allows you to search for fields across all resources.
 
 <br />
 
-Selecting a field displays the lookups (if applicable), OData information and a link to its [Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17) entry.
+Selecting a field displays the lookups (if applicable), OData information and a link to its **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17)** entry.
 
 ![image](https://user-images.githubusercontent.com/88680702/163905793-b28b4f5e-7014-4b37-a3f0-f81a1db0b71f.png)
 

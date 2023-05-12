@@ -175,16 +175,16 @@ The report also shows which version of OData the RESO Web API Server was using, 
 
 ---
 
-**Other Guides** 
+# Other Guides
 
-### [Providers](/docs/providers.md)
+**[Providers](/docs/providers.md)**<br />
 Contains information for data providers. For example, MLS vendors who are going through the RESO Certification process with their customers.
 
-### [Recipients](/docs/recipients.md)
+**[Recipients](/docs/recipients.md)**<br />
 Guide for customers of data providers. This would typically be an MLS receiving certification from an MLS vendor.
 
-### [Normal Users](/docs/normal-users.md)
+**[Normal Users](/docs/normal-users.md)**<br />
 Normal users have special accounts assigned to them so they can access RESO Certification System information from an API rather than the website.
 
-### [Admins](/docs/admins.md)
+**[Admins](/docs/admins.md)**<br />
 Administrator's guide to the RESO Certification System.

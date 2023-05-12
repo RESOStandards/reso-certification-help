@@ -69,7 +69,7 @@ Each report contains two views, **Data Element** and **Performance**, accessed f
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
 **Advertised**: the data elements that were found in the server metadata<br />
-**Available**: the data element was found in the payload during sampling
+**Available**: the data elements that were found in the payload during sampling
 
 Use the **Availability Threshold** slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 
@@ -93,8 +93,8 @@ The **Performance** view shows the data provider’s server metrics.
 
 ## Performance Metrics
 Performance is measured on:
-* **Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
-* **Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
+* **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
+* **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
 * **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
@@ -174,10 +174,10 @@ The report also shows which version of OData the RESO Web API Server was using, 
 **Other Guides** 
 
 ### [Providers](/docs/providers.md)
-Contains information for data providers. For example, MLS Vendors who are going through the RESO Certification process with their customers.
+Contains information for data providers. For example, MLS vendors who are going through the RESO Certification process with their customers.
 
 ### [Recipients](/docs/recipients.md)
-Guide for customers of data providers. This would typically be an MLS receiving certification from an MLS Vendor.
+Guide for customers of data providers. This would typically be an MLS receiving certification from an MLS vendor.
 
 ### [Normal Users](/docs/normal-users.md)
 Normal users have special accounts assigned to them so they can access RESO Certification System information from an API rather than the website.

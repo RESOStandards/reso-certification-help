@@ -203,7 +203,7 @@ The token will then be displayed along with options to copy it to the clipboard 
 
 # Admin Actions
 
-### Creating an Admin User
+## Creating an Admin User
 
 Admins may create new admin users by selecting the **Admin Actions** button from the top toolbar. 
 
@@ -219,7 +219,7 @@ Enter a full name and email address, select **Save**.
 
 </BR>
 
-### Creating a Provider User
+## Creating a Provider User
 
 Select **Create User** under the Users section.
 
@@ -237,7 +237,7 @@ Enter a full name and email address, select **Save**.
 
 </BR>
 
-### Creating a Normal User
+## Creating a Normal User
 
 Select **Create User** under the Users section.
 
@@ -253,7 +253,7 @@ Enter a full name and email address, select **Save**.
 
 </BR>
 
-### Syncing UOI Organizations
+## Syncing UOI Organizations
 
  See the [UOI Sync Process](https://github.com/RESOStandards/reso-certification/wiki/UOI-Sync-Process)
 
@@ -261,3 +261,93 @@ Enter a full name and email address, select **Save**.
 
 ## Admin FAQ
 
+### Notifications
+
+**How many notifications can a provider send to their recipient (customer)?**
+
+- Two (2) notifications, partly due to spam concerns
+
+</BR>
+
+**What if a provider has used their maximum (2) number of notifications?**
+
+- Providers should be encouraged to reach out to their customers directly through other methods
+- Staff may locate the original notification emails through copies of the email or the certification-alerts Slack channel
+- Give the email details for provider to relay to customers - date sent, destination email address, from email (certification@reso.org)
+
+</BR>
+
+**What if the provider reports their customer cannot locate the notification emails?**
+
+- Confirm recipient email address with recipient
+
+- Copy the "magic link" (link to review results) from original notification emails 
+
+- Send magic link directly to recipient with instructions that the link is sensitive and not to be shared
+
+  **Sample Email:**
+
+  Greetings,
+
+  The most recent notification email was sent to *<u>recipient email address</u>* on *<u>date</u>* and came from certification@reso.org. The email contains a link to review and approve your certification endorsements. Help with viewing and approving the certification endorsements may be found [here](https://certification-help.reso.org/docs/recipients.html). 
+
+  If you are unable to locate the email, the link below may be used to access and approve the results. 
+
+  **Note:** this is a sensitive link akin to a password and should not be shared outside of the appropriate staff at your organization.
+
+  Review and Approve Results for *Sample MLS* - *magic link*
+
+</BR>
+
+### Archiving Reports
+
+**Why would an admin need to archive an endorsement?**
+
+- A recipient organization is disabled in the UOI sheet as the result of a merger
+
+- A recipient organization is disabled as a result of non-payment
+
+- A non-member organization purchases a single use report and then goes defunct (inactive)
+
+  </BR>
+
+**What statuses may be archived by an admin?**
+
+- All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn
+
+</BR>
+
+### Canceling Certification
+
+**Can RESO staff cancel a certification at the request of a recipient?**
+
+- Recipients should be directed to their provider for requests regarding cancelation
+
+</BR>
+
+**What if a recipient asks why their certification was canceled?**
+
+- Recipients should be directed to their provider for the reason
+
+
+
+### Revoking Certification
+
+**Why would an admin revoke a certification?**
+
+- A certified provider or recipient may be found to be out of compliance in practice
+- The provider should be contacted and informed of the compliance issue
+
+</BR>
+
+**Can a provider revoke certification?**
+
+- No, revoke is a RESO admin-only function
+
+</BR>
+
+### Recipient Organization Mergers
+
+**Do certified organizations that merge to create a new organization need to retest?**
+
+- Yes, the new organization will need to retest regardless of the statuses of the organizations that comprise it

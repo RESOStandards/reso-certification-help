@@ -60,7 +60,7 @@ Selecting the RESO logo at the top left also directs back the Endorsement view.
 # Summary Report
 Summary reports show information about the resources, fields and lookups that were found during certification testing.
 
-Each report contains two views, **Data Element** and **Performance**, accessed from a dropdown at the top of the page.
+Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top of the page.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
 
@@ -97,7 +97,11 @@ Performance is measured on:
 * **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
 * **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
-**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet.
+
+**Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and industry average.
+
+Please contact RESO at certification@reso.org if you have any questions.
 
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.

@@ -12,7 +12,7 @@ Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) 
 # Endorsements
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
 
-See more information about [Viewing Endorsements](https://certification-help.reso.org/#endorsements).
+See more information about viewing **[Endorsements](https://certification-help.reso.org/#endorsements)**.
 
 </BR>
 
@@ -29,7 +29,7 @@ Each report contains two views, **Data Elements** and **Performance**, accessed 
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
 **Advertised**: the data elements that were found in the server metadata<br />
-**Available**: the data element was also found in the data during sampling
+**Available**: the data elements that were found in the payload during sampling
 
 The **Availability Threshold** slider on the right allows you to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 
@@ -44,6 +44,8 @@ Located below the charts, the **Resources** dropdown menu provides a data filter
 ## Performance View
 The **Performance** view shows the data provider’s server metrics.
 
+</BR>
+
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
 </BR>
@@ -51,13 +53,15 @@ The **Performance** view shows the data provider’s server metrics.
 ## Performance Metrics
 Performance is measured on:
 
-**Payload Size** - measures how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
+- **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
 
-**Response Time** - shows how long, on average, a request to the given server took to complete, measured in seconds (s).
+- **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
 
-**Throughput** - is payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+- **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+
+**Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and industry average.
 
 </BR>
 
@@ -83,7 +87,7 @@ The **Contact RESO** button allows you to send an email to RESO at certification
 </BR>
 
 # Data Dictionary Report
-The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data).
+The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [**Exploring the Data Dictionary Report**](https://certification-help.reso.org/#exploring-the-data).
 
 ![image](https://user-images.githubusercontent.com/88680702/205767370-b996480b-47e4-4c17-9b19-4cadc022e77b.png)
 

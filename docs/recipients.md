@@ -66,7 +66,7 @@ Your endorsements and the count of Data Dictionary elements are shown below the 
 
 Select **View Details** next to the Data Dictionary and Web API Core Endorsements to review the reports.
 
-![image](https://user-images.githubusercontent.com/88680702/205779118-f6508d1b-a669-478c-9a0b-1f7c4ef1c1b8.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/66621855-062e-47f4-b0e4-aeb9678725bc)
 
 You may return to the Certification Summary Report by selecting the blue button that contains the name of your organization.
 

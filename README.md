@@ -79,7 +79,7 @@ Use the **Availability Threshold** slider to set a minimum data availability tha
 
 <br />
 
-The **Resources** dropdown beneath the chart filters the data to the specific resource selected.
+Located below the charts, the **Resources** dropdown menu provides a data filter to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups. Elements relating to other resources (e.g., Member, Office, etc.) will be omitted.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904594-8453d153-a39f-4591-8742-e62d322aed88.png)
 

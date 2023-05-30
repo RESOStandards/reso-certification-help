@@ -10,7 +10,7 @@ Table of Contents
   * [Web API Report](#web-api-report)
   * [Notifications](#notifications)
     * [Sending Notifications](#sending-notifications)
-    * [Notification Tracking](notification-tracking)
+    * [Notification Tracking](#notification-tracking)
   * [Canceling Certification](#canceling-certification)
   * [Archiving Reports](#archiving-reports)
     * [Auto-Archiving](#auto-archiving)

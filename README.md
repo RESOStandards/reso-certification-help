@@ -5,7 +5,7 @@ Table of Contents
   * [Filtering and Sorting](#filtering-and-sorting)
     * [Organization Name or Identifier Search](#organization-name-or-identifier-search)
     * [Filtering by Endorsement Type](#filtering-by-endorsement-type)
-  * [Sorting](#sorting)
+    * [Sorting](#sorting)
   * [Endorsements Report](#endorsements-report)
   * [Summary Report](#summary-report)
     * [Performance Metrics](#performance-metrics)
@@ -40,7 +40,7 @@ Filter by typing in an organization name or Unique Organization Identifier (UOI)
 
 <br />
 
-# Sorting
+## Sorting
 Sort by organization name alphabetically, ascending or descending.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9b207c00-c936-4029-8b23-b41a2c0ff1b9)

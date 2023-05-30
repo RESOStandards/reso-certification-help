@@ -1,3 +1,22 @@
+Table of Contents
+=================
+
+  * [Endorsements](#endorsements)
+  * [Summary Report](#summary-report)
+    * [Data Elements View](#data-elements-view)
+    * [Performance View](#performance-view)
+    * [Performance Metrics](#performance-metrics)
+  * [Data Dictionary Report](#data-dictionary-report)
+  * [Web API Report](#web-api-report)
+  * [Notifications](#notifications)
+    * [Sending Notifications](#sending-notifications)
+    * [Notification Tracking](#notification-tracking)
+  * [Canceling Certification](#canceling-certification)
+  * [Archiving Reports](#archiving-reports)
+    * [Auto-Archiving](#auto-archiving)
+  * [My Account](#my-account)
+    * [Creating a Token](#creating-a-token)
+  
 # Endorsements
 
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.

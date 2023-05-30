@@ -1,3 +1,19 @@
+Table of Contents
+=================
+
+  * [Endorsements](#endorsements)
+  * [Filtering and Sorting](#filtering-and-sorting)
+    * [Organization Name or Identifier Search](#organization-name-or-identifier-search)
+    * [Filtering by Endorsement Type](#filtering-by-endorsement-type)
+  * [Sorting](#sorting)
+  * [Endorsements Report](#endorsements-report)
+  * [Summary Report](#summary-report)
+    * [Performance Metrics](#performance-metrics)
+  * [Data Dictionary Report](#data-dictionary-report)
+    * [Exploring the Data](#exploring-the-data)
+  * [Web API Report](#web-api-report)
+  * [Other Guides](#other-guides)
+
 # Endorsements
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 

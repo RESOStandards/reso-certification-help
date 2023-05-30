@@ -1,3 +1,11 @@
+Table of Contents
+=================
+  * [Endorsements](#endorsements)
+  * [Summary Report](#summary-report)
+  * [Data Dictionary Report](#data-dictionary-report)
+  * [My Account](#my-account)
+    * [Creating a Token](#creating-a-token)
+  
 # Endorsements
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports available.
 

@@ -1,3 +1,28 @@
+Table of Contents
+=================
+
+  * [Endorsements](#endorsements)
+  * [Summary Report](#summary-report)
+    * [Data Elements View](#data-elements-view)
+    * [Performance View](#performance-view)
+    * [Performance Metrics](#performance-metrics)
+  * [Data Dictionary Report](#data-dictionary-report)
+  * [Web API Report](#web-api-report)
+  * [Notifications](#notifications)
+    * [Sending Notifications](#sending-notifications)
+    * [Notification Tracking](notification-tracking)
+  * [Canceling Certification](#canceling-certification)
+  * [Archiving Reports](#archiving-reports)
+    * [Auto-Archiving](#auto-archiving)
+  * [My Account](#my-account)
+    * [Creating a Token](#creating-a-token)
+  * [Admin Actions](#admin-actions)
+    * [Creating an Admin User](#creating-an-admin-user)
+    * [Creating a Provider User](#creating-a-provider-user)
+    * [Creating a Normal User](#creating-a-normal-user)
+  * [Syncing Unique Organization Identifier (UOI) Organizations](#syncing-unique-organization-identifier-uoi-organizations)
+  * [Admin FAQ](#admin-faq)
+ 
 # Endorsements 
 
 Data providers must submit their certification tests through the self-testing user interface and then notify their customer to review and approve the certification reports. The customer will then review the results and approve them to receive their certification for the given endorsement.

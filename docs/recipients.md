@@ -1,3 +1,15 @@
+Table of Contents
+=================
+  * [Notifications](#notifications)
+  * [Endorsements](#endorsements)
+  * [Summary Report](#summary-report)
+    * [Data Elements View](#data-elements-view)
+    * [Performance View](#performance-view)
+    * [Performance Metrics](#performance-metrics)
+    * [Approving Endorsements](#approving-endorsements)
+  * [Data Dictionary Report](#data-dictionary-report)
+  * [Web API Report](#web-api-report)
+   
 # Notifications
 You will receive an email from certification@reso.org with a link to review and approve the results of your certification tests as submitted by your provider. The body of the email will contain a review link for any endorsements that were submitted. 
 

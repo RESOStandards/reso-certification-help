@@ -289,8 +289,6 @@ Help with viewing and approving the certification endorsements may be found **[h
 * A recipient organization is disabled as a result of non-payment
 * A non-member organization purchases a single use report and then goes defunct (inactive)
 
-<br />
-
 **What statuses may be archived by an admin?**<br />
 All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn.
 
@@ -300,8 +298,6 @@ All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn.
 
 **Can RESO staff cancel a certification at the request of a recipient?**<br />
 Recipients should be directed to their provider for requests regarding cancelation.
-
-<br />
 
 **What if a recipient asks why their certification was canceled?**<br />
 Recipients should be directed to their provider for the reason.

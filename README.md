@@ -1,25 +1,31 @@
 Table of Contents
 =================
 
-  * [Endorsements](#endorsements)
-  * [Filtering and Sorting](#filtering-and-sorting)
-    * [Organization Name or Identifier Search](#organization-name-or-identifier-search)
-    * [Filtering by Endorsement Type](#filtering-by-endorsement-type)
-    * [Sorting](#sorting)
-  * [Endorsements Report](#endorsements-report)
+  * [Certification Endorsements](#certification-endorsements)
+  * [Endorsements Page](#endorsements-page)
+    * [Filtering and Sorting](#filtering-and-sorting)
   * [Summary Report](#summary-report)
-    * [Performance Metrics](#performance-metrics)
+    * [Data Elements View](#data-elements-view)
+    * [Performance View](#performance-view)
   * [Data Dictionary Report](#data-dictionary-report)
     * [Exploring the Data](#exploring-the-data)
   * [Web API Report](#web-api-report)
   * [Other Guides](#other-guides)
 
-# Endorsements
+# Certification Endorsements
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
 Endorsements are shown under their respective organizations at **[certification.reso.org](http://certification.reso.org)**.
 
-# Filtering and Sorting
+# Endorsements Page
+
+The **Endorsements** page includes the data elements (e.g., Data Dictionary, Web API), endorsement version, status and status date for each certified organization.
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/108787f7-69a2-41c7-a454-384a347c9ec0)
+
+<br />
+
+## Filtering and Sorting
 
 There are several sorting and filtering options at the top of the endorsements page.
 
@@ -27,20 +33,20 @@ There are several sorting and filtering options at the top of the endorsements p
 
 <br />
 
-## Organization Name or Identifier Search
+### Organization Name or Identifier Search
 Filter by typing in an organization name or Unique Organization Identifier (UOI).
 
 ![image](https://user-images.githubusercontent.com/88680702/163901524-6390ecc4-8c79-4485-b783-84d717d86d21.png)
 
 <br />
 
-## Filtering by Endorsement Type
+### Filtering by Endorsement Type
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ac8af5f-aa12-4bfa-b2ee-f798c2b06b1c)
 
 <br />
 
-## Sorting
+### Sorting
 Sort by organization name alphabetically, ascending or descending.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9b207c00-c936-4029-8b23-b41a2c0ff1b9)
@@ -50,14 +56,6 @@ Sort by organization name alphabetically, ascending or descending.
 Sort by the date/time certifications were issued, ascending or descending. This will show each endorsement individually rather than grouped by organization.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3fbe9fc9-d350-4540-a219-720a0229acfb)
-
-<br />
-
-# Endorsements Report
-
-The **Endorsements** view includes the data elements (e.g., Data Dictionary, Web API), endorsement version, status and status date.
-
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/108787f7-69a2-41c7-a454-384a347c9ec0)
 
 <br />
 
@@ -82,6 +80,7 @@ Each report contains two views, **Data Elements** and **Performance**, accessed 
 
 <br />
 
+## Data Elements View
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
 **Advertised**: the data elements that were found in the server metadata<br />
@@ -101,13 +100,14 @@ Located below the charts, the **Resources** dropdown menu provides a data filter
 
 <br />
 
+## Performance View
 The **Performance** view shows the data provider’s server metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
 <br />
 
-## Performance Metrics
+### Performance Metrics
 Performance is measured on:
 * **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
 * **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).

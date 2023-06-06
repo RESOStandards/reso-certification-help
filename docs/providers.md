@@ -5,21 +5,20 @@ Table of Contents
   * [Summary Report](#summary-report)
     * [Data Elements View](#data-elements-view)
     * [Performance View](#performance-view)
-    * [Performance Metrics](#performance-metrics)
   * [Data Dictionary Report](#data-dictionary-report)
   * [Web API Report](#web-api-report)
   * [Notifications](#notifications)
     * [Sending Notifications](#sending-notifications)
     * [Notification Tracking](#notification-tracking)
   * [Canceling Certification](#canceling-certification)
-  * [Archiving Reports](#archiving-reports)
+  * [Archiving Endorsements](#archiving-endorsements)
     * [Auto-Archiving](#auto-archiving)
   * [My Account](#my-account)
     * [Creating a Token](#creating-a-token)
   
 # Endorsements
 
-The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
+The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) test results and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for the given endorsement.
 
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
@@ -29,7 +28,7 @@ See more information about viewing **[Endorsements](https://certification-help.r
 
 # Summary Report
 
-Summary reports show information about the resources, fields and lookups that were found on your server for that organization.
+Summary reports show information about the resources, fields and lookups that were found on your server for the organization being viewed.
 
 Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top of the page.
 
@@ -64,7 +63,7 @@ The **Performance** view shows your server performance metrics.
 
 <br />
 
-## Performance Metrics
+### Performance Metrics
 
 Performance is measured on:
 
@@ -106,13 +105,13 @@ Notification of the Web API Report may be sent from this page by selecting the *
 
 # Notifications
 
-Endorsements must be reviewed and approved by customers before they are certified. The review requests are sent via email.
+Certification testing results must be reviewed and approved by customers before the endorsements are certified. The review requests are sent via email.
 
-Selecting **Passed** and then **Notify Recipient** for either the Data Dictionary or the Web API Core report will send a bundled review notification for both endorsements. The recipient will be able to review and approve both reports from a single link that directs them to the Certification Summary page.
+Selecting **Passed** and then **Notify Recipient** for either the Data Dictionary or the Web API Core results will send a bundled review notification for both. The recipient will then be able to review and approve both results from a single link that directs them to the Certification Summary page.
 
-**Note:** The bundled notification is only available when both Data Dictionary and Web API are in **Passed** status. Otherwise, the email will only include the single endorsement that was selected for notification.
+**Note:** The bundled notification is only available when both Data Dictionary and Web API are in **Passed** status. Otherwise, the email will only include the single result that was selected for notification.
 
-**IMPORTANT: The email that includes a link to the report(s) should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
+**IMPORTANT: The email that includes a link to the results(s) should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 
 <br />
 
@@ -126,11 +125,11 @@ Select whether to **Accept** or **Opt-Out** of having the performance metrics di
 
 ![image](https://user-images.githubusercontent.com/88680702/164259356-26f1c86e-b75b-461b-9c5e-9f20536efb4d.png)
 
-The email entry screen displays which endorsements will be included in the email. Enter the email address for your customer and select **Send Now**.
+The email entry screen displays which results will be included in the email. Enter the email address for your customer and select **Send Now**.
 
 ![image](https://user-images.githubusercontent.com/88680702/205774052-6488827a-52cb-4cd2-a89b-82860f1baae3.png)
 
-An email with a link to the report will be sent to your customer for review and approval. The button will then change from **Passed** to **Notified**.
+An email with a link to the results will be sent to your customer for review and approval. The button will then change from **Passed** to **Notified**.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ac6e616-aa59-434e-bd0a-35e454dfc50b)
 
@@ -152,7 +151,7 @@ If a notification has previously been sent, the notification count and recipient
 
 # **Canceling Certification**
 
-Providers may cancel the certification process for reports in **Passed** or **Notified** status. 
+Providers may cancel the certification process when the endorsements are in the **Passed** or **Notified** status. 
 
 Select the **Passed** or **Notified** button and select **Cancel Certification**.
 
@@ -160,31 +159,31 @@ Select the **Passed** or **Notified** button and select **Cancel Certification**
 
 A confirmation of the cancelation is sent to the provider. The recipient is not notified of a cancel action.
 
-The report will now show as **Canceled** and may be archived (see below).
+The endorsement will now show as **Canceled** and may be archived (see below).
 
 <br />
 
-# **Archiving Reports**
+# **Archiving Endorsements**
 
-Providers may archive their reports with unwanted results, for organizations that they are no longer serving or for organizations that no longer exist.
+Providers may archive their endorsements for customers that they are no longer serving, for organizations that no longer exist or are otherwise unwanted.
 
-Archiving is available for reports in **Passed**, **Notified**, **Certified**, **Canceled** or **Withdrawn** status.
+Archiving is available for endorsements in **Passed**, **Notified**, **Certified**, **Canceled** or **Withdrawn** status.
 
 Select the status button on the endorsement you would like to archive and select **Archive**. 
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/e989b730-366a-4d0a-80ac-cc1419519ccf)
 
-A notification of the archive action will be sent to the provider. The recipient is not notified.
+A notification of the archive action will be sent to the provider. The customer is not notified.
 
 <br />
 
 ## Auto-Archiving
 
-Certification reports are automatically archived and replaced if a new report of the same type is initiated by the provider.
+Certification endorsements are automatically archived and replaced if a new endorsement of the same type is initiated by the provider.
 
-Auto-archiving will occur for reports in **Passed**, **Notified**, **Canceled** or **Withdrawn** status.
+Auto-archiving will occur for endorsements in **Passed**, **Notified**, **Canceled** or **Withdrawn** status.
 
-Reports in a permanent status (**Certified**, **Revoked**) will remain alongside the new report. The old reports may be manually archived by the provider at any time.
+Endorsements in a permanent status (**Certified**, **Revoked**) will remain alongside the new endorsements. The old endorsements may be manually archived by the provider at any time.
 
 <br />
 

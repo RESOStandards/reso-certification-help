@@ -1,30 +1,31 @@
 Table of Contents
 =================
-  * [Notifications](#notifications)
   * [Endorsements](#endorsements)
+  * [Notifications](#notifications)
   * [Summary Report](#summary-report)
     * [Data Elements View](#data-elements-view)
     * [Performance View](#performance-view)
-    * [Performance Metrics](#performance-metrics)
-    * [Approving Endorsements](#approving-endorsements)
-  * [Data Dictionary Report](#data-dictionary-report)
-  * [Web API Report](#web-api-report)
-   
+  * [Reviewing and Approving Results](#reviewing-and-approving-results)
+    * [Data Dictionary Report](#data-dictionary-report)
+    * [Web API Report](#web-api-report)
+
+# Endorsements
+The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing results and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for the given endorsement.
+
+At this time, there are two possible endorsements that can be issued to data providers for each customer they serve, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
+
+See more information about viewing **[Endorsements](https://certification-help.reso.org/#endorsements)**.
+
+</BR>
+
 # Notifications
-You will receive an email from certification@reso.org with a link to review and approve the results of your certification tests as submitted by your provider. The body of the email will contain a review link for any endorsements that were submitted. 
+You will receive an email from certification@reso.org with a link to review and approve the results of your certification tests as submitted by your provider. The body of the email will contain a review link for any endorsements that were submitted for certification. 
 
 For example, if both **Data Dictionary 1.7** and **Web API Core 2.0.0** were submitted, they will be reviewed from the same link.
 
 Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) to be taken to the Certification Summary Report.
 
 ![image](https://user-images.githubusercontent.com/88680702/205775765-d25de46f-bb2b-4326-bf33-7224e817ded5.png)
-
-</BR>
-
-# Endorsements
-The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing reports and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for any given endorsement.
-
-See more information about viewing **[Endorsements](https://certification-help.reso.org/#endorsements)**.
 
 </BR>
 
@@ -62,7 +63,7 @@ The **Performance** view shows the data provider’s server metrics.
 
 </BR>
 
-## Performance Metrics
+### Performance Metrics
 Performance is measured on:
 
 - **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
@@ -77,8 +78,8 @@ Performance is measured on:
 
 </BR>
 
-## Approving Endorsements
-Your endorsements and the count of Data Dictionary elements are shown below the charts.
+# Reviewing and Approving Results
+Your endorsements, including the count of Data Dictionary elements found during testing are shown below the charts.
 
 Select **View Details** next to the Data Dictionary and Web API Core Endorsements to review the reports.
 
@@ -88,17 +89,8 @@ You may return to the Certification Summary Report by selecting the blue button 
 
 ![image](https://user-images.githubusercontent.com/88680702/205776355-e5f13a31-e99d-464c-86a6-76b2ca50b7f7.png)
 
-If you have reviewed and are satisfied with the report, select the **Approve** button next to the endorsement to be taken to the Terms and Conditions page. Approve buttons are also available at the top of each report detail page.
 
-![image](https://user-images.githubusercontent.com/88680702/164045326-602eff64-3c72-48a4-a255-a9c9890ff5e7.png)
-
-Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
-
-The **Contact RESO** button allows you to send an email to RESO at certification@reso.org.
-
-</BR>
-
-# Data Dictionary Report
+## Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [**Exploring the Data Dictionary Report**](https://certification-help.reso.org/#exploring-the-data).
 
 ![image](https://user-images.githubusercontent.com/88680702/205767370-b996480b-47e4-4c17-9b19-4cadc022e77b.png)
@@ -113,7 +105,7 @@ Once you have read and agreed to RESO's Terms and Conditions, check the box to c
 
 </BR>
 
-# Web API Report
+## Web API Report
 All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.
 
 The Web API Report allows you to view your high-level certification information, including your Organization Name and Vendor Name. If you believe that any of this information is incorrect, please contact RESO at certification@reso.org.
@@ -127,3 +119,5 @@ Once you have reviewed your Web API Core 2.0.0 report, select the **Approve** bu
 A **Contact RESO** button on this page allows you to send an email to certification@reso.org.
 
 Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
+
+</BR>

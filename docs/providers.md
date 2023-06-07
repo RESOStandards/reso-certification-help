@@ -1,23 +1,17 @@
-Table of Contents
-=================
+# Table of Contents
 
-  * [Endorsements](#endorsements)
-  * [Summary Report](#summary-report)
-    * [Data Elements View](#data-elements-view)
-    * [Performance View](#performance-view)
-  * [Data Dictionary Report](#data-dictionary-report)
-  * [Web API Report](#web-api-report)
-  * [Notifications](#notifications)
-    * [Sending Notifications](#sending-notifications)
-    * [Notification Tracking](#notification-tracking)
-  * [Canceling Certification](#canceling-certification)
-  * [Archiving Endorsements](#archiving-endorsements)
-    * [Auto-Archiving](#auto-archiving)
-  * [My Account](#my-account)
-    * [Creating a Token](#creating-a-token)
-  
+**[Endorsements](#endorsements)**
+**[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
+**[Data Dictionary Report](#data-dictionary-report)**<br />
+**[Web API Report](#web-api-report)**<br />
+**[Notifications](#notifications)** | [Sending Notifications](#sending-notifications) | [Notification Tracking](#notification-tracking)<br />
+**[Canceling Certification](#canceling-certification)**<br />
+**[Archiving Endorsements](#archiving-endorsements)** | [Auto-Archiving](#auto-archiving)<br />
+**[My Account](#my-account)** | [Creating a Token](#creating-a-token)<br />
+
+<br />
+
 # Endorsements
-
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) test results and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for the given endorsement.
 
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
@@ -27,17 +21,13 @@ See more information about viewing **[Endorsements](https://certification-help.r
 <br />
 
 # Summary Report
-
 Summary reports show information about the resources, fields and lookups that were found on your server for the organization being viewed.
 
 Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top of the page.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076696-5727c0f5-5abb-486e-a3e6-63a161d7dae6.png)
 
-<br />
-
 ## Data Elements View
-
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
 **Advertised**: the data elements that were found in the server metadata<br />
@@ -51,20 +41,14 @@ Located below the charts, the **Resources** dropdown menu provides a data filter
 
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
 
-<br />
-
 ## Performance View
-
 The **Performance** view shows your server performance metrics.
 
 **Note:** You may opt out of displaying your server metrics publicly when sending the notification to the customer. If opted out, the performance metrics will be visible only to the customer and RESO admin staff.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
-<br />
-
 ### Performance Metrics
-
 Performance is measured on:
 
 * **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
@@ -80,30 +64,33 @@ Providers may reach out to certification@reso.org if they have further questions
 <br />
 
 # Data Dictionary Report
+[BACK TO TOP](#table-of-contents)
 
 The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about **[Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data)**.
 
 <br />
 
 # Web API Report
+[BACK TO TOP](#table-of-contents)
 
-All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.
+**IMPORTANT: All MLS providers are required to obtain the Web API Core endorsement prior to that of the Data Dictionary.**
 
-For example, select **View Details** at the right of the Web API Core 2.0.0 Endorsement to view the report.
+Once the endorsement has been obtained, select **View Details** at the right of the Web API Core 2.0.0 endorsement to view the report.
 
 ![image](https://user-images.githubusercontent.com/88680702/205773188-96dd821d-f123-46ed-82a5-f019dddcef6c.png)
 
 The Web API Core report displays the name of the organization that was tested as well as that of the data provider. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
-The report shows which version of OData the RESO Web API Server was using and the authentication type, with the current options being OAuth 2 Bearer Token or Client Credentials. The fields that were used for testing and the status button are also shown.
+The report shows which version of OData the RESO Web API server was using and the authentication type, with the current options being OAuth 2 Bearer Token or Client Credentials. The fields that were used for testing and the status button are also shown.
 
-Notification of the Web API Report may be sent from this page by selecting the **Passed** button at the top right.
+Data providers (e.g., MLSs) can be notified of the availability of their Web API Report for certification approval by selecting the **Passed** button at the top right of this page. See more information about sending **[Notifications]((#notifications))**.
 
 ![image](https://user-images.githubusercontent.com/88680702/205771954-9dd934ba-a002-4928-bc66-e79f79ae296a.png)
 
 <br />
 
 # Notifications
+[BACK TO TOP](#table-of-contents)
 
 Certification testing results must be reviewed and approved by customers before the endorsements are certified. The review requests are sent via email.
 
@@ -113,10 +100,7 @@ Selecting **Passed** and then **Notify Recipient** for either the Data Dictionar
 
 **IMPORTANT: The email that includes a link to the results(s) should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 
-<br />
-
 ## Sending Notifications
-
 Select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/328de65f-5682-4681-9765-c7978b548e0b)
@@ -137,10 +121,7 @@ Once the customer has approved the results, the button will change to **Certifie
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/7556d16a-74eb-4ffd-a190-af51012a89be)
 
-<br />
-
 ## Notification Tracking
-
 Providers are allowed to send a maximum of two notifications for each recipient. 
 
 If a notification has previously been sent, the notification count and recipient email address will appear when the **Notified** button is selected.
@@ -150,6 +131,7 @@ If a notification has previously been sent, the notification count and recipient
 <br />
 
 # **Canceling Certification**
+[BACK TO TOP](#table-of-contents)
 
 Providers may cancel the certification process when the endorsements are in the **Passed** or **Notified** status. 
 
@@ -164,8 +146,9 @@ The endorsement will now show as **Canceled** and may be archived (see below).
 <br />
 
 # **Archiving Endorsements**
+[BACK TO TOP](#table-of-contents)
 
-Providers may archive their endorsements for customers that they are no longer serving, for organizations that no longer exist or are otherwise unwanted.
+Providers may now archive endorsements and should do so for any organizations that they are no longer serving or contain results that are otherwise unwanted.
 
 Archiving is available for endorsements in **Passed**, **Notified**, **Certified**, **Canceled** or **Withdrawn** status.
 
@@ -175,10 +158,7 @@ Select the status button on the endorsement you would like to archive and select
 
 A notification of the archive action will be sent to the provider. The customer is not notified.
 
-<br />
-
 ## Auto-Archiving
-
 Certification endorsements are automatically archived and replaced if a new endorsement of the same type is initiated by the provider.
 
 Auto-archiving will occur for endorsements in **Passed**, **Notified**, **Canceled** or **Withdrawn** status.
@@ -188,13 +168,11 @@ Endorsements in a permanent status (**Certified**, **Revoked**) will remain alon
 <br />
 
 # My Account
+[BACK TO TOP](#table-of-contents)
 
 Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
-<br />
-
 ## Creating a Token
-
 A token is needed in order to access the certification data via Web API.
 
 Log in to **[certification.reso.org](https://certification.reso.org)** with your username and password.

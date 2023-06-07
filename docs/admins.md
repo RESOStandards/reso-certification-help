@@ -5,14 +5,13 @@ Table of Contents
   * [Summary Report](#summary-report)
     * [Data Elements View](#data-elements-view)
     * [Performance View](#performance-view)
-    * [Performance Metrics](#performance-metrics)
   * [Data Dictionary Report](#data-dictionary-report)
   * [Web API Report](#web-api-report)
   * [Notifications](#notifications)
     * [Sending Notifications](#sending-notifications)
     * [Notification Tracking](#notification-tracking)
   * [Canceling Certification](#canceling-certification)
-  * [Archiving Reports](#archiving-reports)
+  * [Archiving Endorsements](#archiving-endorsements)
     * [Auto-Archiving](#auto-archiving)
   * [My Account](#my-account)
     * [Creating a Token](#creating-a-token)
@@ -20,12 +19,12 @@ Table of Contents
     * [Creating an Admin User](#creating-an-admin-user)
     * [Creating a Provider User](#creating-a-provider-user)
     * [Creating a Normal User](#creating-a-normal-user)
-  * [Syncing Unique Organization Identifier (UOI) Organizations](#syncing-unique-organization-identifier-uoi-organizations)
+    * [Syncing Unique Organization Identifier (UOI) Records](#syncing-unique-organization-identifier-uoi-records)
   * [Admin FAQ](#admin-faq)
  
 # Endorsements 
 
-Data providers must submit their certification tests through the self-testing user interface and then notify their customer to review and approve the certification reports. The customer will then review the results and approve them to receive their certification for the given endorsement.
+Data providers must submit their certification tests through the self-testing user interface and then notify their customer to review and approve the results. The customer will then review the results and approve them to receive their certification for the given endorsement.
 
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
@@ -72,7 +71,7 @@ The **Performance** view shows the server performance metrics for the provider.
 
 <br />
 
-## Performance Metrics
+### Performance Metrics
 
 Performance is measured on:
 
@@ -114,9 +113,9 @@ Providers may send the notification of the Web API Report from this page by sele
 
 # Notifications
 
-Endorsements must be reviewed and approved by recipients before they are certified. The review requests are sent via email.
+Certification testing results must be reviewed and approved by recipients before they are certified. The review requests are sent via email.
 
-When providers select **Passed** and then **Notify Recipient** for either the Data Dictionary or the Web API Core report, a bundled review notification for both endorsements is sent to the recipient. The recipient will be able to review and approve both reports from a single link that directs them to the Certification Summary page.
+When providers select **Passed** and then **Notify Recipient** for either the Data Dictionary or the Web API Core report, a bundled review notification for both endorsements is sent to the recipient. The recipient will be able to review and approve both results from a single link that directs them to the Certification Summary page.
 
 **Note:** The bundled notification is only available when both Data Dictionary and Web API are in **Passed** status. Otherwise, the email will only include the single endorsement that was selected for notification.
 
@@ -126,7 +125,7 @@ When providers select **Passed** and then **Notify Recipient** for either the Da
 
 ## Sending Notifications
 
-Providers should select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
+Providers may select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
 
 ![image](https://user-images.githubusercontent.com/88680702/237737630-328de65f-5682-4681-9765-c7978b548e0b.png) 
 
@@ -138,7 +137,7 @@ The email entry screen confirms which endorsements will be included in the email
 
 ![image](https://user-images.githubusercontent.com/88680702/205774052-6488827a-52cb-4cd2-a89b-82860f1baae3.png)
 
-An email with a link to the report will be sent to the recipient for review and approval. The button will then change from **Passed** to **Notified**.
+An email with a link to the results will be sent to the recipient for review and approval. The button will then change from **Passed** to **Notified**.
 
 ![image](https://user-images.githubusercontent.com/88680702/237753878-3ac6e616-aa59-434e-bd0a-35e454dfc50b.png) 
 
@@ -156,11 +155,13 @@ If a notification has previously been sent, the notification count and recipient
 
 ![image](https://user-images.githubusercontent.com/88680702/237749774-aa02720f-db1b-4607-87fb-f528880c5c3f.png) 
 
+See [Admin FAQ](#admin-faq) for troubleshooting notification issues.
+
 <br />
 
 # **Canceling Certification**
 
-Providers may cancel the certification process for reports in **Passed** or **Notified** status.
+Providers may cancel the certification process for endorsements in **Passed** or **Notified** status.
 
 Select the **Passed** or **Notified** button and select **Cancel Certification**.
 
@@ -168,15 +169,15 @@ Select the **Passed** or **Notified** button and select **Cancel Certification**
 
 A confirmation of the cancelation is sent to the provider. The recipient is not notified of a cancel action.
 
-The report will now show as Canceled and may be archived (see below).
+The endorsement will now show as Canceled and may be archived (see below).
 
 <br />
 
-# **Archiving Reports**
+# **Archiving Endorsements**
 
-Providers may archive their reports with unwanted results, for organizations that they are no longer serving or for organizations that no longer exist.
+Providers may now archive endorsements and should do so for any organizations that they are no longer serving or contain results that are otherwise unwanted.
 
-Archiving is available for reports in **Passed**, **Notified**, **Certified**, **Canceled** or **Withdrawn** status.
+Archiving is available for endorsements in **Passed**, **Notified**, **Certified**, **Canceled** or **Withdrawn** status.
 
 Select the status button on the endorsement to be archived and select **Archive**.
 
@@ -184,15 +185,17 @@ Select the status button on the endorsement to be archived and select **Archive*
 
 A notification of the archive action will be sent to the provider. The recipient is not notified.
 
+See [Admin FAQ](#admin-faq) for endorsement archiving scenarios.
+
 <br />
 
 ## Auto-Archiving
 
-Certification reports are automatically archived and replaced if a new report of the same type is initiated by the provider.
+Certification endorsements are automatically archived and replaced if a new endorsement of the same type is initiated by the provider.
 
-Auto-archiving will occur for reports in **Passed**, **Notified**, **Canceled** or **Withdrawn** status.
+Auto-archiving will occur for endorsements in **Passed**, **Notified**, **Canceled** or **Withdrawn** status.
 
-Reports in a permanent status (**Certified**, **Revoked**) will remain alongside the new report. The old reports may be manually archived by the provider at any time.
+Endorsements in a permanent status (**Certified**, **Revoked**) will remain alongside the new endorsements. The old endorsements may be manually archived by the provider at any time.
 
 <br />
 
@@ -276,13 +279,14 @@ Enter a full name and email address, then select **Save**.
 
 <br />
 
-## Syncing Unique Organization Identifier (UOI) Organizations
+## Syncing Unique Organization Identifier (UOI) Records
+Currently, organization records are populated on the certification site by syncing from an internal spreadsheet.
 
- See the **[UOI Sync Process](https://github.com/RESOStandards/reso-certification/wiki/UOI-Sync-Process)**.
+See the **[UOI Sync Process](https://github.com/RESOStandards/reso-certification/wiki/UOI-Sync-Process)**.
 
 <br />
 
-## Admin FAQ
+# Admin FAQ
 
 ### Notifications
 
@@ -307,7 +311,7 @@ Help with viewing and approving the certification endorsements may be found **[h
 
 <br />
 
-### Archiving Reports
+### Archiving Endorsements
 
 **Why would an admin need to archive an endorsement?**<br />
 * A recipient organization is disabled in the UOI sheet as the result of a merger

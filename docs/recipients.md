@@ -1,13 +1,11 @@
-Table of Contents
-=================
-  * [Endorsements](#endorsements)
-  * [Notifications](#notifications)
-  * [Summary Report](#summary-report)
-    * [Data Elements View](#data-elements-view)
-    * [Performance View](#performance-view)
-  * [Reviewing and Approving Results](#reviewing-and-approving-results)
-    * [Data Dictionary Report](#data-dictionary-report)
-    * [Web API Report](#web-api-report)
+# Table of Contents
+
+**[Endorsements](#endorsements)**<br />
+**[Notifications](#notifications)**<br />
+**[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
+**[Reviewing and Approving Results](#reviewing-and-approving-results)** | [Data Dictionary Report](#data-dictionary-report) | [Web API Report](#web-api-report)
+
+<br />
 
 # Endorsements
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing results and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for the given endorsement.
@@ -16,7 +14,7 @@ At this time, there are two possible endorsements that can be issued to data pro
 
 See more information about viewing **[Endorsements](https://certification-help.reso.org/#endorsements)**.
 
-</BR>
+<br />
 
 # Notifications
 You will receive an email from certification@reso.org with a link to review and approve the results of your certification tests as submitted by your provider. The body of the email will contain a review link for any endorsements that were submitted for certification. 
@@ -27,16 +25,18 @@ Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) 
 
 ![image](https://user-images.githubusercontent.com/88680702/205775765-d25de46f-bb2b-4326-bf33-7224e817ded5.png)
 
-</BR>
+<br />
 
 # Summary Report
+[BACK TO TOP](#table-of-contents)
+
 The Certification Summary Report provides a high level overview of the data found during certification testing, displayed in charts. Server performance metrics for the data provider are also included.
 
 Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown menu in the top left corner.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
 
-</BR>
+<br />
 
 ## Data Elements View
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
@@ -52,43 +52,36 @@ Located below the charts, the **Resources** dropdown menu provides a data filter
 
 ![image](https://user-images.githubusercontent.com/88680702/164042681-63dbff92-321f-4321-ab7d-002e4924f1e7.png)
 
-</BR>
-
 ## Performance View
 The **Performance** view shows the data provider’s server metrics.
 
-</BR>
-
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
-
-</BR>
 
 ### Performance Metrics
 Performance is measured on:
 
-- **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
-
-- **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
-
-- **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
+* **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
+* **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
 
 **Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and industry average.
 
-</BR>
+<br />
 
 # Reviewing and Approving Results
-Your endorsements, including the count of Data Dictionary elements found during testing are shown below the charts.
+[BACK TO TOP](#table-of-contents)
 
-Select **View Details** next to the Data Dictionary and Web API Core Endorsements to review the reports.
+Your endorsements, including the count of Data Dictionary elements found during testing, are shown below the charts.
+
+Select **View Details** next to the Data Dictionary and Web API Core endorsements to review the reports.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/66621855-062e-47f4-b0e4-aeb9678725bc)
 
 You may return to the Certification Summary Report by selecting the blue button that contains the name of your organization.
 
 ![image](https://user-images.githubusercontent.com/88680702/205776355-e5f13a31-e99d-464c-86a6-76b2ca50b7f7.png)
-
 
 ## Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements as submitted by your provider for RESO certification. See more information about [**Exploring the Data Dictionary Report**](https://certification-help.reso.org/#exploring-the-data).
@@ -103,10 +96,8 @@ A **Contact RESO** button on this page allows you to send an email to certificat
 
 Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
 
-</BR>
-
 ## Web API Report
-The Web API Report allows you to view your high-level certification information, including your Organization Name and Vendor Name. If you believe that any of this information is incorrect, please contact RESO at certification@reso.org.
+The Web API Report allows you to view your high-level certification information, including your **Organization Name** and **Vendor Name**. If you believe that any of this information is incorrect, please contact RESO at certification@reso.org.
 
 ![image](https://user-images.githubusercontent.com/88680702/205768015-8cb372b1-9548-48d6-9c4f-ea4e2392874c.png)
 
@@ -118,4 +109,4 @@ A **Contact RESO** button on this page allows you to send an email to certificat
 
 Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
 
-</BR>
+<br />

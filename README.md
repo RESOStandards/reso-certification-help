@@ -52,9 +52,11 @@ Selecting the RESO logo at the top left also directs back the Endorsement view.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/290846fc-8c1e-4fd0-b793-4ef8439eb66e)
 
-<br />[BACK TO TOP](#table-of-contents)
+<br />
 
 # Summary Report
+[BACK TO TOP](#table-of-contents)
+
 Summary reports show information about the resources, fields and lookups that were found during certification testing.
 
 Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top of the page.
@@ -92,9 +94,11 @@ Performance is measured on:
 
 Please contact RESO at certification@reso.org if you have any questions.
 
-[BACK TO TOP](#table-of-contents)
+<br />
 
 # Data Dictionary Report
+[BACK TO TOP](#table-of-contents)
+
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.
 
 ![image](https://user-images.githubusercontent.com/88680702/205767370-b996480b-47e4-4c17-9b19-4cadc022e77b.png)
@@ -140,20 +144,23 @@ The lookup filter buttons above the lookup values allow filtering by All, RESO a
 
 ![image](https://user-images.githubusercontent.com/88680702/163908793-ed3f900f-eb2e-4324-bf30-6f7155eedac9.png)
 
-<br />[BACK TO TOP](#table-of-contents)
+<br />
 
 # Web API Report
+[BACK TO TOP](#table-of-contents)
+
 The Web API Core report displays the name of the organization that was tested as well as that of the data provider.
 
 The report also shows which version of OData the RESO Web API Server was using, the authentication type (OAuth 2 Bearer Token or Client Credentials) and the fields that were used for testing.
 
 ![image](https://user-images.githubusercontent.com/88680702/205768015-8cb372b1-9548-48d6-9c4f-ea4e2392874c.png)
 
-<br />[BACK TO TOP](#table-of-contents)
+<br />
 
 ---
 
 # Other Guides
+[BACK TO TOP](#table-of-contents)
 
 **[Providers](/docs/providers.md)**<br />
 Contains information for data providers. For example, MLS vendors who are going through the RESO Certification process with their customers.

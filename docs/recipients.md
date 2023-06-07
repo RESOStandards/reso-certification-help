@@ -106,8 +106,6 @@ Once you have read and agreed to RESO's Terms and Conditions, check the box to c
 </BR>
 
 ## Web API Report
-All MLS providers are required to obtain the Web API Core Endorsement prior to that of the Data Dictionary.
-
 The Web API Report allows you to view your high-level certification information, including your Organization Name and Vendor Name. If you believe that any of this information is incorrect, please contact RESO at certification@reso.org.
 
 ![image](https://user-images.githubusercontent.com/88680702/205768015-8cb372b1-9548-48d6-9c4f-ea4e2392874c.png)

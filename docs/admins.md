@@ -11,6 +11,7 @@ Table of Contents
     * [Sending Notifications](#sending-notifications)
     * [Notification Tracking](#notification-tracking)
   * [Canceling Certification](#canceling-certification)
+  * [Revoking Certification](#archiving-endorsements)
   * [Archiving Endorsements](#archiving-endorsements)
     * [Auto-Archiving](#auto-archiving)
   * [My Account](#my-account)
@@ -171,6 +172,14 @@ A confirmation of the cancelation is sent to the provider. The recipient is not 
 
 The endorsement will now show as Canceled and may be archived (see below).
 
+See [Admin FAQ](#admin-faq) for scenarios around canceling certification.
+
+# **Revoking Certification**
+
+RESO staff may revoke certification under certain conditions and should consult with Josh Darnell prior to doing so.
+
+See [Admin FAQ](#admin-faq) for scenarios around revoking certification.
+
 <br />
 
 # **Archiving Endorsements**
@@ -185,7 +194,7 @@ Select the status button on the endorsement to be archived and select **Archive*
 
 A notification of the archive action will be sent to the provider. The recipient is not notified.
 
-See [Admin FAQ](#admin-faq) for endorsement archiving scenarios.
+See [Admin FAQ](#admin-faq) for scenarios around archiving endorsements.
 
 <br />
 

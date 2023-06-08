@@ -6,7 +6,7 @@
 **[Web API Report](#web-api-report)**<br />
 **[Notifications](#notifications)** | [Sending Notifications](#sending-notifications) | [Notification Tracking](#notification-tracking)<br />
 **[Canceling Certification](#canceling-certification)**<br />
-**[Revoking Certification](#archiving-endorsements)**<br />
+**[Revoking Certification](#revoking-certification)**<br />
 **[Archiving Endorsements](#archiving-endorsements)** | [Auto-Archiving](#auto-archiving)<br />
 **[My Account](#my-account)** | [Creating a Token](#creating-a-token)<br />
 **[Admin Actions](#admin-actions)** | [Creating an Admin User](#creating-an-admin-user) | [Creating a Provider User](#creating-a-provider-user) | [Creating a Normal User](#creating-a-normal-user) | [UOI Syncing](#uoi-syncing)<br />
@@ -184,6 +184,8 @@ Endorsements in a permanent status (**Certified**, **Revoked**) will remain alon
 <br />
 
 # My Account
+[BACK TO TOP](#table-of-contents)
+
 Selecting **My Account** at the top of the page displays user information and the ability to copy or create a new token hash.
 
 ## Creating a Token

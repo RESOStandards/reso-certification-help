@@ -152,7 +152,11 @@ The endorsement will now show as **Canceled** and may be archived (see below).
 
 See **[Admin FAQ](#admin-faq)** for scenarios around canceling certification.
 
+<br />
+
 # **Revoking Certification**
+[BACK TO TOP](#table-of-contents)
+
 RESO staff may revoke certifications under certain conditions and should consult with Josh Darnell prior to doing so.
 
 See **[Admin FAQ](#admin-faq)** for scenarios around revoking certification.

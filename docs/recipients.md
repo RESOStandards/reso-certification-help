@@ -57,7 +57,7 @@ The **Performance** view shows the data provider’s server metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
-### Performance Metrics
+## Performance Metrics
 Performance is measured on:
 
 * **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).

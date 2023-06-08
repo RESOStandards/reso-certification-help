@@ -23,15 +23,15 @@ There are several sorting and filtering options at the top of the endorsements p
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/580cc375-7282-4280-8437-5bb803889c7c)
 
-### Organization Name or Identifier Search
+## Organization Name or Identifier Search
 Filter by typing in an organization name or Unique Organization Identifier (UOI).
 
 ![image](https://user-images.githubusercontent.com/88680702/163901524-6390ecc4-8c79-4485-b783-84d717d86d21.png)
 
-### Filtering by Endorsement Type
+## Filtering by Endorsement Type
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ac8af5f-aa12-4bfa-b2ee-f798c2b06b1c)
 
-### Sorting
+## Sorting
 Sort by organization name alphabetically, ascending or descending.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9b207c00-c936-4029-8b23-b41a2c0ff1b9)
@@ -82,7 +82,7 @@ The **Performance** view shows the data provider’s server metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
-### Performance Metrics
+## Performance Metrics
 Performance is measured on:
 * **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
 * **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
@@ -156,8 +156,6 @@ The report also shows which version of OData the RESO Web API Server was using, 
 ![image](https://user-images.githubusercontent.com/88680702/205768015-8cb372b1-9548-48d6-9c4f-ea4e2392874c.png)
 
 <br />
-
----
 
 # Other Guides
 [BACK TO TOP](#table-of-contents)

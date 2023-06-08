@@ -53,7 +53,7 @@ The **Performance** view shows the server performance metrics for the provider.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
 
-### Performance Metrics
+## Performance Metrics
 Performance is measured on:
 
 * **Payload Size** - how much data was retrieved when sampling the selected resource. “All” represents the average across all resources found, measured in megabytes (MB).
@@ -267,7 +267,7 @@ See the **[UOI Sync Process](https://github.com/RESOStandards/reso-certification
 # Admin FAQ
 [BACK TO TOP](#table-of-contents)
 
-### Notifications
+## Notifications
 **How many notifications can a provider send to their recipient (customer)?**<br />
 Two notifications, partly due to spam concerns.
 
@@ -287,7 +287,7 @@ The most recent notification email was sent to [recipient email address] on [dat
 
 Help with viewing and approving the certification endorsements may be found **[here](https://certification-help.reso.org/docs/recipients.html)**.
 
-### Archiving Endorsements
+## Archiving Endorsements
 **Why would an admin need to archive an endorsement?**<br />
 * A recipient organization is disabled in the UOI sheet as the result of a merger
 * A recipient organization is disabled as a result of nonpayment
@@ -296,20 +296,20 @@ Help with viewing and approving the certification endorsements may be found **[h
 **What statuses may be archived by an admin?**<br />
 All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn.
 
-### Canceling Certification
+## Canceling Certification
 **Can RESO staff cancel a certification at the request of a recipient?**<br />
 Recipients should be directed to their provider for requests regarding cancelation.
 
 **What if a recipient asks why their certification was canceled?**<br />
 Recipients should be directed to their provider for the reason.
 
-### Revoking Certification
+## Revoking Certification
 **Why would an admin revoke a certification?**<br />
 A certified provider or recipient may be found to be out of compliance in practice. The provider should be contacted and informed of the compliance issue.
 
 **Can a provider revoke certification?**<br />
 No, **Revoke** is a RESO admin-only function.
 
-### Recipient Organization Mergers
+## Recipient Organization Mergers
 **Do certified organizations that merge to create a new organization need to retest?**<br />
 Yes, the new organization will need to retest regardless of the statuses of the organizations that comprise it.

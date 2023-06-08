@@ -1,11 +1,12 @@
-Table of Contents
-=================
-  * [Endorsements](#endorsements)
-  * [Summary Report](#summary-report)
-  * [Data Dictionary Report](#data-dictionary-report)
-  * [My Account](#my-account)
-    * [Creating a Token](#creating-a-token)
-  
+# Table of Contents
+
+**[Endorsements](#endorsements)**<br />
+**[Summary Report](#summary-report)**<br />
+**[Data Dictionary Report](#data-dictionary-report)**<br />
+**[My Account](#my-account)** | [Creating a Token](#creating-a-token)
+
+<br />
+
 # Endorsements
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports available.
 
@@ -21,16 +22,15 @@ See more information about the **[Summary Report](https://certification-help.res
 # Data Dictionary Report
 The Data Dictionary Report allows you to explore the data elements of the organization being viewed.
 
-See more information about **[Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data)**. 
+See more information about **[Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data)**.
 
 # My Account
 Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
 ## Creating a Token
-
 A token is needed in order to access the certification data via Web API.
 
-Log in to **[certification.reso.org](https://certification.reso.org)** with your Username and Password.
+Log in to **[certification.reso.org](https://certification.reso.org)** with your username and password.
 
 Select **My Account** from the top toolbar.
 

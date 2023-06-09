@@ -32,6 +32,8 @@ Each report contains two views, **Data Elements** and **Performance**, accessed 
 
 ![image](https://user-images.githubusercontent.com/88680702/164076696-5727c0f5-5abb-486e-a3e6-63a161d7dae6.png) 
 
+<br />
+
 ## Data Elements View
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
@@ -42,9 +44,13 @@ The **Availability Threshold** slider sets minimum data availability that each f
 
 ![image](https://user-images.githubusercontent.com/88680702/164076762-2f6df7e0-d1a5-45b3-b33f-d7c9ca1561a0.png)
 
+<br />
+
 The **Resources** dropdown beneath the chart filters the data to the specific resource selected.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
+
+<br />
 
 ## Performance View
 The **Performance** view shows the server performance metrics for the provider.
@@ -52,6 +58,8 @@ The **Performance** view shows the server performance metrics for the provider.
 **Note:** Providers may opt out of displaying server metrics publicly when sending the notification to the recipient. If opted out, the performance metrics will be visible only to the provider, recipient and RESO admin staff.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
+
+<br />
 
 ## Performance Metrics
 Performance is measured on:
@@ -84,6 +92,8 @@ For example, select **View Details** at the right of the Web API Core 2.0.0 Endo
 
 ![image](https://user-images.githubusercontent.com/88680702/205773188-96dd821d-f123-46ed-82a5-f019dddcef6c.png)
 
+<br />
+
 The Web API Core report displays the name of the organization that was tested and the name of the data provider.
 
 The report shows which version of OData the RESO Web API Server was using and the authentication type, with the current options being OAuth 2 Bearer Token or Client Credentials. The fields that were used for testing and the status button are also shown.
@@ -105,26 +115,38 @@ When providers select **Passed** and then **Notify Recipient** for either the Da
 
 **IMPORTANT: Providers should not send a notification to any other party except the organization they are certifying. Any recipient of the email would have the ability to approve the results.**
 
+<br />
+
 ## Sending Notifications
 Providers may select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
 
 ![image](https://user-images.githubusercontent.com/88680702/237737630-328de65f-5682-4681-9765-c7978b548e0b.png) 
 
+<br />
+
 They then select whether to **Accept** or **Opt-Out** of having the performance metrics displayed publicly and select **Next**.
 
-![image](https://user-images.githubusercontent.com/88680702/164259356-26f1c86e-b75b-461b-9c5e-9f20536efb4d.png) 
+![image](https://user-images.githubusercontent.com/88680702/164259356-26f1c86e-b75b-461b-9c5e-9f20536efb4d.png)
+
+<br />
 
 The email entry screen confirms which endorsements will be included in the email. Providers enter the recipient's email address and select **Send Now**.
 
 ![image](https://user-images.githubusercontent.com/88680702/205774052-6488827a-52cb-4cd2-a89b-82860f1baae3.png)
 
+<br />
+
 An email with a link to the results will be sent to the recipient for review and approval. The button will then change from **Passed** to **Notified**.
 
 ![image](https://user-images.githubusercontent.com/88680702/237753878-3ac6e616-aa59-434e-bd0a-35e454dfc50b.png) 
 
+<br />
+
 Once the customer has approved the results, the button will change to **Certified**.
 
 ![image](https://user-images.githubusercontent.com/88680702/237754344-7556d16a-74eb-4ffd-a190-af51012a89be.png) 
+
+<br />
 
 ## Notification Tracking
 Providers are allowed to send a maximum of two notifications for each recipient.
@@ -132,6 +154,8 @@ Providers are allowed to send a maximum of two notifications for each recipient.
 If a notification has previously been sent, the notification count and recipient email address will appear when the **Notified** button is selected.
 
 ![image](https://user-images.githubusercontent.com/88680702/237749774-aa02720f-db1b-4607-87fb-f528880c5c3f.png) 
+
+<br />
 
 See **[Admin FAQ](#admin-faq)** for troubleshooting notification issues.
 
@@ -145,6 +169,8 @@ Providers may cancel the certification process for endorsements in **Passed** or
 Select the **Passed** or **Notified** button, then select **Cancel Certification**.
 
 ![image](https://user-images.githubusercontent.com/88680702/237750117-1fda4789-0b15-45a1-b391-8b4d05c80cf0.png)
+
+<br />
 
 A confirmation of the cancelation is sent to the provider. The recipient is not notified of a cancel action.
 
@@ -178,6 +204,8 @@ A notification of the archive action will be sent to the provider. The recipient
 
 See **[Admin FAQ](#admin-faq)** for scenarios around archiving endorsements.
 
+<br />
+
 ## Auto-Archiving
 Certification endorsements are automatically archived and replaced if a new endorsement of the same type is initiated by the provider.
 
@@ -192,6 +220,8 @@ Endorsements in a permanent status (**Certified**, **Revoked**) will remain alon
 
 Selecting **My Account** at the top of the page displays user information and the ability to copy or create a new token hash.
 
+<br />
+
 ## Creating a Token
 Providers may create a token in order to access the certification data via Web API with the steps below.
 
@@ -203,9 +233,13 @@ Select **My Account** from the top toolbar.
 
 ![image](https://user-images.githubusercontent.com/88680702/164082840-d13c0210-d33a-41b8-b49c-3a91801babfd.png)
 
+<br />
+
 Select the **Create Token** button.
 
 ![image](https://user-images.githubusercontent.com/88680702/164082516-7fcbef75-49d3-49c8-8bd3-1158535a4122.png)
+
+<br />
 
 The token will then be displayed along with options to copy it to the clipboard or to delete it (in the case of multiple tokens).
 
@@ -216,6 +250,8 @@ The token will then be displayed along with options to copy it to the clipboard 
 # Admin Actions
 [BACK TO TOP](#table-of-contents)
 
+<br />
+
 ## Creating an Admin User
 Admins may create new admin users by selecting the **Admin Actions** button from the top toolbar.
 
@@ -223,16 +259,22 @@ Select the **Create User** button under the Admins section.
 
 ![img](https://lh4.googleusercontent.com/Z2uI46adcjJmOZZfs0yFr26dHsysRihOxkjXt7aFbTJ1tT3Ozo18ulpEMVzPI1oMmE4IOamob29WTwpn6sJJKQMOwZml-f3963dZYjl_dWXLBidv9pmapUO6yw_3V-1jpouFjmol0o2x0gF_OzUvQFA)
 
+<br />
+
 Create a username and password.
 
 Enter a full name and email address, then select **Save**.
 
 ![img](https://lh3.googleusercontent.com/6hwmbf09CsIoL7iU7irmZrRI-lOpSJsIOUVXyVajd3Z8lCyA1wT9DPbzJIWKi-kJaD2c1vrniSaN2nhlPO6T8HwnRMASLCipNo-fCpwt5N9Y-KgZEKrylVPix_tpFPr88m835ypelbDg-nqdu7cCStE)
 
+<br />
+
 ## Creating a Provider User
 Select **Create User** under the Users section.
 
 ![img](https://lh6.googleusercontent.com/_t4LCDefXBF3PFj0uLnQPTWEIg8fyLYe7RFlrQbefNLqsMSlqi2YjH3sP4HOwvNEt1uUGmFYfJBpGzdJ_y0TXe_AaLi_gKUth4EoV8IbB2hZGdclCpXLodZFRJdSrzQAMdtTzJqfgOkmHoqTnsmcsEk)
+
+<br />
 
 Select the **Provider User** radio button.
 
@@ -244,10 +286,14 @@ Enter a full name and email address, then select **Save**.
 
 ![img](https://lh4.googleusercontent.com/sSI8WTGLep82QSG7v3JfQ0_C1to6woNSBrzwicWNrsL3D3l1CzDkmuQq1UhoNlcEAtoe46jT3C9_bJ3lYVc3TLT-Sh-KPlSieW_PYWOEovNYqry0Hjztx77kjKGCiWjPeta_VFyJlwvKSEXOnSETjRU)
 
+<br />
+
 ## Creating a Normal User
 Select **Create User** under the Users section.
 
 ![img](https://lh4.googleusercontent.com/aI_MNeZ6MK-c4d9q-RV0t1MdTMhqcPS5zKLToM6VqYlfrQkaKmkyLQdEeaYmXrO3h8_TS6csZAvIKEzMGcn5vJOACe6ta4BDzTkRhHhFSVkdi555jhJmZZv7JhrzMpqDgH3ON_H4OAEYeJaUF-xNqrw)
+
+<br />
 
 Select the **Normal User** radio button.
 
@@ -256,6 +302,8 @@ Create a username and password.
 Enter a full name and email address, then select **Save**.
 
 ![img](https://lh5.googleusercontent.com/l1aRbyk4yRlaE63Iqp8lcFrZbfqhcYVizs-IncfiJ-bvUX64CIvenzXCbVBbLV_oZT6CPmtii3UOKEn_naSZi8QQzjDXZoKyRrV5sKQpGtPcqoXHnnGpjl1RxOkrUJNaSUeOngy9NjntegjpNdHdvok)
+
+<br />
 
 ## UOI Syncing
 Currently, organization records are populated on the certification site by syncing from an internal spreadsheet containing Unique Organization Identifier (UOI) details.
@@ -267,6 +315,8 @@ See the **[UOI Sync Process](https://github.com/RESOStandards/reso-certification
 # Admin FAQ
 [BACK TO TOP](#table-of-contents)
 
+<br />
+
 ## Notifications
 **How many notifications can a provider send to their recipient (customer)?**<br />
 Two notifications, partly due to spam concerns.
@@ -276,6 +326,8 @@ Providers should be encouraged to reach out to their customers directly through 
 
 **What if the provider reports that their customer cannot locate the notification emails?**<br />
 Confirm the recipient's email address with the recipient, copy the "magic link" used to review results from the original notification emails and send it directly to the recipient with instructions that the link is sensitive and not to be shared. Here is a sample email:
+
+<br />
 
 Greetings,
 
@@ -287,6 +339,8 @@ The most recent notification email was sent to [recipient email address] on [dat
 
 Help with viewing and approving the certification endorsements may be found **[here](https://certification-help.reso.org/docs/recipients.html)**.
 
+<br />
+
 ## Archiving Endorsements
 **Why would an admin need to archive an endorsement?**<br />
 * A recipient organization is disabled in the UOI sheet as the result of a merger
@@ -296,6 +350,8 @@ Help with viewing and approving the certification endorsements may be found **[h
 **What statuses may be archived by an admin?**<br />
 All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn.
 
+<br />
+
 ## Canceling Certification
 **Can RESO staff cancel a certification at the request of a recipient?**<br />
 Recipients should be directed to their provider for requests regarding cancelation.
@@ -303,12 +359,16 @@ Recipients should be directed to their provider for requests regarding cancelati
 **What if a recipient asks why their certification was canceled?**<br />
 Recipients should be directed to their provider for the reason.
 
+<br />
+
 ## Revoking Certification
 **Why would an admin revoke a certification?**<br />
 A certified provider or recipient may be found to be out of compliance in practice. The provider should be contacted and informed of the compliance issue.
 
 **Can a provider revoke certification?**<br />
 No, **Revoke** is a RESO admin-only function.
+
+<br />
 
 ## Recipient Organization Mergers
 **Do certified organizations that merge to create a new organization need to retest?**<br />

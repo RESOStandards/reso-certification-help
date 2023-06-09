@@ -8,28 +8,37 @@
 **[Other Guides](#other-guides)**
 
 # Certification Endorsements
-
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
 
 Endorsements are shown under their respective organizations at **[certification.reso.org](http://certification.reso.org)**.
+
+<br />
 
 # Endorsements Page
 The **Endorsements** page includes the data elements (e.g., Data Dictionary, Web API), endorsement version, status and status date for each certified organization.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/108787f7-69a2-41c7-a454-384a347c9ec0)
 
+<br />
+
 ## Filtering and Sorting
 There are several sorting and filtering options at the top of the endorsements page.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/580cc375-7282-4280-8437-5bb803889c7c)
+
+<br />
 
 ## Organization Name or Identifier Search
 Filter by typing in an organization name or Unique Organization Identifier (UOI).
 
 ![image](https://user-images.githubusercontent.com/88680702/163901524-6390ecc4-8c79-4485-b783-84d717d86d21.png)
 
+<br />
+
 ## Filtering by Endorsement Type
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ac8af5f-aa12-4bfa-b2ee-f798c2b06b1c)
+
+<br />
 
 ## Sorting
 Sort by organization name alphabetically, ascending or descending.
@@ -48,6 +57,8 @@ The endorsements page may also be accessed by selecting the **Endorsements** opt
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3e4058c6-84a1-44c2-b889-5554799ed71e)
 
+<br />
+
 Selecting the RESO logo at the top left also directs back the Endorsement view.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/290846fc-8c1e-4fd0-b793-4ef8439eb66e)
@@ -63,6 +74,8 @@ Each report contains two views, **Data Elements** and **Performance**, accessed 
 
 ![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
 
+<br />
+
 ## Data Elements View
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
@@ -73,14 +86,20 @@ Use the **Availability Threshold** slider to set a minimum data availability tha
 
 ![image](https://user-images.githubusercontent.com/88680702/163904566-ed0fdc2b-85a4-49e1-b609-66ab3b5cae02.png)
 
+<br />
+
 Located below the charts, the **Resources** dropdown menu provides a data filter to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups. Elements relating to other resources (e.g., Member, Office, etc.) will be omitted.
 
 ![image](https://user-images.githubusercontent.com/88680702/163904594-8453d153-a39f-4591-8742-e62d322aed88.png)
+
+<br />
 
 ## Performance View
 The **Performance** view shows the data provider’s server metrics.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
+
+<br />
 
 ## Performance Metrics
 Performance is measured on:
@@ -103,6 +122,8 @@ The Data Dictionary Report allows you to explore the data elements of the organi
 
 ![image](https://user-images.githubusercontent.com/88680702/205767370-b996480b-47e4-4c17-9b19-4cadc022e77b.png)
 
+<br />
+
 ## Exploring the Data
 
 Your guide to RESO certification terms:
@@ -117,6 +138,8 @@ The top right section of the report displays the overall counts of data elements
 
 ![image](https://user-images.githubusercontent.com/88680702/205769231-afe2a970-9b95-42ea-8289-2a7ce47fcb50.png)
 
+<br />
+
 The Data Elements buttons allow filtering by the following data sets:
 
 **All** - The combination of RESO + Local<br />
@@ -126,9 +149,15 @@ The Data Elements buttons allow filtering by the following data sets:
 
 ![image](https://user-images.githubusercontent.com/88680702/163905578-1b161c85-b916-43f6-9c22-6bed4a76036e.png)
 
+<br />
+
 Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are also shown.
 
+<br />
+
 ![image](https://user-images.githubusercontent.com/88680702/205777048-95fe40ec-277a-4bd8-b508-8c3efcbb803b.png)
+
+<br />
 
 The text filter box allows you to search for fields across all resources.
 
@@ -136,9 +165,13 @@ The text filter box allows you to search for fields across all resources.
 
 ![image](https://user-images.githubusercontent.com/88680702/163905695-2f044f47-deaf-4d57-bb10-b9fe886c8b2f.png)
 
+<br />
+
 Selecting a field displays the lookups (if applicable), OData information and a link to its **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17)** entry.
 
 ![image](https://user-images.githubusercontent.com/88680702/163905793-b28b4f5e-7014-4b37-a3f0-f81a1db0b71f.png)
+
+<br />
 
 The lookup filter buttons above the lookup values allow filtering by All, RESO and Local. RESO Data Dictionary lookup values are also linked to the Data Dictionary Wiki.
 

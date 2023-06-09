@@ -27,6 +27,8 @@ Each report contains two views, **Data Elements** and **Performance**, accessed 
 
 ![image](https://user-images.githubusercontent.com/88680702/164076696-5727c0f5-5abb-486e-a3e6-63a161d7dae6.png)
 
+<br />
+
 ## Data Elements View
 The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
 
@@ -37,9 +39,13 @@ Use the **Availability Threshold** slider to set a minimum data availability tha
 
 ![image](https://user-images.githubusercontent.com/88680702/164076762-2f6df7e0-d1a5-45b3-b33f-d7c9ca1561a0.png)
 
+<br />
+
 Located below the charts, the **Resources** dropdown menu provides a data filter to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups. Elements relating to other resources (e.g., Member, Office, etc.) will be omitted.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
+
+<br />
 
 ## Performance View
 The **Performance** view shows your server performance metrics.
@@ -47,6 +53,8 @@ The **Performance** view shows your server performance metrics.
 **Note:** You may opt out of displaying your server metrics publicly when sending the notification to the customer. If opted out, the performance metrics will be visible only to the customer and RESO admin staff.
 
 ![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
+
+<br />
 
 ## Performance Metrics
 Performance is measured on:
@@ -79,6 +87,8 @@ Once the endorsement has been obtained, select **View Details** at the right of 
 
 ![image](https://user-images.githubusercontent.com/88680702/205773188-96dd821d-f123-46ed-82a5-f019dddcef6c.png)
 
+<br />
+
 The Web API Core report displays the name of the organization that was tested as well as that of the data provider. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
 The report shows which version of OData the RESO Web API server was using and the authentication type, with the current options being OAuth 2 Bearer Token or Client Credentials. The fields that were used for testing and the status button are also shown.
@@ -100,26 +110,38 @@ Selecting **Passed** and then **Notify Recipient** for either the Data Dictionar
 
 **IMPORTANT: The email that includes a link to the results(s) should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 
+<br />
+
 ## Sending Notifications
 Select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/328de65f-5682-4681-9765-c7978b548e0b)
 
+<br />
+
 Select whether to **Accept** or **Opt-Out** of having the performance metrics displayed publicly and select **Next**.
 
 ![image](https://user-images.githubusercontent.com/88680702/164259356-26f1c86e-b75b-461b-9c5e-9f20536efb4d.png)
+
+<br />
 
 The email entry screen displays which results will be included in the email. Enter the email address for your customer and select **Send Now**.
 
 ![image](https://user-images.githubusercontent.com/88680702/205774052-6488827a-52cb-4cd2-a89b-82860f1baae3.png)
 
+<br />
+
 An email with a link to the results will be sent to your customer for review and approval. The button will then change from **Passed** to **Notified**.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ac6e616-aa59-434e-bd0a-35e454dfc50b)
 
+<br />
+
 Once the customer has approved the results, the button will change to **Certified**.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/7556d16a-74eb-4ffd-a190-af51012a89be)
+
+<br />
 
 ## Notification Tracking
 Providers are allowed to send a maximum of two notifications for each recipient. 
@@ -139,6 +161,8 @@ Select the **Passed** or **Notified** button and select **Cancel Certification**
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/1fda4789-0b15-45a1-b391-8b4d05c80cf0)
 
+<br />
+
 A confirmation of the cancelation is sent to the provider. The recipient is not notified of a cancel action.
 
 The endorsement will now show as **Canceled** and may be archived (see below).
@@ -156,7 +180,11 @@ Select the status button on the endorsement you would like to archive and select
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/e989b730-366a-4d0a-80ac-cc1419519ccf)
 
+<br />
+
 A notification of the archive action will be sent to the provider. The customer is not notified.
+
+<br />
 
 ## Auto-Archiving
 Certification endorsements are automatically archived and replaced if a new endorsement of the same type is initiated by the provider.
@@ -172,6 +200,8 @@ Endorsements in a permanent status (**Certified**, **Revoked**) will remain alon
 
 Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of this information is incorrect, please contact RESO at certification@reso.org.
 
+<br />
+
 ## Creating a Token
 A token is needed in order to access the certification data via Web API.
 
@@ -183,12 +213,18 @@ Select **My Account** from the top toolbar.
 
 ![image](https://user-images.githubusercontent.com/88680702/164082840-d13c0210-d33a-41b8-b49c-3a91801babfd.png)
 
+<br />
+
 Select the **Create Token** button.
 
 ![image](https://user-images.githubusercontent.com/88680702/164082516-7fcbef75-49d3-49c8-8bd3-1158535a4122.png)
 
+<br />
+
 The token will then be displayed along with options to copy it to the clipboard or to delete it (in the case of multiple tokens).
 
 ![image](https://user-images.githubusercontent.com/88680702/164089795-39ccf57c-b6d6-405f-be4c-0b19cb7a22c0.png)
+
+<br />
 
 You may contact certification@reso.org for assistance.

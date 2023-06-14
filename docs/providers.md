@@ -42,6 +42,10 @@ Use the **Availability Threshold** slider to set a minimum data availability tha
 
 <br />
 
+**Note:** If the **Available** counts show as zero, the certification was likely issued before the data validation component of testing was required, which began in August 2022. In this case, a new test may be submitted and the original certification archived. See **[Archiving Endorsements](#archiving-endorsement)** for more information.
+
+<br />
+
 Located below the charts, the **Resources** dropdown menu provides a data filter to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups. Elements relating to other resources (e.g., Member, Office, etc.) will be omitted.
 
 ![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
@@ -248,46 +252,49 @@ You may contact certification@reso.org for assistance.
 
 ## Notifications
 
-**How many review notifications can a provider send to their customer?**
+**How many review notifications can a provider send to their customer?**<br />
 Providers may send a total of two notifications. After the limit has been reached, the **Notify Recipient** option no longer appears and the notification count displays 2, along with the email address to which they were sent.
 
-![image-20230613124612760](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230613124612760.png) 
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/2f73d2f2-2791-43e3-99c8-0ea5c5f4139e)
 
-**What if a provider has used their maximum number of two (2) notifications?**
-Providers are encouraged to reach out to their customers directly through other methods. It may be useful to inform them of the source email address, certification@reso.org and time/date sent, as shown below. 
+<br />
 
-![image-20230613125451844](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230613125451844.png) 
+**What if a provider has used their maximum number of two (2) notifications?**<br />
+Providers are encouraged to reach out to their customers directly through other methods. It may be useful to inform them of the source email address, certification@reso.org, and time/date sent, as shown below. 
 
-**What if a customer cannot locate the notification emails?**
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9815724d-69b1-4f90-8681-b0c58ce06611)
+
+<br />
+
+**What if a customer cannot locate the notification emails?**<br />
 RESO staff may provide the original notification email directly to the customer if needed. Requests can be made to certification@reso.org.
 
 <br />
 
 ## Canceling Certification
 
-**Why would a provider cancel a certification in-process?**
-
+**Why would a provider cancel a certification in-process?**<br />
 - The organization being certified is no longer a customer or no longer exists. For example, as a result of a merger with other organization(s).
-- A new certification process will be initiated and the existing results are no longer needed.
+- A new certification process is being initiated and the existing results are out-of-date or otherwise not needed.
 
-**What statuses may be canceled by an provider?**
-All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn.
+**What statuses may be canceled by an provider?**<br />
+Endorsements in **Passed** and **Notified** status may be canceled.
 
 <br />
 
 ## Archiving Endorsements
 
-**Why would a provider archive an endorsement?**
+**Why would a provider archive an endorsement?**<br />
+- The endorsement is for an organization that is no longer a customer or no longer exists. For example, as a result of a merger with other organization(s).
+- A more up-to-date endorsement is in-progress.
+- A more up-to-date endorsement has been issued.
 
-- There is a certification, canceled certification or certification in-process for an organization that is no longer a customer.
-- There is a certification, canceled certification or certification in-process for an organization that no longer exists. For example, as a result of a merger with other organization(s).
-
-**What statuses may be archived by an provider?**
-Passed and Notified Status
+**What statuses may be archived by an provider?**<br />
+Endorsements in **Passed**, **Notified**, **Certified**, **Canceled**, **Revoked** or **Withdrawn** status may be archived.
 
 <br />
 
 ## Revoked Certification
 
-**Why would an endorsement show as revoked?**
+**Why would an endorsement show as revoked?**<br />
 Questions about revoked certifications should be directed to certification@reso.org.

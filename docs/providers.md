@@ -8,6 +8,7 @@
 **[Canceling Certification](#canceling-certification)**<br />
 **[Archiving Endorsements](#archiving-endorsements)** | [Auto-Archiving](#auto-archiving)<br />
 **[My Account](#my-account)** | [Creating a Token](#creating-a-token)<br />
+**[Provider FAQ](#provider-faq)**
 
 <br />
 
@@ -152,6 +153,10 @@ If a notification has previously been sent, the notification count and recipient
 
 <br />
 
+See **[Provider FAQ](#provider-faq)** for troubleshooting notification issues.
+
+<br />
+
 # **Canceling Certification**
 [BACK TO TOP](#table-of-contents)
 
@@ -169,6 +174,10 @@ The endorsement will now show as **Canceled** and may be archived (see below).
 
 <br />
 
+See **[Provider FAQ](#provider-faq)** for scenarios around canceling certification.
+
+<br />
+
 # **Archiving Endorsements**
 [BACK TO TOP](#table-of-contents)
 
@@ -183,6 +192,10 @@ Select the status button on the endorsement you would like to archive and select
 <br />
 
 A notification of the archive action will be sent to the provider. The customer is not notified.
+
+<br />
+
+See **[Provider FAQ](#provider-faq)** for scenarios around archiving endorsements.
 
 <br />
 
@@ -228,3 +241,53 @@ The token will then be displayed along with options to copy it to the clipboard 
 <br />
 
 You may contact certification@reso.org for assistance.
+
+# Provider FAQ
+
+<br />
+
+## Notifications
+
+**How many review notifications can a provider send to their customer?**
+Providers may send a total of two notifications. After the limit has been reached, the **Notify Recipient** option no longer appears and the notification count displays 2, along with the email address to which they were sent.
+
+![image-20230613124612760](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230613124612760.png) 
+
+**What if a provider has used their maximum number of two (2) notifications?**
+Providers are encouraged to reach out to their customers directly through other methods. It may be useful to inform them of the source email address, certification@reso.org and time/date sent, as shown below. 
+
+![image-20230613125451844](C:\Users\jdarr\AppData\Roaming\Typora\typora-user-images\image-20230613125451844.png) 
+
+**What if a customer cannot locate the notification emails?**
+RESO staff may provide the original notification email directly to the customer if needed. Requests can be made to certification@reso.org.
+
+<br />
+
+## Canceling Certification
+
+**Why would a provider cancel a certification in-process?**
+
+- The organization being certified is no longer a customer or no longer exists. For example, as a result of a merger with other organization(s).
+- A new certification process will be initiated and the existing results are no longer needed.
+
+**What statuses may be canceled by an provider?**
+All Statuses: Passed, Notified, Certified, Canceled, Revoked or Withdrawn.
+
+<br />
+
+## Archiving Endorsements
+
+**Why would a provider archive an endorsement?**
+
+- There is a certification, canceled certification or certification in-process for an organization that is no longer a customer.
+- There is a certification, canceled certification or certification in-process for an organization that no longer exists. For example, as a result of a merger with other organization(s).
+
+**What statuses may be archived by an provider?**
+Passed and Notified Status
+
+<br />
+
+## Revoked Certification
+
+**Why would an endorsement show as revoked?**
+Questions about revoked certifications should be directed to certification@reso.org.

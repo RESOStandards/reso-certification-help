@@ -42,7 +42,7 @@ Use the **Availability Threshold** slider to set a minimum data availability tha
 
 <br />
 
-**Note:** If the **Available** counts show as zero, the certification was likely issued before the data validation component of testing was required, which began in August 2022. In this case, a new test may be submitted and the original certification archived. See **[Archiving Endorsements](#archiving-endorsement)** for more information.
+**Note:** The **Available** counts will show as zero if the certification test was run before the data validation component was required (August 2022). In this case, a new test may be submitted and the original certification may be **[Archived](#archiving-endorsements)**.
 
 <br />
 

@@ -174,7 +174,7 @@ Select the **Passed** or **Notified** button and select **Cancel Certification**
 
 A confirmation of the cancelation is sent to the provider. The recipient is not notified of a cancel action.
 
-The endorsement will now show as **Canceled** and may be archived (see below).
+The endorsement will now show as **Canceled** and may be archived (see [Archiving Endorsements](#archiving-endorsements)).
 
 <br />
 
@@ -253,43 +253,51 @@ You may contact certification@reso.org for assistance.
 ## Notifications
 
 **How many review notifications can a provider send to their customer?**<br />
-Providers may send a total of two notifications. After the limit has been reached, the **Notify Recipient** option no longer appears and the notification count displays 2, along with the email address to which they were sent.
+
+- Providers may send a total of two notifications. After the limit has been reached, the **Notify Recipient** option no longer appears and the notification count displays 2, along with the email address to which they were sent.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/2f73d2f2-2791-43e3-99c8-0ea5c5f4139e)
 
 <br />
 
 **What if a provider has used their maximum number of two (2) notifications?**<br />
-Providers are encouraged to reach out to their customers directly through other methods. It may be useful to inform them of the source email address, certification@reso.org, and time/date sent, as shown below. 
+
+- Providers are encouraged to reach out to their customers directly through other methods. It may be useful to inform them of the source email address, certification@reso.org, and time/date sent, as shown below. 
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9815724d-69b1-4f90-8681-b0c58ce06611)
 
 <br />
 
+
 **What if a customer cannot locate the notification emails?**<br />
-RESO staff may provide the original notification email directly to the customer if needed. Requests can be made to certification@reso.org.
+
+- RESO staff may provide the original notification email directly to the customer if needed. Requests can be made to certification@reso.org.
 
 <br />
 
 ## Canceling Certification
 
 **Why would a provider cancel a certification in-process?**<br />
+
 - The organization being certified is no longer a customer or no longer exists. For example, as a result of a merger with other organization(s).
 - A new certification process is being initiated and the existing results are out-of-date or otherwise not needed.
 
 **What statuses may be canceled by an provider?**<br />
-Endorsements in **Passed** and **Notified** status may be canceled.
+
+- Endorsements in **Passed** and **Notified** status may be canceled.
 
 <br />
 
 ## Archiving Endorsements
 
 **Why would a provider archive an endorsement?**<br />
+
 - The endorsement is for an organization that is no longer a customer or no longer exists. For example, as a result of a merger with other organization(s).
 - A more up-to-date endorsement is in-progress.
 - A more up-to-date endorsement has been issued.
 
 **What statuses may be archived by an provider?**<br />
+
 Endorsements in **Passed**, **Notified**, **Certified**, **Canceled**, **Revoked** or **Withdrawn** status may be archived.
 
 <br />
@@ -297,4 +305,5 @@ Endorsements in **Passed**, **Notified**, **Certified**, **Canceled**, **Revoked
 ## Revoked Certification
 
 **Why would an endorsement show as revoked?**<br />
+
 Questions about revoked certifications should be directed to certification@reso.org.

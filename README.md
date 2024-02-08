@@ -68,27 +68,60 @@ Selecting the RESO logo at the top left also directs back the Endorsement view.
 # Summary Report
 [BACK TO TOP](#table-of-contents)
 
-Summary reports show information about the resources, fields and lookups that were found during certification testing.
+Summary Reports show information about the resources, fields and lookups that were found during certification testing for the organization being viewed.
 
-Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top of the page.
-
-![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/842f32bf-8c84-4be4-b20c-20853e86f26f)
 
 <br />
+
+Summary Reports for organizations with more than one data provider contain a dropdown at the top of the report for switching between them.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/47658123-7456-4bfd-b1a5-8d2d6cae9fb3)
+
+
+<br />
+
+Each Summary Report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top left of the report.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/744c867e-5e71-406b-8e23-64e100bc869e)
+
+
+<br />
+
 
 ## Data Elements View
-The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
-
-**Advertised**: the data elements that were found in the server metadata<br />
-**Available**: the data elements that were found in the payload during sampling
-
-Use the **Availability Threshold** slider to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
-
-![image](https://user-images.githubusercontent.com/88680702/163904566-ed0fdc2b-85a4-49e1-b609-66ab3b5cae02.png)
+The **Data Elements** view shows the field and lookup counts found during certification testing and how they compare with the industry averages. The counts are broken down by **Advertised** and **Available** data.
 
 <br />
 
-Located below the charts, the **Resources** dropdown menu provides a data filter to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups. Elements relating to other resources (e.g., Member, Office, etc.) will be omitted.
+* **Advertised**: the fields and lookups that were found on the server metadata during testing. <br />
+* **Available**: the fields and lookups that were found in the data payload during sampling.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/c347770a-a203-497f-bc44-b836af4c64ee)
+
+<br />
+
+The **Availability Threshold** slider can be used to filter the field and lookup counts based on how often they were populated with data during sampling. 
+
+For example, setting the slider to 75% will filter the field and lookup counts to those that are used more often.
+
+The default availability threshold level shows the field and lookup counts that have an availability greater than zero.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/151c2e4a-fdf1-415e-bfb1-d0dc1723cc85)
+
+<br />
+
+Located below the charts, the **Resources** dropdown menu filters the  to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups, with data elements belonging to other resources (e.g., Member, Office, etc.) omitted.
+
+<br />
 
 ![image](https://user-images.githubusercontent.com/88680702/163904594-8453d153-a39f-4591-8742-e62d322aed88.png)
 
@@ -97,30 +130,49 @@ Located below the charts, the **Resources** dropdown menu provides a data filter
 ## Performance View
 The **Performance** view shows the data provider’s server metrics.
 
-![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a6e86b1a-78c4-4a61-bf8d-c3e4a68b860c)
+
+<br />
+
+Performance Reports for organizations with more than one provider contain a dropdown at the top of the report for switching between them.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ca5aad5-a6a7-43aa-92e4-474e823d7962)
 
 <br />
 
 ## Performance Metrics
 Performance is measured on:
-* **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
-* **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Average Payload Size** - how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
+* **Average Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
+* **Average Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet.
 
-**Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and industry average.
-
-Please contact RESO at certification@reso.org if you have any questions.
+Please contact RESO at certification@reso.org if you have any questions about interpretting reports.
 
 <br />
 
 # Data Dictionary Report
 [BACK TO TOP](#table-of-contents)
 
-The Data Dictionary Report allows you to explore the data elements of the organization being viewed.
+The Data Dictionary Report allows you to explore an organization's individual resources, fields and lookups, along with their usage metrics.
 
-![image](https://user-images.githubusercontent.com/88680702/205767370-b996480b-47e4-4c17-9b19-4cadc022e77b.png)
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/8cea4bc1-7359-444e-b2cc-208018eee93f)
+
+<br />
+
+Data Dictionary Reports for organizations with more than one data provider contain a dropdown at the top left of the report for switching between them.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/51d63847-d294-4efc-bd82-f019f69ae5ec)
 
 <br />
 
@@ -136,46 +188,70 @@ Your guide to RESO certification terms:
 
 The top right section of the report displays the overall counts of data elements.
 
-![image](https://user-images.githubusercontent.com/88680702/205769231-afe2a970-9b95-42ea-8289-2a7ce47fcb50.png)
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/79f191cd-e9bd-4ee9-b36a-852fa2a8a2cc)
 
 <br />
 
 The Data Elements buttons allow filtering by the following data sets:
 
 **All** - The combination of RESO + Local<br />
-**RESO** - All resources, fields and lookups matching the RESO Data Dictionary<br />
+**RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
 **Local** - Market-specific custom resources, fields and lookups<br />
 **IDX** - Resources, fields and lookups for public display by an MLS broker participant
+
+<br />
 
 ![image](https://user-images.githubusercontent.com/88680702/163905578-1b161c85-b916-43f6-9c22-6bed4a76036e.png)
 
 <br />
 
-Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are also shown.
+Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are shown to the right resources and fields.
 
 <br />
 
-![image](https://user-images.githubusercontent.com/88680702/205777048-95fe40ec-277a-4bd8-b508-8c3efcbb803b.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/f2d3bd3b-7843-4ebc-94aa-4528e3803aee)
 
 <br />
 
 The text filter box allows you to search for fields across all resources.
 
-![image](https://user-images.githubusercontent.com/88680702/163905625-f9e073a2-12ce-4f2f-ab5d-a47ee3237d1c.png)
+<br />
 
-![image](https://user-images.githubusercontent.com/88680702/163905695-2f044f47-deaf-4d57-bb10-b9fe886c8b2f.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/ef4f9f50-cab5-4981-ba8f-40ef5ba5b268)
 
 <br />
 
-Selecting a field displays the lookups (if applicable), OData information and a link to its **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17)** entry.
+Selecting a field displays the field's availability and several categories for additional information:
 
-![image](https://user-images.githubusercontent.com/88680702/163905793-b28b4f5e-7014-4b37-a3f0-f81a1db0b71f.png)
+* **Lookup Values (for lookup fields)** - displays the individual options within the field, which can be filtered by All, RESO and Local. RESO standard lookups are linked to their **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17)** entry.
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/6e680526-f2c7-4e6b-bb13-e495479f2d07)
 
 <br />
 
-The lookup filter buttons above the lookup values allow filtering by All, RESO and Local. RESO Data Dictionary lookup values are also linked to the Data Dictionary Wiki.
+* **Data Dictionary** - displays the Data Type, Payloads (if applicable) and Description.
+<br />
 
-![image](https://user-images.githubusercontent.com/88680702/163908793-ed3f900f-eb2e-4324-bf30-6f7155eedac9.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/dc158957-0791-4a82-b1de-7e7b29897fb3)
+
+<br />
+
+* **OData Info** - displays the OData Type, Precision (for number fields) and whether it is nullable or a collection.
+  
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/e6d8de90-561c-4256-887b-ed497188d912)
+
+<br />
+
+* **Annotations** - displays the annotations for the field.
+  
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a3cf1e92-a04e-4341-a347-1dad34de7e7b)
 
 <br />
 

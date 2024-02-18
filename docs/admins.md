@@ -28,51 +28,100 @@ See more information about viewing **[Endorsements](https://certification-help.r
 # Summary Report
 Each Summary Report shows information about the resources, fields and lookups that were found on the server for the organization.
 
-Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top of the page.
+<br />
 
-![image](https://user-images.githubusercontent.com/88680702/164076696-5727c0f5-5abb-486e-a3e6-63a161d7dae6.png) 
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/842f32bf-8c84-4be4-b20c-20853e86f26f)
+
+<br />
+
+Summary Reports for organizations with more than one data provider contain a dropdown at the top of the report for switching between them.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a3efea18-d880-4dc7-afb1-100918c936a5)
+
+
+<br />
+
+Each Summary Report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top left of the report.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/c18a50b2-a2fd-4402-8521-400971cea513)
+
 
 <br />
 
 ## Data Elements View
-The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
-
-**Advertised**: the data elements that were found in the server metadata<br />
-**Available**: the data elements that were found in the payload during sampling
-
-The **Availability Threshold** slider sets minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
-
-![image](https://user-images.githubusercontent.com/88680702/164076762-2f6df7e0-d1a5-45b3-b33f-d7c9ca1561a0.png)
+The **Data Elements** view shows the field and lookup counts found during certification testing and how they compare with the industry averages. The counts are broken down by **Advertised** and **Available** data.
 
 <br />
 
-The **Resources** dropdown beneath the chart filters the data to the specific resource selected.
+* **Advertised**: the fields and lookups that were found on the server metadata during testing. <br />
+* **Available**: the fields and lookups that were found in the data payload during sampling.
 
-![image](https://user-images.githubusercontent.com/88680702/164076802-bfd61448-8164-4813-879e-a83ed88412e8.png)
+<br />
+
+The **Availability Threshold** slider filters the field and lookup counts based on how often they were populated with data during sampling. 
+
+The default availability threshold level shows the field and lookup counts that have an availability greater than zero.
+
+Increasing the availability threshold percentage filters the field and lookup counts to those that are populated with data more often (25% setting shown below).
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9346810b-d5e6-46dc-9f8b-6650429e86ef)
+
+<br />
+
+Located below the charts, the **Resources** dropdown menu filters the fields and lookups to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups, with data elements belonging to other resources (e.g., Member, Office, etc.) omitted.
+
+<br />
+
+![image](https://user-images.githubusercontent.com/88680702/163904594-8453d153-a39f-4591-8742-e62d322aed88.png)
+
+<br />
+
+The **Data Elements** buttons filter by the following data sets (RESO selection shown below):
+
+* **All** - The combination of RESO + Local<br />
+* **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
+* **Local** - Market-specific custom resources, fields and lookups<br />
+* **IDX** - Resources, fields and lookups for public display by an MLS broker participant
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a03669f3-7c34-49ca-996e-7ecce2dabd56)
 
 <br />
 
 ## Performance View
-The **Performance** view shows the server performance metrics for the provider.
+The **Performance** view shows the data provider’s server metrics.
 
-**Note:** Providers may opt out of displaying server metrics publicly when sending the notification to the recipient. If opted out, the performance metrics will be visible only to the provider, recipient and RESO admin staff.
+<br />
 
-![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/0b33d3b1-a12f-452b-a3e1-296d7e48b6ea)
+
+<br />
+
+Performance Reports for organizations with more than one provider contain a dropdown at the top of the report for switching between them.
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/fe36fcc2-502a-4edb-a782-d3385ae5362a)
 
 <br />
 
 ## Performance Metrics
 Performance is measured on:
-
-* **Payload Size** - how much data was retrieved when sampling the selected resource. “All” represents the average across all resources found, measured in megabytes (MB).
-* **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Average Payload Size** - how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
+* **Average Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
+* **Average Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet.
 
-**Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and industry average.
-
-Providers may reach out to certification@reso.org if they have further questions.
+Please contact RESO at certification@reso.org if you have any questions about interpretting reports.
 
 <br />
 

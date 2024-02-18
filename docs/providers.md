@@ -1,6 +1,6 @@
 # Table of Contents
 
-**[Endorsements](#endorsements)**
+**[Endorsements](#endorsements)**<br />
 **[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
 **[Data Dictionary Report](#data-dictionary-report)**<br />
 **[Web API Report](#web-api-report)**<br />

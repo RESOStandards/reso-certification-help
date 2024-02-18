@@ -70,6 +70,8 @@ Selecting the RESO logo at the top left also directs back the Endorsement view.
 
 Summary Reports show information about the resources, fields and lookups that were found during certification testing for the organization being viewed.
 
+<br />
+
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/842f32bf-8c84-4be4-b20c-20853e86f26f)
 
 <br />
@@ -78,7 +80,7 @@ Summary Reports for organizations with more than one data provider contain a dro
 
 <br />
 
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/47658123-7456-4bfd-b1a5-8d2d6cae9fb3)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a3efea18-d880-4dc7-afb1-100918c936a5)
 
 
 <br />
@@ -87,7 +89,7 @@ Each Summary Report contains two views, **Data Elements** and **Performance**, a
 
 <br />
 
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/744c867e-5e71-406b-8e23-64e100bc869e)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/c18a50b2-a2fd-4402-8521-400971cea513)
 
 
 <br />
@@ -103,27 +105,36 @@ The **Data Elements** view shows the field and lookup counts found during certif
 
 <br />
 
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/c347770a-a203-497f-bc44-b836af4c64ee)
-
-<br />
-
-The **Availability Threshold** slider can be used to filter the field and lookup counts based on how often they were populated with data during sampling. 
-
-For example, setting the slider to 75% will filter the field and lookup counts to those that are used more often.
+The **Availability Threshold** slider filters the field and lookup counts based on how often they were populated with data during sampling. 
 
 The default availability threshold level shows the field and lookup counts that have an availability greater than zero.
 
-<br />
-
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/151c2e4a-fdf1-415e-bfb1-d0dc1723cc85)
+Increasing the availability threshold percentage filters the field and lookup counts to those that are populated with data more often (25% setting shown below).
 
 <br />
 
-Located below the charts, the **Resources** dropdown menu filters the  to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups, with data elements belonging to other resources (e.g., Member, Office, etc.) omitted.
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9346810b-d5e6-46dc-9f8b-6650429e86ef)
+
+<br />
+
+Located below the charts, the **Resources** dropdown menu filters the fields and lookups to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups, with data elements belonging to other resources (e.g., Member, Office, etc.) omitted.
 
 <br />
 
 ![image](https://user-images.githubusercontent.com/88680702/163904594-8453d153-a39f-4591-8742-e62d322aed88.png)
+
+<br />
+
+The **Data Elements** buttons filter by the following data sets (RESO selection shown below):
+
+* **All** - The combination of RESO + Local<br />
+* **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
+* **Local** - Market-specific custom resources, fields and lookups<br />
+* **IDX** - Resources, fields and lookups for public display by an MLS broker participant
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a03669f3-7c34-49ca-996e-7ecce2dabd56)
 
 <br />
 
@@ -132,7 +143,7 @@ The **Performance** view shows the data provider’s server metrics.
 
 <br />
 
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a6e86b1a-78c4-4a61-bf8d-c3e4a68b860c)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/0b33d3b1-a12f-452b-a3e1-296d7e48b6ea)
 
 <br />
 
@@ -140,7 +151,7 @@ Performance Reports for organizations with more than one provider contain a drop
 
 <br />
 
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ca5aad5-a6a7-43aa-92e4-474e823d7962)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/fe36fcc2-502a-4edb-a782-d3385ae5362a)
 
 <br />
 
@@ -194,12 +205,12 @@ The top right section of the report displays the overall counts of data elements
 
 <br />
 
-The Data Elements buttons allow filtering by the following data sets:
+The **Data Elements** buttons filter by the following data sets:
 
-**All** - The combination of RESO + Local<br />
-**RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
-**Local** - Market-specific custom resources, fields and lookups<br />
-**IDX** - Resources, fields and lookups for public display by an MLS broker participant
+* **All** - The combination of RESO + Local<br />
+* **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
+* **Local** - Market-specific custom resources, fields and lookups<br />
+* **IDX** - Resources, fields and lookups for public display by an MLS broker participant
 
 <br />
 
@@ -207,7 +218,7 @@ The Data Elements buttons allow filtering by the following data sets:
 
 <br />
 
-Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are shown to the right resources and fields.
+Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are shown to the right of the resources and fields.
 
 <br />
 

@@ -32,9 +32,11 @@ Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) 
 
 The Certification Summary Report provides a high level overview of the data found during certification testing, displayed in charts. Server performance metrics for the data provider are also included.
 
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/842f32bf-8c84-4be4-b20c-20853e86f26f)
+
 Each report contains two views, **Data Elements** and **Performance**, accessed from a dropdown menu in the top left corner.
 
-![image](https://user-images.githubusercontent.com/88680702/163904475-7c13c048-65c4-4c60-8e72-891418bb44b8.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/c18a50b2-a2fd-4402-8521-400971cea513)
 
 <br />
 
@@ -46,13 +48,30 @@ The **Data Elements** view shows the field and lookup counts and how they compar
 
 The **Availability Threshold** slider on the right allows you to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
 
-![image](https://user-images.githubusercontent.com/88680702/164042643-a5979d9e-59fd-43b1-898c-20c7e632519b.png)
+Increasing the availability threshold percentage filters the field and lookup counts to those that are populated with data more often (25% setting shown below).
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9346810b-d5e6-46dc-9f8b-6650429e86ef)
 
 <br />
 
 Located below the charts, the **Resources** dropdown menu provides a data filter to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups. Elements relating to other resources (e.g., Member, Office, etc.) will be omitted.
 
 ![image](https://user-images.githubusercontent.com/88680702/164042681-63dbff92-321f-4321-ab7d-002e4924f1e7.png)
+
+<br />
+
+The **Data Elements** buttons filter by the following data sets (RESO selection shown below):
+
+* **All** - The combination of RESO + Local<br />
+* **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
+* **Local** - Market-specific custom resources, fields and lookups<br />
+* **IDX** - Resources, fields and lookups for public display by an MLS broker participant
+
+<br />
+
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a03669f3-7c34-49ca-996e-7ecce2dabd56)
 
 <br />
 

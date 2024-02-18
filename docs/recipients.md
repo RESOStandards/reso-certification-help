@@ -59,20 +59,21 @@ Located below the charts, the **Resources** dropdown menu provides a data filter
 ## Performance View
 The **Performance** view shows the data provider’s server metrics.
 
-![image](https://user-images.githubusercontent.com/88680702/205765348-034da0c1-e056-4cbf-a9c9-0ccb9bbc1b37.png)
+![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/0b33d3b1-a12f-452b-a3e1-296d7e48b6ea)
 
 <br />
 
 ## Performance Metrics
 Performance is measured on:
 
-* **Payload Size** - how much data was retrieved when sampling the selected resource. "All" represents the average across all resources found, measured in megabytes (MB).
-* **Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Average Payload Size** - how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
+* **Average Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
+* **Average Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
 
-**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet. Please contact RESO at certification@reso.org if you have any questions.
+**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet.
 
-**Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and industry average.
+Please contact RESO at certification@reso.org if you have any questions about interpretting reports.
 
 <br />
 

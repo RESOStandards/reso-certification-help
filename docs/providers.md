@@ -1,15 +1,19 @@
 # Table of Contents
 
-**[Endorsements](#endorsements)**
-**[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
-**[Data Dictionary Report](#data-dictionary-report)**<br />
-**[Web API Report](#web-api-report)**<br />
-**[Notifications](#notifications)** | [Sending Notifications](#sending-notifications) | [Notification Tracking](#notification-tracking)<br />
-**[Canceling Certification](#canceling-certification)**<br />
-**[Archiving Endorsements](#archiving-endorsements)** | [Auto-Archiving](#auto-archiving)<br />
-**[My Account](#my-account)** | [Creating a Token](#creating-a-token)<br />
-
-<br />
+**[Endorsements](#endorsements)** <br />
+**[Summary Report](#summary-report)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Data Elements View](#data-elements-view) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Performance View](#performance-view) <br />
+**[Data Dictionary Report](#data-dictionary-report)** <br />
+**[Web API Report](#web-api-report)** <br />
+**[Notifications](#notifications)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Sending Notifications](#sending-notifications) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Notification Tracking](#notification-tracking)<br />
+**[Canceling Certification](#canceling-certification)** <br />
+**[Archiving Endorsements](#archiving-endorsements)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Auto-Archiving](#auto-archiving) <br />
+**[My Account](#my-account)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Creating a Token](#creating-a-token) <br />
 
 # Endorsements
 The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) test results and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for the given endorsement.

@@ -1,18 +1,26 @@
 # Table of Contents
 
-**[Endorsements](#endorsements)**<br />
-**[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
-**[Data Dictionary Report](#data-dictionary-report)**<br />
-**[Web API Report](#web-api-report)**<br />
-**[Notifications](#notifications)** | [Sending Notifications](#sending-notifications) | [Notification Tracking](#notification-tracking)<br />
-**[Canceling Certification](#canceling-certification)**<br />
-**[Revoking Certification](#revoking-certification)**<br />
-**[Archiving Endorsements](#archiving-endorsements)** | [Auto-Archiving](#auto-archiving)<br />
-**[My Account](#my-account)** | [Creating a Token](#creating-a-token)<br />
-**[Admin Actions](#admin-actions)** | [Creating an Admin User](#creating-an-admin-user) | [Creating a Provider User](#creating-a-provider-user) | [Creating a Normal User](#creating-a-normal-user) | [UOI Syncing](#uoi-syncing)<br />
-**[Admin FAQ](#admin-faq)**
-
-<br />
+**[Endorsements](#endorsements)** <br />
+**[Summary Report](#summary-report)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Data Elements View](#data-elements-view) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Performance View](#performance-view)<br />
+**[Data Dictionary Report](#data-dictionary-report)** <br />
+**[Web API Report](#web-api-report)** <br />
+**[Notifications](#notifications)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Sending Notifications](#sending-notifications) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Notification Tracking](#notification-tracking) <br />
+**[Canceling Certification](#canceling-certification)** <br />
+**[Revoking Certification](#revoking-certification)** <br />
+**[Archiving Endorsements](#archiving-endorsements)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Auto-Archiving](#auto-archiving) <br />
+**[My Account](#my-account)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Creating a Token](#creating-a-token)<br />
+**[Admin Actions](#admin-actions)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Creating an Admin User](#creating-an-admin-user) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Creating a Provider User](#creating-a-provider-user) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Creating a Normal User](#creating-a-normal-user) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[UOI Syncing](#uoi-syncing) <br />
+**[Admin FAQ](#admin-faq)** <br />
 
 # Endorsements
 Data providers (e.g., MLS vendors) must submit their certification tests through the self-testing user interface and then notify their customers (e.g., MLSs) to review and approve the results. The customer will then review the results and approve them to receive their certification for the given endorsement.

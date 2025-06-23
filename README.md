@@ -1,11 +1,15 @@
 # Table of Contents
 
-**[Certification Endorsements](#certification-endorsements)**<br />
-**[Endorsements Page](#endorsements-page)** | [Filtering and Sorting](#filtering-and-sorting)<br />
-**[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
-**[Data Dictionary Report](#data-dictionary-report)** | [Exploring the Data](#exploring-the-data)<br />
-**[Web API Report](#web-api-report)**<br />
-**[Other Guides](#other-guides)**
+**[Certification Endorsements](#certification-endorsements)** <br />
+**[Endorsements Page](#endorsements-page)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Filtering and Sorting](#filtering-and-sorting) <br />
+**[Summary Report](#summary-report)** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Data Elements View](#data-elements-view) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;[Performance View](#performance-view) <br />
+**[Data Dictionary Report](#data-dictionary-report)** <br /> 
+&nbsp;&nbsp;&nbsp;&nbsp;[Exploring the Data](#exploring-the-data) <br />
+**[Web API Report](#web-api-report)** <br />
+**[Other Guides](#other-guides)** <br />
 
 # Certification Endorsements
 At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.

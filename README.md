@@ -8,9 +8,10 @@
 **[Other Guides](#other-guides)**
 
 # Certification Endorsements
-At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
+At this time, there are two main endorsements that can be issued to data providers, product vendors and other organizations, **Data Dictionary 2.0** and **Web API Core 2.0.0**, each of which have different reports.
+<br />
 
-Endorsements are shown under their respective organizations at **[certification.reso.org](http://certification.reso.org)**.
+Additional endorsements include, **RESO Common Format (RCF)**, **RESO Web API Add/Edit**, **UPI**, **Webhooks** and **Validation Expressions**.
 
 <br />
 
@@ -35,31 +36,38 @@ Filter by typing in an organization name or Unique Organization Identifier (UOI)
 
 <br />
 
-## Filtering by Endorsement Type
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3ac8af5f-aa12-4bfa-b2ee-f798c2b06b1c)
+## Filter by Endorsement Type
+Select specific endorsements to show.
+
+<img width="652" height="668" alt="image" src="https://github.com/user-attachments/assets/af517206-115d-4b4d-8c13-9892020aa880" />
+
+## Filter by a Date Range
+Sort by dates that endorsements were issued. The date range may be combined with specific endorsements.
+
+<img width="717" height="979" alt="image" src="https://github.com/user-attachments/assets/094ae91f-5afb-47b6-a739-69e9db1e311d" />
 
 <br />
 
 ## Sorting
 Sort by organization name alphabetically, ascending or descending.
 
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/9b207c00-c936-4029-8b23-b41a2c0ff1b9)
+<img width="520" height="323" alt="image" src="https://github.com/user-attachments/assets/95fd87dd-c161-4a59-8f6c-3bbf4c51c121" />
 
 <br />
 
-Sort by the date/time certifications were issued, ascending or descending. This will show each endorsement individually rather than grouped by organization.
 
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3fbe9fc9-d350-4540-a219-720a0229acfb)
+Sort by the date/time endorsements were issued, ascending or descending. This will show each endorsement individually rather than grouped by organization.
+
+<img width="485" height="306" alt="image" src="https://github.com/user-attachments/assets/ae3d82be-ce01-433d-bef9-e0d6619e874e" />
 
 <br />
 
-The endorsements page may also be accessed by selecting the **Endorsements** option at the top of the page. This option is hidden if you are currently on the endorsements page itself.
+
+The endorsements page (homepage) may also be accessed by selecting **Endorsements** or the **RESO logo** at the top of the page.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3e4058c6-84a1-44c2-b889-5554799ed71e)
 
 <br />
-
-Selecting the RESO logo at the top left also directs back the Endorsement view.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/290846fc-8c1e-4fd0-b793-4ef8439eb66e)
 
@@ -164,18 +172,18 @@ Performance is measured on:
 
 **N/A** - means that the given recipient has not completed Data Dictionary availability testing yet.
 
-Please contact RESO at certification@reso.org if you have any questions about interpretting reports.
+You may contact RESO at certification@reso.org if you have any questions about interpretting reports.
 
 <br />
 
 # Data Dictionary Report
 [BACK TO TOP](#table-of-contents)
 
-The Data Dictionary Report allows you to explore an organization's individual resources, fields and lookups, along with their usage metrics.
+The Data Dictionary Report allows you to explore and search an organization's individual resources, fields and lookups, along with their usage metrics.
 
 <br />
 
-![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/8cea4bc1-7359-444e-b2cc-208018eee93f)
+<img width="1940" height="1011" alt="image" src="https://github.com/user-attachments/assets/59c6225d-fc0b-440d-b1cf-eadf2a02c68c" />
 
 <br />
 
@@ -226,6 +234,11 @@ Selecting a resource displays all of the fields within it. Data availability per
 
 <br />
 
+Resources with expansions show a selectable plus icon to show the expaned items.
+
+<img width="1863" height="603" alt="image" src="https://github.com/user-attachments/assets/8fe33840-53ae-4a73-b665-0f12513745c9" />
+<img width="1940" height="639" alt="image" src="https://github.com/user-attachments/assets/c3041deb-d102-484b-b86d-49df17cfabcf" />
+
 The text filter box allows you to search for fields across all resources.
 
 <br />
@@ -236,7 +249,7 @@ The text filter box allows you to search for fields across all resources.
 
 Selecting a field displays the field's availability and several categories for additional information:
 
-* **Lookup Values (for lookup fields)** - displays the individual options within the field, which can be filtered by All, RESO and Local. RESO standard lookups are linked to their **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW17)** entry.
+* **Lookup Values (for lookup fields)** - displays the individual options within the field, which can be filtered by All, RESO and Local. RESO standard lookups are linked to their **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW20/Data+Dictionary+2.0+Wiki)** entry.
 <br />
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/6e680526-f2c7-4e6b-bb13-e495479f2d07)
@@ -265,6 +278,15 @@ Selecting a field displays the field's availability and several categories for a
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a3cf1e92-a04e-4341-a347-1dad34de7e7b)
 
 <br />
+
+## Exporting the Metadata
+
+An Export CSV button at the top of the report allows for the metadata report to be exported in csv format, which may be opened in a spreadsheet.
+
+<img width="1372" height="176" alt="image" src="https://github.com/user-attachments/assets/f2cac380-4826-42b2-b02d-5f502384da4a" />
+
+<br />
+
 
 # Web API Report
 [BACK TO TOP](#table-of-contents)

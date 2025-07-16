@@ -148,10 +148,10 @@ The **Resources** dropdown, located below the charts, filters the displayed data
 
 The **Data Elements** buttons allow filtering by specific data sets (e.g., RESO, vendor-specific).
 
-* **All** - The combination of RESO + Local<br />
-* **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
-* **Local** - Market-specific custom resources, fields and lookups<br />
-* **IDX** - Resources, fields and lookups for public display by an MLS broker participant
+* **All:** The combination of RESO + Local<br />
+* **RESO:** All resources, fields and lookups matching the RESO Data Dictionary standard<br />
+* **Local:** Market-specific custom resources, fields and lookups<br />
+* **IDX:** Resources, fields and lookups for public display by an MLS broker participant
 
 <br />
 
@@ -178,12 +178,12 @@ For organizations with more than one data provider, Performance Reports include 
 
 ## Performance Metrics
 Performance is measured on:
-* **Average Payload Size** - how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
-* **Average Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Average Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
-* **Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
+* **Average Payload Size:** Indicates how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
+* **Average Response Time:** Indicates how long, on average, a request to the given server took to complete, measured in seconds (s).
+* **Average Throughput:** Indicates the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Estimated Seconds per 1,000 Records:** Indicates the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
 
-**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet.
+**N/A:** Indicates that the given recipient has not completed Data Dictionary availability testing yet.
 
 You may contact RESO at certification@reso.org if you have any questions about interpretting reports.
 
@@ -229,10 +229,10 @@ The top right section of the report displays the overall counts of data elements
 
 The **Data Elements** buttons filter by the following data sets:
 
-* **All** - The combination of RESO + Local<br />
-* **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
-* **Local** - Market-specific custom resources, fields and lookups<br />
-* **IDX** - Resources, fields and lookups for public display by an MLS broker participant
+* **All:** The combination of RESO + Local<br />
+* **RESO:** All resources, fields and lookups matching the RESO Data Dictionary standard<br />
+* **Local:** Market-specific custom resources, fields and lookups<br />
+* **IDX:** Resources, fields and lookups for public display by an MLS broker participant
 
 <br />
 
@@ -290,7 +290,7 @@ Selecting a field opens a detailed view of its availability and various informat
 
 <br />
 
-* **Annotations:** Displays the annotations for the field.
+**Annotations:** Displays the annotations for the field.
   
 <br />
 

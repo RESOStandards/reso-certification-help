@@ -8,7 +8,7 @@
 **[Other Guides](#other-guides)**
 
 # Certification Endorsements
-At this time, there are two main endorsements that can be issued to data providers, product vendors and other organizations, **Data Dictionary 2.0** and **Web API Core 2.0.0**, each of which have different reports.
+The two main endorsements issued to data providers, product vendors and other organizations are **Data Dictionary 2.0** and **Web API Core 2.0.0**, each of which have their own reports.
 <br />
 
 Additional endorsements include, **RESO Common Format (RCF)**, **RESO Web API Add/Edit**, **UPI**, **Webhooks** and **Validation Expressions**.
@@ -16,7 +16,12 @@ Additional endorsements include, **RESO Common Format (RCF)**, **RESO Web API Ad
 <br />
 
 # Endorsements Page
-The **Endorsements** page includes the data elements (e.g., Data Dictionary, Web API), endorsement version, status and status date for each certified organization.
+The Endorsements page (or homepage) displays each organization along with its endorsements (e.g., Data Dictionary, Web API), their version, certification status, and status date.
+
+Certification Statuses:
+
+- **Certified:** The organization is certified on the most current version of the endorsement.
+- **Legacy:** The organization is certified on an older, but still recognized version.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/108787f7-69a2-41c7-a454-384a347c9ec0)
 
@@ -37,33 +42,39 @@ Filter by typing in an organization name or Unique Organization Identifier (UOI)
 <br />
 
 ## Filter by Endorsement Type
-Select specific endorsements to show.
+Filter to show only specific endorsements.
 
 <img width="652" height="668" alt="image" src="https://github.com/user-attachments/assets/af517206-115d-4b4d-8c13-9892020aa880" />
 
 ## Filter by a Date Range
-Sort by dates that endorsements were issued. The date range may be combined with specific endorsements.
+Use the calendar to filter endorsements issued within a specific date range.
+
+<img width="799" height="784" alt="image" src="https://github.com/user-attachments/assets/bb8b589a-36b7-4d33-8433-430d43b70d20" />
+
+<br />
+
+A date range may be combined with specific endorsements.
 
 <img width="717" height="979" alt="image" src="https://github.com/user-attachments/assets/094ae91f-5afb-47b6-a739-69e9db1e311d" />
 
 <br />
 
 ## Sorting
-Sort by organization name alphabetically, ascending or descending.
+Sort organization names alphabetically in ascending or descending order.
 
 <img width="520" height="323" alt="image" src="https://github.com/user-attachments/assets/95fd87dd-c161-4a59-8f6c-3bbf4c51c121" />
 
 <br />
 
 
-Sort by the date/time endorsements were issued, ascending or descending. This will show each endorsement individually rather than grouped by organization.
+Sort endorsements by issue date and time in ascending or descending order. This displays each endorsement individually instead of grouping them by organization.
 
 <img width="485" height="306" alt="image" src="https://github.com/user-attachments/assets/ae3d82be-ce01-433d-bef9-e0d6619e874e" />
 
 <br />
 
 
-The endorsements page (homepage) may also be accessed by selecting **Endorsements** or the **RESO logo** at the top of the page.
+The Endorsements page is also accessible via the Endorsements link or the RESO logo located at the top of the page. also be accessed by selecting **Endorsements** or the **RESO logo** at the top of the page.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3e4058c6-84a1-44c2-b889-5554799ed71e)
 
@@ -76,7 +87,7 @@ The endorsements page (homepage) may also be accessed by selecting **Endorsement
 # Summary Report
 [BACK TO TOP](#table-of-contents)
 
-Summary Reports show information about the resources, fields and lookups that were found during certification testing for the organization being viewed.
+Summary Reports provide information about the resources, fields, and lookups for the selected organization.
 
 <br />
 
@@ -84,7 +95,7 @@ Summary Reports show information about the resources, fields and lookups that we
 
 <br />
 
-Summary Reports for organizations with more than one data provider contain a dropdown at the top of the report for switching between them.
+For organizations with multiple providers, Summary Reports include a dropdown at the top to switch between them.
 
 <br />
 
@@ -93,7 +104,7 @@ Summary Reports for organizations with more than one data provider contain a dro
 
 <br />
 
-Each Summary Report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top left of the report.
+The Summary Report offers two views, **Data Elements** and **Performance**, available via a dropdown in the top-left corner.
 
 <br />
 
@@ -104,20 +115,19 @@ Each Summary Report contains two views, **Data Elements** and **Performance**, a
 
 
 ## Data Elements View
-The **Data Elements** view shows the field and lookup counts found during certification testing and how they compare with the industry averages. The counts are broken down by **Advertised** and **Available** data.
+The **Data Elements** view displays the number of fields and lookups identified during certification testing, along with comparisons to industry averages. Counts are categorized as **Advertised** and **Available** data.
+<br />
+
+* **Advertised**: Fields and lookups detected in the server metadata during testing. <br />
+* **Available**: Fields and lookups found in actual data payloads during sampling.
 
 <br />
 
-* **Advertised**: the fields and lookups that were found on the server metadata during testing. <br />
-* **Available**: the fields and lookups that were found in the data payload during sampling.
+The **Availability Threshold** slider allows you to filter field and lookup counts based on how frequently data is populated during sampling.
 
-<br />
+By default, the slider includes all fields and lookups with availability greater than zero.
 
-The **Availability Threshold** slider filters the field and lookup counts based on how often they were populated with data during sampling. 
-
-The default availability threshold level shows the field and lookup counts that have an availability greater than zero.
-
-Increasing the availability threshold percentage filters the field and lookup counts to those that are populated with data more often (25% setting shown below).
+Increasing the availability threshold percentage narrows the view to only those data elements that appear more frequently (e.g., a 25% setting will display only elements populated in at least 25% of samples).
 
 <br />
 
@@ -125,7 +135,7 @@ Increasing the availability threshold percentage filters the field and lookup co
 
 <br />
 
-Located below the charts, the **Resources** dropdown menu filters the fields and lookups to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups, with data elements belonging to other resources (e.g., Member, Office, etc.) omitted.
+The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting Property will show only fields and lookups in to the Property resource, excluding those from resources like _Member_ or _Office_.
 
 <br />
 
@@ -133,7 +143,7 @@ Located below the charts, the **Resources** dropdown menu filters the fields and
 
 <br />
 
-The **Data Elements** buttons filter by the following data sets (RESO selection shown below):
+The **Data Elements** buttons allow filtering by specific data sets (e.g., RESO, vendor-specific).
 
 * **All** - The combination of RESO + Local<br />
 * **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
@@ -155,7 +165,7 @@ The **Performance** view shows the data provider’s server metrics.
 
 <br />
 
-Performance Reports for organizations with more than one provider contain a dropdown at the top of the report for switching between them.
+For organizations with more than one data provider, Performance Reports include a dropdown at the top for switching between providers.
 
 <br />
 
@@ -179,7 +189,7 @@ You may contact RESO at certification@reso.org if you have any questions about i
 # Data Dictionary Report
 [BACK TO TOP](#table-of-contents)
 
-The Data Dictionary Report allows you to explore and search an organization's individual resources, fields and lookups, along with their usage metrics.
+The **Data Dictionary Report** allows you to explore and search an organization’s resources, fields, and lookups, along with related usage metrics.
 
 <br />
 
@@ -187,7 +197,7 @@ The Data Dictionary Report allows you to explore and search an organization's in
 
 <br />
 
-Data Dictionary Reports for organizations with more than one data provider contain a dropdown at the top left of the report for switching between them.
+If the organization has multiple data providers, a dropdown is available for switching between them.
 
 <br />
 
@@ -226,7 +236,7 @@ The **Data Elements** buttons filter by the following data sets:
 
 <br />
 
-Selecting a resource displays all of the fields within it. Data availability percentages and payload statistics are shown to the right of the resources and fields.
+Selecting a resource shows all of its associated fields. Data availability percentages and payload statistics are displayed for each resource and field.
 
 <br />
 
@@ -234,7 +244,7 @@ Selecting a resource displays all of the fields within it. Data availability per
 
 <br />
 
-Resources with expansions show a selectable plus icon to show the expaned items.
+A selectable plus icon appears next to resources with expansions.
 
 <img width="1863" height="603" alt="image" src="https://github.com/user-attachments/assets/8fe33840-53ae-4a73-b665-0f12513745c9" />
 <img width="1940" height="639" alt="image" src="https://github.com/user-attachments/assets/c3041deb-d102-484b-b86d-49df17cfabcf" />
@@ -247,7 +257,7 @@ The text filter box allows you to search for fields across all resources.
 
 <br />
 
-Selecting a field displays the field's availability and several categories for additional information:
+Selecting a field opens a detailed view of its availability and various informational categories.
 
 * **Lookup Values (for lookup fields)** - displays the individual options within the field, which can be filtered by All, RESO and Local. RESO standard lookups are linked to their **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW20/Data+Dictionary+2.0+Wiki)** entry.
 <br />
@@ -276,6 +286,12 @@ Selecting a field displays the field's availability and several categories for a
 <br />
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/a3cf1e92-a04e-4341-a347-1dad34de7e7b)
+
+<br />
+
+Selecting a lookup-type field shows its individual lookups, their availability and other metrics.
+
+<img width="1405" height="527" alt="image" src="https://github.com/user-attachments/assets/3d1f145b-5cd5-463e-a92b-2786316eb18b" />
 
 <br />
 

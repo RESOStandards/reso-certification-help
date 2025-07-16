@@ -52,6 +52,8 @@ Use the calendar to filter endorsements issued within a specific date range.
 <img width="799" height="784" alt="image" src="https://github.com/user-attachments/assets/bb8b589a-36b7-4d33-8433-430d43b70d20" />
 
 <br />
+<br />
+
 
 A date range may be combined with specific endorsements.
 
@@ -65,14 +67,14 @@ Sort organization names alphabetically in ascending or descending order.
 <img width="520" height="323" alt="image" src="https://github.com/user-attachments/assets/95fd87dd-c161-4a59-8f6c-3bbf4c51c121" />
 
 <br />
+<br />
 
-
-Sort endorsements by issue date and time in ascending or descending order. This displays each endorsement individually instead of grouping them by organization.
+Sort endorsements by issue date in ascending or descending order. This displays each endorsement individually instead of grouping them by organization.
 
 <img width="485" height="306" alt="image" src="https://github.com/user-attachments/assets/ae3d82be-ce01-433d-bef9-e0d6619e874e" />
 
 <br />
-
+<br />
 
 The Endorsements page is also accessible via the Endorsements link or the RESO logo located at the top of the page. also be accessed by selecting **Endorsements** or the **RESO logo** at the top of the page.
 
@@ -81,6 +83,7 @@ The Endorsements page is also accessible via the Endorsements link or the RESO l
 <br />
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/290846fc-8c1e-4fd0-b793-4ef8439eb66e)
+
 
 <br />
 
@@ -196,6 +199,7 @@ The **Data Dictionary Report** allows you to explore and search an organizationâ
 <img width="1940" height="1011" alt="image" src="https://github.com/user-attachments/assets/59c6225d-fc0b-440d-b1cf-eadf2a02c68c" />
 
 <br />
+<br />
 
 If the organization has multiple data providers, a dropdown is available for switching between them.
 
@@ -246,8 +250,13 @@ Selecting a resource shows all of its associated fields. Data availability perce
 
 A selectable plus icon appears next to resources with expansions.
 
+<br />
+
 <img width="1863" height="603" alt="image" src="https://github.com/user-attachments/assets/8fe33840-53ae-4a73-b665-0f12513745c9" />
 <img width="1940" height="639" alt="image" src="https://github.com/user-attachments/assets/c3041deb-d102-484b-b86d-49df17cfabcf" />
+
+<br />
+<br />
 
 The text filter box allows you to search for fields across all resources.
 
@@ -259,21 +268,21 @@ The text filter box allows you to search for fields across all resources.
 
 Selecting a field opens a detailed view of its availability and various informational categories.
 
-* **Lookup Values (for lookup fields)** - displays the individual options within the field, which can be filtered by All, RESO and Local. RESO standard lookups are linked to their **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW20/Data+Dictionary+2.0+Wiki)** entry.
+* **Lookup Values (for lookup fields):** Displays the individual options within the field, which can be filtered by All, RESO and Local. RESO standard lookups are linked to their **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW20/Data+Dictionary+2.0+Wiki)** entry.
 <br />
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/6e680526-f2c7-4e6b-bb13-e495479f2d07)
 
 <br />
 
-* **Data Dictionary** - displays the Data Type, Payloads (if applicable) and Description.
+**Data Dictionary:** Displays the Data Type, Payloads (if applicable) and Description.
 <br />
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/dc158957-0791-4a82-b1de-7e7b29897fb3)
 
 <br />
 
-* **OData Info** - displays the OData Type, Precision (for number fields) and whether it is nullable or a collection.
+**OData Info:** Displays the OData Type, Precision (for number fields) and whether it is nullable or a collection.
   
 <br />
 
@@ -281,7 +290,7 @@ Selecting a field opens a detailed view of its availability and various informat
 
 <br />
 
-* **Annotations** - displays the annotations for the field.
+* **Annotations:** Displays the annotations for the field.
   
 <br />
 
@@ -297,7 +306,7 @@ Selecting a lookup-type field shows its individual lookups, their availability a
 
 ## Exporting the Metadata
 
-An Export CSV button at the top of the report allows for the metadata report to be exported in csv format, which may be opened in a spreadsheet.
+An **Export CSV** button at the top of the report allows you to export the metadata report in CSV format for use in a spreadsheet application. the report allows for the metadata report to be exported in csv format, which may be opened in a spreadsheet.
 
 <img width="1372" height="176" alt="image" src="https://github.com/user-attachments/assets/f2cac380-4826-42b2-b02d-5f502384da4a" />
 

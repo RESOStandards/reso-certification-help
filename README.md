@@ -1,9 +1,9 @@
 # Table of Contents
 
 **[Certification Endorsements](#certification-endorsements)**<br />
-**[Endorsements Page](#endorsements-page)** | [Filtering and Sorting](#filtering-and-sorting)<br />
-**[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
-**[Data Dictionary Report](#data-dictionary-report)** | [Exploring the Data](#exploring-the-data)<br />
+**[Endorsements Page](#endorsements-page)** | **[Filtering and Sorting](#filtering-and-sorting)**<br />
+**[Summary Report](#summary-report)** | **[Data Elements View](#data-elements-view)** | **[Performance View](#performance-view)**<br />
+**[Data Dictionary Report](#data-dictionary-report)** | **[Exploring the Data](#exploring-the-data)**<br />
 **[Web API Report](#web-api-report)**<br />
 **[Other Guides](#other-guides)**
 
@@ -16,19 +16,19 @@ Additional endorsements include, **RESO Common Format (RCF)**, **RESO Web API Ad
 <br />
 
 # Endorsements Page
-The Endorsements page (or homepage) displays each organization along with its endorsements (e.g., Data Dictionary, Web API), their version, certification status, and status date.
+The Endorsements page (or homepage) displays each organization along with its endorsements (e.g., Data Dictionary, Web API), their version, certification status and status date.
 
 Certification Statuses:
 
 - **Certified:** The organization is certified on the most current version of the endorsement.
-- **Legacy:** The organization is certified on an older, but still recognized version.
+- **Legacy:** The organization is certified on an older but still recognized version.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/108787f7-69a2-41c7-a454-384a347c9ec0)
 
 <br />
 
 ## Filtering and Sorting
-There are several sorting and filtering options at the top of the endorsements page.
+There are several filtering and sorting options at the top of the Endorsements page.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/580cc375-7282-4280-8437-5bb803889c7c)
 
@@ -76,7 +76,7 @@ Sort endorsements by issue date in ascending or descending order. This displays 
 <br />
 <br />
 
-The Endorsements page is also accessible via the Endorsements link or the RESO logo located at the top of the page. also be accessed by selecting **Endorsements** or the **RESO logo** at the top of the page.
+The Endorsements page is also accessible via the **Endorsements** link or the **RESO logo** located at the top of the page.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/3e4058c6-84a1-44c2-b889-5554799ed71e)
 
@@ -90,7 +90,7 @@ The Endorsements page is also accessible via the Endorsements link or the RESO l
 # Summary Report
 [BACK TO TOP](#table-of-contents)
 
-Summary Reports provide information about the resources, fields, and lookups for the selected organization.
+Summary Reports provide information about the resources, fields and lookups for the selected organization.
 
 <br />
 
@@ -121,8 +121,8 @@ The Summary Report offers two views, **Data Elements** and **Performance**, avai
 The **Data Elements** view displays the number of fields and lookups identified during certification testing, along with comparisons to industry averages. Counts are categorized as **Advertised** and **Available** data.
 <br />
 
-* **Advertised**: Fields and lookups detected in the server metadata during testing. <br />
-* **Available**: Fields and lookups found in actual data payloads during sampling.
+* **Advertised:** Fields and lookups detected in the server metadata during testing <br />
+* **Available:** Fields and lookups found in actual data payloads during sampling
 
 <br />
 
@@ -138,7 +138,7 @@ Increasing the availability threshold percentage narrows the view to only those 
 
 <br />
 
-The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting Property will show only fields and lookups in to the Property resource, excluding those from resources like _Member_ or _Office_.
+The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in to the Property resource, excluding those from resources like **Member** or **Office**.
 
 <br />
 
@@ -178,21 +178,21 @@ For organizations with more than one data provider, Performance Reports include 
 
 ## Performance Metrics
 Performance is measured on:
-* **Average Payload Size:** Indicates how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
-* **Average Response Time:** Indicates how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Average Throughput:** Indicates the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
-* **Estimated Seconds per 1,000 Records:** Indicates the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
+* **Average Payload Size:** Indicates how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB)
+* **Average Response Time:** Indicates how long, on average, a request to the given server took to complete, measured in seconds (s)
+* **Average Throughput:** Indicates the payload size divided by response time; similar to an Internet speed test, it shows how quickly consumers might expect to retrieve data from the given server, measured in megabytes per second (MB/s)
+* **Estimated Seconds per 1,000 Records:** Indicates the estimated time it takes to retrieve 1,000 records from the server; shows for the specific provider and the industry average
 
 **N/A:** Indicates that the given recipient has not completed Data Dictionary availability testing yet.
 
-You may contact RESO at certification@reso.org if you have any questions about interpretting reports.
+Contact certification@reso.org for any questions about reports.
 
 <br />
 
 # Data Dictionary Report
 [BACK TO TOP](#table-of-contents)
 
-The **Data Dictionary Report** allows you to explore and search an organization’s resources, fields, and lookups, along with related usage metrics.
+The **Data Dictionary Report** allows you to explore and search an organization’s resources, fields and lookups, as well as related usage metrics.
 
 <br />
 
@@ -201,7 +201,7 @@ The **Data Dictionary Report** allows you to explore and search an organization�
 <br />
 <br />
 
-If the organization has multiple data providers, a dropdown is available for switching between them.
+If an organization has multiple data providers, a dropdown is available for switching between them.
 
 <br />
 
@@ -211,13 +211,11 @@ If the organization has multiple data providers, a dropdown is available for swi
 
 ## Exploring the Data
 
-Your guide to RESO certification terms:
+**Resources:** The top level of the data structure; the category of the items contained within it, such as **Property**, **Member** and **Office**
 
-**Resources** are at the top level of the data structure. Think of a resource as the category of the items contained within it. Examples of resources are **Property**, **Member** and **Office**.
+**Fields:** Contained within resources; descriptions of the listing components themselves, such as **ListPrice**, **Appliances** and **YearBuilt**
 
-**Fields** are contained within resources and are the descriptions of the listing components themselves. Examples of fields are **ListPrice**, **Appliances** and **YearBuilt**.
-
-**Lookups** are the options within certain fields (e.g., **Appliances**). Within **Appliances**, there are lookups such as **Dishwasher**, **Gas Oven** and **Dryer**.
+**Lookups:** Options within certain fields, such as **Dishwasher**, **Gas Oven** and **Dryer** contained within the **Appliances** field
 
 The top right section of the report displays the overall counts of data elements.
 
@@ -268,21 +266,21 @@ The text filter box allows you to search for fields across all resources.
 
 Selecting a field opens a detailed view of its availability and various informational categories.
 
-* **Lookup Values (for lookup fields):** Displays the individual options within the field, which can be filtered by All, RESO and Local. RESO standard lookups are linked to their **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW20/Data+Dictionary+2.0+Wiki)** entry.
+* **Lookup Values (for lookup fields):** This displays the individual options within the field, which can be filtered by All, RESO and Local. RESO standard lookups are linked to their **[Data Dictionary Wiki](https://ddwiki.reso.org/display/DDW20/Data+Dictionary+2.0+Wiki)** entry.
 <br />
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/6e680526-f2c7-4e6b-bb13-e495479f2d07)
 
 <br />
 
-**Data Dictionary:** Displays the Data Type, Payloads (if applicable) and Description.
+**Data Dictionary:** This displays the Data Type, Payloads (if applicable) and Description.
 <br />
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/dc158957-0791-4a82-b1de-7e7b29897fb3)
 
 <br />
 
-**OData Info:** Displays the OData Type, Precision (for number fields) and whether it is nullable or a collection.
+**OData Info:** This displays the OData Type, Precision (for number fields) and whether it is nullable or a collection.
   
 <br />
 
@@ -290,7 +288,7 @@ Selecting a field opens a detailed view of its availability and various informat
 
 <br />
 
-**Annotations:** Displays the annotations for the field.
+**Annotations:** This displays the annotations for the field.
   
 <br />
 
@@ -306,7 +304,7 @@ Selecting a lookup-type field shows its individual lookups, their availability a
 
 ## Exporting the Metadata
 
-An **Export CSV** button at the top of the report allows you to export the metadata report in CSV format for use in a spreadsheet application. the report allows for the metadata report to be exported in csv format, which may be opened in a spreadsheet.
+An **Export CSV** button at the top of the report allows you to export the metadata report in CSV format for use in a spreadsheet application.
 
 <img width="1372" height="176" alt="image" src="https://github.com/user-attachments/assets/f2cac380-4826-42b2-b02d-5f502384da4a" />
 
@@ -316,7 +314,7 @@ An **Export CSV** button at the top of the report allows you to export the metad
 # Web API Report
 [BACK TO TOP](#table-of-contents)
 
-The Web API Core report displays the name of the organization that was tested as well as that of the data provider.
+The Web API Core report displays the name of the organization that was tested and the data provider.
 
 The report also shows which version of OData the RESO Web API Server was using, the authentication type (OAuth 2 Bearer Token or Client Credentials) and the fields that were used for testing.
 
@@ -327,14 +325,10 @@ The report also shows which version of OData the RESO Web API Server was using, 
 # Other Guides
 [BACK TO TOP](#table-of-contents)
 
-**[Providers](/docs/providers.md)**<br />
-Contains information for data providers. For example, MLS vendors who are going through the RESO Certification process with their customers.
+**[Providers](/docs/providers.md):** For data providers like MLS vendors going through the RESO Certification process with their customers
 
-**[Recipients](/docs/recipients.md)**<br />
-Guide for customers of data providers. This would typically be an MLS receiving certification from an MLS vendor.
+**[Recipients](/docs/recipients.md):** For customers of data providers like an MLS receiving certification from an MLS vendor
 
-**[Normal Users](/docs/normal-users.md)**<br />
-Normal users have special accounts assigned to them so they can access RESO Certification System information from an API rather than the website.
+**[Normal Users](/docs/normal-users.md):** For those that access RESO Certification System information from an API rather than the website
 
-**[Admins](/docs/admins.md)**<br />
-Administrator's guide to the RESO Certification System.
+**[Admins](/docs/admins.md):** An administrator's guide to the RESO Certification System

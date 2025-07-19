@@ -12,24 +12,36 @@
 <br />
 
 # Endorsements
-The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) test results and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for the given endorsement.
+The two main endorsements issued to data providers, product vendors and other organizations are **Data Dictionary 2.0** and **Web API Core 2.0.0**, each of which have their own reports.
+<br />
 
-At this time, there are two possible endorsements that can be issued to data providers, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
+Additional endorsements include, **RESO Common Format (RCF)**, **RESO Web API Add/Edit**, **UPI**, **Webhooks** and **Validation Expressions**.
 
-See more information about viewing **[Endorsements](https://certification-help.reso.org/#endorsements)**.
+<br />
+
+Certification Statuses:
+
+- **Certified:** The organization is certified on the most current version of the endorsement.
+- **Legacy:** The organization is certified on an older but still recognized version of the endorsement.
+- **In Review:** The provider is in the process of reviewing their Data Dictionary variations report prior to submitting for live server testing.
+- **Passed:** The provider has passed certification testing but has not yet notified the customer to review and approve the results.
+- **Notified:** The provider has passed certification testing and has notified the customer to review and approve the results.
+- **Canceled:** A passed-status endorsement was canceled prior to the provider notifying the customer.
+
+See more information about viewing the **[Endorsements page (homepage)](https://certification-help.reso.org/#endorsements)**.
 
 <br />
 
 # Summary Report
 [BACK TO TOP](#table-of-contents)
 
-Summary Reports show information about the resources, fields and lookups that were found during certification testing for the organization being viewed.
+Summary Reports provide information about the resources, fields, and lookups for the selected organization.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/842f32bf-8c84-4be4-b20c-20853e86f26f)
 
 <br />
 
-Summary Reports for organizations with more than one data provider contain a dropdown at the top of the report for switching between them.
+For organizations with multiple providers, Summary Reports include a dropdown at the top to switch between them.
 
 <br />
 
@@ -38,7 +50,7 @@ Summary Reports for organizations with more than one data provider contain a dro
 
 <br />
 
-Each Summary Report contains two views, **Data Elements** and **Performance**, accessed from a dropdown at the top left of the report.
+The Summary Report offers two views, Data Elements and Performance, available via a dropdown in the top-left corner.
 
 <br />
 
@@ -48,20 +60,20 @@ Each Summary Report contains two views, **Data Elements** and **Performance**, a
 <br />
 
 ## Data Elements View
-The **Data Elements** view shows the counts of fields and lookups found during certification testing, along with how they compare to the industry averages. The counts are broken down by **Advertised** and **Available** data.
+The **Data Elements** view displays the number of fields and lookups identified during certification testing, along with comparisons to industry averages. Counts are categorized as **Advertised** and **Available** data.
 
 <br />
 
-* **Advertised**: the fields and lookups that were found on the server metadata during testing. <br />
-* **Available**: the fields and lookups that were found in the data payload during sampling.
+-   **Advertised**: Fields and lookups detected in the server metadata during testing.  <br />
+-   **Available**: Fields and lookups found in actual data payloads during sampling.
 
 <br />
 
-The **Availability Threshold** slider filters the field and lookup counts based on how often they were populated with data during sampling. 
+The  **Availability Threshold**  slider allows you to filter field and lookup counts based on how frequently data is populated during sampling.
 
-The default availability threshold level shows the field and lookup counts that have an availability greater than zero.
+By default, the slider includes all fields and lookups with availability greater than zero.
 
-Increasing the availability threshold percentage filters the field and lookup counts to those that are populated with data more often (25% setting shown below).
+Increasing the availability threshold percentage narrows the view to only those data elements that appear more frequently (e.g., a 25% setting will display only elements populated in at least 25% of samples).
 
 <br />
 
@@ -69,7 +81,7 @@ Increasing the availability threshold percentage filters the field and lookup co
 
 <br />
 
-Located below the charts, the **Resources** dropdown menu filters the fields and lookups to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups, with data elements belonging to other resources (e.g., Member, Office, etc.) omitted.
+The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in to the Property resource, excluding those from resources like **Member** or **Office**.
 
 <br />
 
@@ -79,10 +91,10 @@ Located below the charts, the **Resources** dropdown menu filters the fields and
 
 The **Data Elements** buttons filter by the following data sets (RESO selection shown below):
 
-* **All** - The combination of RESO + Local<br />
-* **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
-* **Local** - Market-specific custom resources, fields and lookups<br />
-* **IDX** - Resources, fields and lookups for public display by an MLS broker participant
+-   **All:**  The combination of RESO + Local
+-   **RESO:**  All resources, fields and lookups matching the RESO Data Dictionary standard
+-   **Local:**  Market-specific custom resources, fields and lookups
+-   **IDX:**  Resources, fields and lookups for public display by an MLS broker participant
 
 <br />
 
@@ -100,7 +112,7 @@ The **Performance** view shows the data provider’s server metrics.
 
 <br />
 
-Performance Reports for organizations with more than one provider contain a dropdown at the top of the report for switching between them.
+For organizations with more than one data provider, Performance Reports include a dropdown at the top for switching between providers.
 
 <br />
 
@@ -110,12 +122,12 @@ Performance Reports for organizations with more than one provider contain a drop
 
 ## Performance Metrics
 Performance is measured on:
-* **Average Payload Size** - how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
-* **Average Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Average Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
-* **Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
+- **Average Payload Size:**  Indicates how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
+- **Average Response Time:**  Indicates how long, on average, a request to the given server took to complete, measured in seconds (s).
+- **Average Throughput:**  Indicates the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+- **Estimated Seconds per 1,000 Records:**  Indicates the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
 
-**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet.
+**N/A:** Indicates that the given recipient has not completed Data Dictionary availability testing yet.
 
 Please contact RESO at certification@reso.org if you have any questions about interpretting reports.
 
@@ -125,8 +137,6 @@ Please contact RESO at certification@reso.org if you have any questions about in
 [BACK TO TOP](#table-of-contents)
 
 The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about **[Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data)**.
-
-<br />
 
 # Web API Report
 [BACK TO TOP](#table-of-contents)
@@ -152,18 +162,16 @@ Data providers (e.g., MLSs) can be notified of the availability of their Web API
 # Notifications
 [BACK TO TOP](#table-of-contents)
 
-Certification testing results must be reviewed and approved by customers before the endorsements are certified. The review requests are sent via email.
-
-Selecting **Passed** and then **Notify Recipient** for either the Data Dictionary or the Web API Core results will send a bundled review notification for both. The recipient will then be able to review and approve both results from a single link that directs them to the Certification Summary page.
-
-**Note:** The bundled notification is only available when both Data Dictionary and Web API are in **Passed** status. Otherwise, the email will only include the single result that was selected for notification.
+Customers must review and approve the certification testing results before certifications are issued. Review requests are sent to the customers via email.
 
 **IMPORTANT: The email that includes a link to the results(s) should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 
 <br />
 
 ## Sending Notifications
-Select the **Passed** button from the endorsements page or any report page, then select **Notify Recipient**.
+**Data Dictionary** and **Web API** review requests are bundled in the same notification, as long as both endorsements are in **Passed** status. If only a single endorsement is Passed, the email will include only that endorsement.
+
+To send a bundled review notification, select **Passed** and then **Notify Recipient** on either endorsement. The recipient will receive a single link to the Certification Summary page, where they can review and approve both results together.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/328de65f-5682-4681-9765-c7978b548e0b)
 
@@ -194,7 +202,7 @@ Once the customer has approved the results, the button will change to **Certifie
 <br />
 
 ## Notification Tracking
-Providers are allowed to send a maximum of two notifications for each recipient. 
+Providers are allowed to send a maximum of two notifications for each recipient.
 
 If a notification has previously been sent, the notification count and recipient email address will appear when the **Notified** button is selected.
 
@@ -207,9 +215,9 @@ If the two notification maximum was reached and the recipient was not able to re
 # **Canceling Certification**
 [BACK TO TOP](#table-of-contents)
 
-Providers may cancel the certification process when the endorsements are in the **Passed** or **Notified** status. 
+Providers may cancel the certification process when the endorsements are in the **Passed** status.
 
-Select the **Passed** or **Notified** button and select **Cancel Certification**.
+Select the **Passed** button and select **Cancel Certification**.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/1fda4789-0b15-45a1-b391-8b4d05c80cf0)
 
@@ -224,11 +232,11 @@ The endorsement will now show as **Canceled** and may be archived (see below).
 # **Archiving Endorsements**
 [BACK TO TOP](#table-of-contents)
 
-Providers may archive endorsements and should do so for any organizations that they are no longer serving or contain results that are otherwise unwanted.
+Providers may archive endorsements and are encouraged to do so for any organizations they no longer serve or for results that are no longer needed.
 
-Archiving is available for endorsements in **Passed**, **Notified**, **Certified**, **Canceled** or **Withdrawn** status.
+Archiving is available for endorsements in **Passed**, **Notified**, **Legacy**, **Certified**, **Canceled** or **Withdrawn** status.
 
-Select the status button on the endorsement you would like to archive and select **Archive**. 
+Select the status button on the endorsement you would like to archive and select **Archive**.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/e989b730-366a-4d0a-80ac-cc1419519ccf)
 
@@ -239,23 +247,23 @@ A notification of the archive action will be sent to the provider. The customer 
 <br />
 
 ## Auto-Archiving
-Certification endorsements are automatically archived and replaced if a new endorsement of the same type is initiated by the provider.
+When a provider initiates a new endorsement of the same type and version, the existing certification endorsement is automatically archived and replaced.
 
 Auto-archiving will occur for endorsements in **Passed**, **Notified**, **Canceled** or **Withdrawn** status.
 
-Endorsements in a permanent status (**Certified**, **Revoked**) will remain alongside the new endorsements. The old endorsements may be manually archived by the provider at any time.
+Endorsements in a permanent status (**Certified**, **Legacy**, **Revoked**) will remain alongside the new endorsements. The old endorsements may be manually archived by the provider at any time.
 
 <br />
 
 # My Account
 [BACK TO TOP](#table-of-contents)
 
-Selecting **My Account** at the top of the page displays your user information and the ability to copy or create a new token hash. If any of the information shown on the account is incorrect, please contact RESO at certification@reso.org.
+Select **My Account** at the top of the page to view your user details and access options to copy your provider token or create a new API token. If any account information is incorrect, please contact RESO at certification@reso.org.
 
 <br />
 
 ## Creating a Token
-A token is needed in order to access the certification data via Web API.
+A token is required to access certification data through the Web API.
 
 Log in to **[certification.reso.org](https://certification.reso.org)** with your username and password.
 
@@ -279,4 +287,20 @@ The token will then be displayed along with options to copy it to the clipboard 
 
 <br />
 
-You may contact certification@reso.org for further assistance.
+Should you require further assistance or have any questions, you may contact certification@reso.org.
+
+# Alignment Reports
+
+Two alignment reports are available from the Reports option on the toolbar.
+
+<img width="1088" height="255" alt="image" src="https://github.com/user-attachments/assets/d03eebf0-7eba-4d06-8027-56a858e8391f" />
+
+<br />
+
+- **Provider Alignment:**
+- **Market Alignment:**
+
+
+
+
+

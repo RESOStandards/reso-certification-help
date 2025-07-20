@@ -159,4 +159,11 @@ Once you have read and agreed to RESO's Terms and Conditions, check the box to c
 The Industry Alignment Report is a complimentary report available to all RESO members and organizations that are certified or in the process of becoming certified.
 
 - Visualize how your data compares to industry averages, such as RESO-standard and IDX payload fields.
-- Gain insights on what data elements might be added to improve alignment with the Data Dictionary.
+- Gain insights on what data elements might be added to improve alignment with the Data Dictionary and industry at large.
+
+<br />
+Access the Industry Alignment Report by selecting the status box of the Data Dictionary Endorsement.
+
+<img width="667" height="301" alt="image" src="https://github.com/user-attachments/assets/501bf320-33ce-4f7d-bd7a-50a18b776f9a" />
+
+For help with reviewing the report, see the **Industry Alignment Report Guide** (_link to guide_).

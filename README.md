@@ -11,7 +11,7 @@
 The two main endorsements issued to data providers, product vendors and other organizations are **Data Dictionary 2.0** and **Web API Core 2.0.0**, each of which have their own reports.
 <br />
 
-Additional endorsements include, **RESO Common Format (RCF)**, **RESO Web API Add/Edit**, **UPI**, **Webhooks** and **Validation Expressions**.
+Additional endorsements include **RESO Common Format (RCF)**, **RESO Web API Add/Edit**, **UPI**, **Webhooks** and **Validation Expressions**.
 
 <br />
 
@@ -138,7 +138,7 @@ Increasing the availability threshold percentage narrows the view to only those 
 
 <br />
 
-The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in to the Property resource, excluding those from resources like **Member** or **Office**.
+The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in the Property resource, excluding those from resources like **Member** or **Office**.
 
 <br />
 
@@ -225,7 +225,7 @@ The top right section of the report displays the overall counts of data elements
 
 <br />
 
-The **Data Elements** buttons filter by the following data sets:
+The **Data Elements** buttons filter by the following data sets (RESO selection shown below):
 
 * **All:** The combination of RESO + Local<br />
 * **RESO:** All resources, fields and lookups matching the RESO Data Dictionary standard<br />

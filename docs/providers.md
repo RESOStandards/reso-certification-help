@@ -15,7 +15,7 @@
 The two main endorsements issued to data providers, product vendors and other organizations are **Data Dictionary 2.0** and **Web API Core 2.0.0**, each of which have their own reports.
 <br />
 
-Additional endorsements include, **RESO Common Format (RCF)**, **RESO Web API Add/Edit**, **UPI**, **Webhooks** and **Validation Expressions**.
+Additional endorsements include **RESO Common Format (RCF)**, **RESO Web API Add/Edit**, **UPI**, **Webhooks** and **Validation Expressions**.
 
 <br />
 
@@ -81,7 +81,7 @@ Increasing the availability threshold percentage narrows the view to only those 
 
 <br />
 
-The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in to the Property resource, excluding those from resources like **Member** or **Office**.
+The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in the Property resource, excluding those from resources like **Member** or **Office**.
 
 <br />
 
@@ -129,7 +129,7 @@ Performance is measured on:
 
 **N/A:** Indicates that the given recipient has not completed Data Dictionary availability testing yet.
 
-Please contact RESO at certification@reso.org if you have any questions about interpretting reports.
+Please contact RESO at certification@reso.org if you have any questions about interpreting reports.
 
 <br />
 
@@ -298,16 +298,15 @@ In addition to the complimentary **Industry Alignment Report**, two premium repo
 <br />
 
 ## Industry Alignment Report
-- Visualizes how a certification recipient’s data compares to industry averages, such as RESO-standard and IDX payload data elements.
-- Helps data providers and their customers understand how they align with industry standards for specific metrics.
-- Offers suggestions on what data elements might be added to improve alignment.
-- allows data providers to fine-tune their systems before notifying customers to review and approve reports.
+- A visual representation of how an organization's data compares to industry averages, such as RESO-standard and IDX payload data elements.
+- Offers insights on what data elements might be added to improve alignment with the Data Dictionary.
+- Allows data providers to fine-tune their systems before notifying customers to review and approve reports.
 
 <br />
 
 ## Provider Alignment Report
-- Enables organizations, such as MLSs, to evaluate data consistency across multiple API services.
 - About 30% of MLSs use more than one API, often with differences in their data outputs.
+- Enables organizations, such as MLSs, to evaluate data consistency across multiple API services.
 - Offers a visual summary for high-level presentations and detailed views of each system’s full data set for in-depth analysis.
 
 <br />
@@ -315,4 +314,4 @@ In addition to the complimentary **Industry Alignment Report**, two premium repo
 ## Market Alignment Report
 - Illustrates alignment across multiple organizations—for example, comparing data from five different MLSs using different API vendors.
 - Provides a detailed view of all data elements across organizations, helping regional or statewide data share participants evaluate which API service is best suited for collaboration.
-- Reveals alignment opportunities even across disparate systems—beta testing has shown strong consistency for RESO standard fields, particularly commonly used formats like IDX fields in the Property Resource.
+- Reveals alignment opportunities even across disparate systems.

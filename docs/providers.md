@@ -291,16 +291,28 @@ Should you require further assistance or have any questions, you may contact cer
 
 # Alignment Reports
 
-Two alignment reports are available from the Reports option on the toolbar.
+In addition to the complimentary **Industry Alignment Report**, two premium reports—**Provider Alignment Report** and **Market Alignment Report**—are available under the Reports option in the toolbar. **See:** [Alignment Reports Pricing]([url](https://www.reso.org/reso-alignment-reports-pricing/))
 
 <img width="1088" height="255" alt="image" src="https://github.com/user-attachments/assets/d03eebf0-7eba-4d06-8027-56a858e8391f" />
 
 <br />
 
-- **Provider Alignment:**
-- **Market Alignment:**
+## Industry Alignment Report
+- Visualizes how a certification recipient’s data compares to industry averages, such as RESO-standard and IDX payload data elements.
+- Helps data providers and their customers understand how they align with industry standards for specific metrics.
+- Offers suggestions on what data elements might be added to improve alignment.
+- allows data providers to fine-tune their systems before notifying customers to review and approve reports.
 
+<br />
 
+## Provider Alignment Report
+- Enables organizations, such as MLSs, to evaluate data consistency across multiple API services.
+- About 30% of MLSs use more than one API, often with differences in their data outputs.
+- Offers a visual summary for high-level presentations and detailed views of each system’s full data set for in-depth analysis.
 
+<br />
 
-
+## Market Alignment Report
+- Illustrates alignment across multiple organizations—for example, comparing data from five different MLSs using different API vendors.
+- Provides a detailed view of all data elements across organizations, helping regional or statewide data share participants evaluate which API service is best suited for collaboration.
+- Reveals alignment opportunities even across disparate systems—beta testing has shown strong consistency for RESO standard fields, particularly commonly used formats like IDX fields in the Property Resource.

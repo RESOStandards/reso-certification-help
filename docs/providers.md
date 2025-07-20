@@ -304,10 +304,22 @@ In addition to the complimentary **Industry Alignment Report**, two premium repo
 
 <br />
 
+Access the Industry Alignment Report by selecting the status box of the Data Dictionary Endorsement.
+
+<br />
+
+<img width="667" height="301" alt="image" src="https://github.com/user-attachments/assets/501bf320-33ce-4f7d-bd7a-50a18b776f9a" />
+
+<br />
+<br />
+
+For help with reviewing the report, see the **Industry Alignment Report Guide** (_link to guide_).
+
 ## Provider Alignment Report
 - About 30% of MLSs use more than one API, often with differences in their data outputs.
 - Enables organizations, such as MLSs, to evaluate data consistency across multiple API services.
-- Offers a visual summary for high-level presentations and detailed views of each system’s full data set for in-depth analysis.
+- Offers a visual summary for high-level presentations and detailed views of each system’s full data set for comparison and in-depth analysis.
+- TODO: Link to the specific Help for the report itself.
 
 <br />
 
@@ -315,3 +327,8 @@ In addition to the complimentary **Industry Alignment Report**, two premium repo
 - Illustrates alignment across multiple organizations—for example, comparing data from five different MLSs using different API vendors.
 - Provides a detailed view of all data elements across organizations, helping regional or statewide data share participants evaluate which API service is best suited for collaboration.
 - Reveals alignment opportunities even across disparate systems.
+
+<br />
+
+TODO: Preflight Check
+TODO: Certification dropdown items

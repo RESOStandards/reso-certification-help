@@ -1,36 +1,38 @@
 # Table of Contents
 
-**[Endorsements](#endorsements)**<br />
-**[Notifications](#notifications)**<br />
+**[Certification Endorsements](#certification-endorsements)**<br />
+**[Notifications and Review](#notifications-and-review)**<br />
 **[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
 **[Reviewing and Approving Results](#reviewing-and-approving-results)** | [Data Dictionary Report](#data-dictionary-report) | [Web API Report](#web-api-report)
 
 <br />
 
-# Endorsements
-The RESO Certification process requires a provider (MLS vendor) to review customer (MLS) testing results and then notify the customer through the RESO Certification System. The customer will then review the results and approve them to receive certification for the given endorsement.
+# Certification Endorsements
+As part of the RESO Certification process, the data provider (e.g., an MLS vendor) must review the customer's (e.g., an MLS) testing results and notify them through the RESO Certification System. The customer then reviews and approves the results to complete certification for the specified endorsement.
 
-At this time, there are two possible endorsements that can be issued to data providers for each customer they serve, **Data Dictionary 1.7** and **Web API Core 2.0.0**, each of which have different reports.
+The two main endorsements issued to data providers, product vendors and other organizations are **Data Dictionary 2.0** and **Web API Core 2.0.0**, each of which have their own reports.
+
+Additional endorsements include **RESO Common Format (RCF)**, **RESO Web API Add/Edit**, **UPI**, **Webhooks** and **Validation Expressions**.
 
 See more information about viewing **[Endorsements](https://certification-help.reso.org/#endorsements)**.
 
 <br />
 
-# Notifications
-You will receive an email from certification@reso.org with a link to review and approve the results of your certification tests as submitted by your provider. The body of the email will contain a review link for any endorsements that were submitted for certification. 
+# Notifications and Review
 
-For example, if both **Data Dictionary 1.7** and **Web API Core 2.0.0** were submitted, they will be reviewed from the same link.
+- You will receive an email from certification@reso.org containing a link to review and approve the certification test results submitted by your provider.
+- The email includes a link to review any endorsement submitted for certification.
+- If multiple endorsements (e.g., **Data Dictionary 2.0** and **Web API Core 2.0.0**) were submitted, they can be reviewed using the same link.
+- Select the **REVIEW AND APPROVE RESULTS** link in the email to access the Certification Summary Report.
 
-Select the **REVIEW AND APPROVE RESULTS** link located below the endorsement(s) to be taken to the Certification Summary Report.
-
-![image](https://user-images.githubusercontent.com/88680702/205775765-d25de46f-bb2b-4326-bf33-7224e817ded5.png)
+<img width="771" height="518" alt="image" src="https://github.com/user-attachments/assets/7189201e-bdbf-466f-bd79-9270133bbe63" />
 
 <br />
 
 # Summary Report
 [BACK TO TOP](#table-of-contents)
 
-The Certification Summary Report provides a high level overview of the data found during certification testing, displayed in charts. Server performance metrics for the data provider are also included.
+Summary Reports provide information about the resources, fields and lookups for your system. Charts illustrate the number of data elements (fields and lookups) and how they compare to industry averages. Server performance metrics for the data provider are also included.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/842f32bf-8c84-4be4-b20c-20853e86f26f)
 
@@ -41,14 +43,16 @@ Each report contains two views, **Data Elements** and **Performance**, accessed 
 <br />
 
 ## Data Elements View
-The **Data Elements** view shows the field and lookup counts and how they compare to industry averages. The counts are broken down by **Advertised** and **Available** data.
+The **Data Elements** view displays the number of fields and lookups identified during certification testing, along with comparisons to industry averages. Counts are categorized as **Advertised** and **Available** data.
 
-**Advertised**: the data elements that were found in the server metadata<br />
-**Available**: the data elements that were found in the payload during sampling
+**Advertised**: Fields and lookups detected in the server metadata during testing<br />
+**Available**: Fields and lookups found in actual data payloads during sampling
 
-The **Availability Threshold** slider on the right allows you to set a minimum data availability that each field and lookup in the data set must be greater than or equal to. The default availability threshold level shows the count of data elements with availability greater than zero.
+The **Availability Threshold** slider allows you to filter field and lookup counts based on how frequently data is populated during sampling.
 
-Increasing the availability threshold percentage filters the field and lookup counts to those that are populated with data more often (25% setting shown below).
+By default, the slider includes all fields and lookups with availability greater than zero.
+
+Increasing the availability threshold percentage narrows the view to only those data elements that appear more frequently (e.g., a 25% setting will display only elements populated in at least 25% of samples).
 
 <br />
 
@@ -56,7 +60,7 @@ Increasing the availability threshold percentage filters the field and lookup co
 
 <br />
 
-Located below the charts, the **Resources** dropdown menu provides a data filter to the specific resource selected. For example, if Property is selected, chart data will only include Property fields and lookups. Elements relating to other resources (e.g., Member, Office, etc.) will be omitted.
+The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in the Property resource, excluding those from resources like **Member** or **Office**.
 
 ![image](https://user-images.githubusercontent.com/88680702/164042681-63dbff92-321f-4321-ab7d-002e4924f1e7.png)
 
@@ -85,14 +89,14 @@ The **Performance** view shows the data provider’s server metrics.
 ## Performance Metrics
 Performance is measured on:
 
-* **Average Payload Size** - how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
-* **Average Response Time** - how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Average Throughput** - the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
-* **Estimated Seconds per 1,000 Records** - the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
+* **Average Payload Size** - Indicates how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
+* **Average Response Time** - Indicates how long, on average, a request to the given server took to complete, measured in seconds (s).
+* **Average Throughput** - Indicates the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
+* **Estimated Seconds per 1,000 Records** - Indicates the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
 
-**N/A** - means that the given recipient has not completed Data Dictionary availability testing yet.
+**N/A** - Indicates that the given recipient has not completed Data Dictionary availability testing yet.
 
-Please contact RESO at certification@reso.org if you have any questions about interpretting reports.
+Please contact RESO at certification@reso.org if you have any questions about interpreting reports.
 
 <br />
 
@@ -150,3 +154,9 @@ A **Contact RESO** button on this page allows you to send an email to certificat
 Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
 
 <br />
+
+## Industry Alignment Report
+The Industry Alignment Report is a complimentary report available to all RESO members and organizations that are certified or in the process of becoming certified.
+
+- Visualize how your data compares to industry averages, such as RESO-standard and IDX payload fields.
+- Gain insights on what data elements might be added to improve alignment with the Data Dictionary.

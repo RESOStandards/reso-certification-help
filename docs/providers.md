@@ -1,13 +1,13 @@
 # Table of Contents
 
 **[Endorsements](#endorsements)**<br />
-**[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
+**[Summary Report](#summary-report)** | **[Data Elements View](#data-elements-view)** | **[Performance View](#performance-view)**<br />
 **[Data Dictionary Report](#data-dictionary-report)**<br />
 **[Web API Report](#web-api-report)**<br />
-**[Notifications](#notifications)** | [Sending Notifications](#sending-notifications) | [Notification Tracking](#notification-tracking)<br />
+**[Notifications](#notifications)** | **[Sending Notifications](#sending-notifications)** | **[Notification Tracking](#notification-tracking)**<br />
 **[Canceling Certification](#canceling-certification)**<br />
-**[Archiving Endorsements](#archiving-endorsements)** | [Auto-Archiving](#auto-archiving)<br />
-**[My Account](#my-account)** | [Creating a Token](#creating-a-token)<br />
+**[Archiving Endorsements](#archiving-endorsements)** | **[Auto-Archiving](#auto-archiving)**<br />
+**[My Account](#my-account)** | **[Creating a Token](#creating-a-token)**<br />
 
 <br />
 
@@ -28,14 +28,14 @@ Certification Statuses:
 - **Notified:** The provider has passed certification testing and has notified the customer to review and approve the results.
 - **Canceled:** A passed-status endorsement was canceled prior to the provider notifying the customer.
 
-See more information about viewing the **[Endorsements page (homepage)](https://certification-help.reso.org/#endorsements)**.
+See more information about viewing the **[Endorsements Page](https://certification-help.reso.org/#endorsements)**.
 
 <br />
 
 # Summary Report
 [BACK TO TOP](#table-of-contents)
 
-Summary Reports provide information about the resources, fields, and lookups for the selected organization.
+**Summary Reports** provide information about the resources, fields and lookups for the selected organization.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/842f32bf-8c84-4be4-b20c-20853e86f26f)
 
@@ -50,7 +50,7 @@ For organizations with multiple providers, Summary Reports include a dropdown at
 
 <br />
 
-The Summary Report offers two views, Data Elements and Performance, available via a dropdown in the top-left corner.
+The Summary Report offers two views, **Data Elements** and **Performance**, available via a dropdown in the top-left corner.
 
 <br />
 
@@ -64,12 +64,12 @@ The **Data Elements** view displays the number of fields and lookups identified 
 
 <br />
 
--   **Advertised**: Fields and lookups detected in the server metadata during testing.  <br />
--   **Available**: Fields and lookups found in actual data payloads during sampling.
+-   **Advertised:** Fields and lookups detected in the server metadata during testing<br />
+-   **Available:** Fields and lookups found in actual data payloads during sampling
 
 <br />
 
-The  **Availability Threshold**  slider allows you to filter field and lookup counts based on how frequently data is populated during sampling.
+The  **Availability Threshold** slider allows you to filter field and lookup counts based on how frequently data is populated during sampling.
 
 By default, the slider includes all fields and lookups with availability greater than zero.
 
@@ -81,7 +81,7 @@ Increasing the availability threshold percentage narrows the view to only those 
 
 <br />
 
-The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in the Property resource, excluding those from resources like **Member** or **Office**.
+The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in the **Property Resource**, excluding those from other resources such as the **Member Resource** or **Office Resource**.
 
 <br />
 
@@ -121,37 +121,41 @@ For organizations with more than one data provider, Performance Reports include 
 <br />
 
 ## Performance Metrics
+
 Performance is measured on:
-- **Average Payload Size:**  Indicates how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
-- **Average Response Time:**  Indicates how long, on average, a request to the given server took to complete, measured in seconds (s).
-- **Average Throughput:**  Indicates the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
-- **Estimated Seconds per 1,000 Records:**  Indicates the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
 
-**N/A:** Indicates that the given recipient has not completed Data Dictionary availability testing yet.
+- **Average Payload Size:**  Measured in megabytes (MB), this indicates how much data was retrieved when sampling the resource selected in the **Resources** dropdown, with **All** representing the average across all resources found.
+- **Average Response Time:**  Measured in seconds (s), this indicates how long, on average, a request to the given server took to complete.
+- **Average Throughput:**  Measured in megabytes per second (MB/s), this indicates the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server.
+- **Estimated Seconds per 1,000 Records:** Displayed for the specific provider and by industry average, this indicates the estimated time it takes to retrieve 1,000 records from the server.
 
-Please contact RESO at certification@reso.org if you have any questions about interpreting reports.
+**N/A:** This indicates that the given recipient has not completed Data Dictionary availability testing yet.
+
+Contact analytics@reso.org with further questions about interpreting reports.
 
 <br />
 
 # Data Dictionary Report
 [BACK TO TOP](#table-of-contents)
 
-The Data Dictionary Report allows you to explore the data elements of the server submitted for RESO certification. See more information about **[Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data)**.
+The Data Dictionary Report allows for the exploration of data elements from the server submitted for RESO certification. See more information about **[Exploring the Data Dictionary Report](https://certification-help.reso.org/#exploring-the-data)**.
+
+<br />
 
 # Web API Report
 [BACK TO TOP](#table-of-contents)
 
 **IMPORTANT: All MLS providers are required to obtain the Web API Core endorsement prior to that of the Data Dictionary.**
 
-Once the endorsement has been obtained, select **View Details** at the right of the Web API Core 2.0.0 endorsement to view the report.
+Once the endorsement has been obtained, select **View Details** to the right of the Web API Core 2.0.0 endorsement to view the report.
 
 ![image](https://user-images.githubusercontent.com/88680702/205773188-96dd821d-f123-46ed-82a5-f019dddcef6c.png)
 
 <br />
 
-The Web API Core report displays the name of the organization that was tested as well as that of the data provider. If any of this information is incorrect, please contact RESO at certification@reso.org.
+The Web API Core report displays the name of the organization that was tested, as well as that of the data provider. If any of this information is incorrect, please contact certification@reso.org.
 
-The report shows which version of OData the RESO Web API server was using and the authentication type, with the current options being OAuth 2 Bearer Token or Client Credentials. The fields that were used for testing and the status button are also shown.
+The report shows which version of OData the RESO Web API server was using and the authentication type, with the current options being **OAuth 2 Bearer Token** or **Client Credentials**. The fields that were used for testing and the status button are also shown.
 
 Data providers (e.g., MLSs) can be notified of the availability of their Web API Report for certification approval by selecting the **Passed** button at the top right of this page. See more information about sending **[Notifications]((#notifications))**.
 
@@ -162,7 +166,7 @@ Data providers (e.g., MLSs) can be notified of the availability of their Web API
 # Notifications
 [BACK TO TOP](#table-of-contents)
 
-Customers must review and approve the certification testing results before certifications are issued. Review requests are sent to the customers via email.
+Customers must review and approve the certification testing results before certifications are issued. Review requests are sent to customers via email.
 
 **IMPORTANT: The email that includes a link to the results(s) should only be sent to the organization you are certifying. Any recipient of the email would have the ability to approve the results.**
 
@@ -171,7 +175,7 @@ Customers must review and approve the certification testing results before certi
 ## Sending Notifications
 **Data Dictionary** and **Web API** review requests are bundled in the same notification, as long as both endorsements are in **Passed** status. If only a single endorsement is Passed, the email will include only that endorsement.
 
-To send a bundled review notification, select **Passed** and then **Notify Recipient** on either endorsement. The recipient will receive a single link to the Certification Summary page, where they can review and approve both results together.
+To send a bundled review notification, select **Passed** and then **Notify Recipient** on either endorsement. The recipient will receive a single link to the Certification Summary page, where they can review and approve both results.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/328de65f-5682-4681-9765-c7978b548e0b)
 
@@ -208,14 +212,14 @@ If a notification has previously been sent, the notification count and recipient
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/aa02720f-db1b-4607-87fb-f528880c5c3f)
 
-If the two notification maximum was reached and the recipient was not able to retrieve the emails, you may email certification@reso.org for assistance.
+If the two-notification maximum was reached and the recipient was not able to retrieve the emails, you may email certification@reso.org for assistance.
 
 <br />
 
 # **Canceling Certification**
 [BACK TO TOP](#table-of-contents)
 
-Providers may cancel the certification process when the endorsements are in the **Passed** status.
+Providers may cancel the certification process when endorsements are in **Passed** status.
 
 Select the **Passed** button and select **Cancel Certification**.
 
@@ -232,7 +236,7 @@ The endorsement will now show as **Canceled** and may be archived (see below).
 # **Archiving Endorsements**
 [BACK TO TOP](#table-of-contents)
 
-Providers may archive endorsements and are encouraged to do so for any organizations they no longer serve or for results that are no longer needed.
+Providers may archive endorsements and are encouraged to do so for any organizations they no longer serve or for results that are no longer needed or valid.
 
 Archiving is available for endorsements in **Passed**, **Notified**, **Legacy**, **Certified**, **Canceled** or **Withdrawn** status.
 
@@ -287,19 +291,19 @@ The token will then be displayed along with options to copy it to the clipboard 
 
 <br />
 
-Should you require further assistance or have any questions, you may contact certification@reso.org.
+Should you require further assistance or have any questions, contact certification@reso.org.
 
 # Alignment Reports
 
-In addition to the complimentary **Industry Alignment Report**, two premium reports—**Provider Alignment Report** and **Market Alignment Report**—are available under the Reports option in the toolbar. **See:** [Alignment Reports Pricing]([url](https://www.reso.org/reso-alignment-reports-pricing/))
+In addition to the complimentary **Industry Alignment Report**, two premium reports – **Provider Alignment Report** and **Market Alignment Report** – are available under the Reports option in the toolbar. **See:** [Alignment Reports Pricing]([url](https://www.reso.org/reso-alignment-reports-pricing/))
 
 <img width="1088" height="255" alt="image" src="https://github.com/user-attachments/assets/d03eebf0-7eba-4d06-8027-56a858e8391f" />
 
 <br />
 
 ## Industry Alignment Report
-- A visual representation of how an organization's data compares to industry averages, such as RESO-standard and IDX payload data elements.
-- Offers insights on what data elements might be added to improve alignment with the Data Dictionary.
+- Provides a visual representation of how an organization's data compares to industry averages, such as RESO-standard and IDX payload data elements
+- Offers insights on what data elements might be added to improve alignment with the Data Dictionary
 - Allows data providers to fine-tune their systems before notifying customers to review and approve reports.
 
 <br />
@@ -313,22 +317,25 @@ Access the Industry Alignment Report by selecting the status box of the Data Dic
 <br />
 <br />
 
-For help with reviewing the report, see the **Industry Alignment Report Guide** (_link to guide_).
+For help with reviewing the report, see the **Industry Alignment Report Help Guide** (_link to guide_).
+
+<br />
 
 ## Provider Alignment Report
-- About 30% of MLSs use more than one API, often with differences in their data outputs.
-- Enables organizations, such as MLSs, to evaluate data consistency across multiple API services.
-- Offers a visual summary for high-level presentations and detailed views of each system’s full data set for comparison and in-depth analysis.
-- TODO: Link to the specific Help for the report itself.
+- Shows differences in data outputs for MLSs that use more than one API (about 30% do)
+- Enables organizations, such as MLSs, to evaluate data consistency across multiple API services
+- Offers a visual summary for high-level presentations and detailed views of each system’s full data set for comparison and in-depth analysis
+- See the **Provider Alignment Report Help Guide** (_link to guide_)
 
 <br />
 
 ## Market Alignment Report
-- Illustrates alignment across multiple organizations—for example, comparing data from five different MLSs using different API vendors.
-- Provides a detailed view of all data elements across organizations, helping regional or statewide data share participants evaluate which API service is best suited for collaboration.
-- Reveals alignment opportunities even across disparate systems.
+- Illustrates alignment across multiple organizations (e.g., comparing data from five different MLSs using different API vendors)
+- Provides a detailed view of all data elements across organizations, helping regional or statewide data share participants evaluate which API service is best suited for collaboration
+- Reveals alignment opportunities even across disparate systems
+- See the **Market Alignment Report Help Guide** (_link to guide_)
 
 <br />
 
-TODO: Preflight Check
-TODO: Certification dropdown items
+**TODO:** Preflight Check<br />
+**TODO:** Certification Dropdown Items

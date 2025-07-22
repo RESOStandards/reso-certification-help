@@ -2,13 +2,13 @@
 
 **[Certification Endorsements](#certification-endorsements)**<br />
 **[Notifications and Review](#notifications-and-review)**<br />
-**[Summary Report](#summary-report)** | [Data Elements View](#data-elements-view) | [Performance View](#performance-view)<br />
-**[Reviewing and Approving Results](#reviewing-and-approving-results)** | [Data Dictionary Report](#data-dictionary-report) | [Web API Report](#web-api-report)
+**[Summary Report](#summary-report)** | **[Data Elements View](#data-elements-view)** | **[Performance View](#performance-view)**<br />
+**[Reviewing and Approving Results](#reviewing-and-approving-results)** | **[Data Dictionary Report](#data-dictionary-report)** | **[Web API Report](#web-api-report)**
 
 <br />
 
 # Certification Endorsements
-As part of the RESO Certification process, the data provider (e.g., an MLS vendor) must review the customer's (e.g., an MLS) testing results and notify them through the RESO Certification System. The customer then reviews and approves the results to complete certification for the specified endorsement.
+As part of the RESO Certification process, **data providers** (e.g., MLS vendors) must review the testing results of their **customers** (e.g., MLSs) and notify them through the **RESO Certification System**. Customers then review and approve results to complete certification for specified endorsements.
 
 The two main endorsements issued to data providers, product vendors and other organizations are **Data Dictionary 2.0** and **Web API Core 2.0.0**, each of which have their own reports.
 
@@ -32,7 +32,7 @@ See more information about viewing **[Endorsements](https://certification-help.r
 # Summary Report
 [BACK TO TOP](#table-of-contents)
 
-Summary Reports provide information about the resources, fields and lookups for your system. Charts illustrate the number of data elements (fields and lookups) and how they compare to industry averages. Server performance metrics for the data provider are also included.
+**Summary Reports** provide information about the resources, fields and lookups for your system. Charts illustrate the number of data elements (fields and lookups) and how they compare to industry averages. Server performance metrics for the data provider are also included.
 
 ![image](https://github.com/RESOStandards/reso-certification-help/assets/88680702/842f32bf-8c84-4be4-b20c-20853e86f26f)
 
@@ -60,7 +60,7 @@ Increasing the availability threshold percentage narrows the view to only those 
 
 <br />
 
-The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in the Property resource, excluding those from resources like **Member** or **Office**.
+The **Resources** dropdown, located below the charts, filters the displayed data to a selected resource. For example, selecting **Property** will show only fields and lookups in the **Property Resource**, excluding those from other resources such as the **Member Resource** or **Office Resource**.
 
 ![image](https://user-images.githubusercontent.com/88680702/164042681-63dbff92-321f-4321-ab7d-002e4924f1e7.png)
 
@@ -68,10 +68,10 @@ The **Resources** dropdown, located below the charts, filters the displayed data
 
 The **Data Elements** buttons filter by the following data sets (RESO selection shown below):
 
-* **All** - The combination of RESO + Local<br />
-* **RESO** - All resources, fields and lookups matching the RESO Data Dictionary standard<br />
-* **Local** - Market-specific custom resources, fields and lookups<br />
-* **IDX** - Resources, fields and lookups for public display by an MLS broker participant
+-   **All:** The combination of RESO + Local
+-   **RESO:** All resources, fields and lookups matching the RESO Data Dictionary standard
+-   **Local:** Market-specific custom resources, fields and lookups
+-   **IDX:** Resources, fields and lookups for public display by an MLS broker participant
 
 <br />
 
@@ -87,16 +87,17 @@ The **Performance** view shows the data provider’s server metrics.
 <br />
 
 ## Performance Metrics
+
 Performance is measured on:
 
-* **Average Payload Size** - Indicates how much data was retrieved when sampling the resource selected in the Resources dropdown, with "All" representing the average across all resources found. Measured in megabytes (MB).
-* **Average Response Time** - Indicates how long, on average, a request to the given server took to complete, measured in seconds (s).
-* **Average Throughput** - Indicates the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server. Measured in megabytes per second (MB/s).
-* **Estimated Seconds per 1,000 Records** - Indicates the estimated time it takes to retrieve 1,000 records from the server. Shows for the specific provider and the industry average.
+- **Average Payload Size:**  Measured in megabytes (MB), this indicates how much data was retrieved when sampling the resource selected in the **Resources** dropdown, with **All** representing the average across all resources found.
+- **Average Response Time:**  Measured in seconds (s), this indicates how long, on average, a request to the given server took to complete.
+- **Average Throughput:**  Measured in megabytes per second (MB/s), this indicates the payload size divided by response time. Similar to an Internet speed test, this metric shows how quickly consumers might expect to retrieve data from the given server.
+- **Estimated Seconds per 1,000 Records:** Displayed for the specific provider and by industry average, this indicates the estimated time it takes to retrieve 1,000 records from the server.
 
-**N/A** - Indicates that the given recipient has not completed Data Dictionary availability testing yet.
+**N/A:** This indicates that the given recipient has not completed Data Dictionary availability testing yet.
 
-Please contact RESO at certification@reso.org if you have any questions about interpreting reports.
+Contact analytics@reso.org with further questions about interpreting reports.
 
 <br />
 
@@ -130,14 +131,16 @@ Once you have reviewed your Data Dictionary Report, select the **Approve** butto
 
 <br />
 
-A **Contact RESO** button on this page allows you to send an email to certification@reso.org.
-
 Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
 
 <br />
 
+There is a **Contact RESO** button on this page that allows you to send an email to certification@reso.org should you have further questions.
+
+<br />
+
 ## Web API Report
-The Web API Report allows you to view your high-level certification information, including your **Organization Name** and **Vendor Name**. If you believe that any of this information is incorrect, please contact RESO at certification@reso.org.
+The **Web API Report** allows you to view your high-level certification information, including your **Organization Name** and **Vendor Name**. If you believe that any of this information is incorrect, send an email to certification@reso.org.
 
 ![image](https://user-images.githubusercontent.com/88680702/205768015-8cb372b1-9548-48d6-9c4f-ea4e2392874c.png)
 
@@ -149,9 +152,11 @@ Once you have reviewed your Web API Core 2.0.0 report, select the **Approve** bu
 
 <br />
 
-A **Contact RESO** button on this page allows you to send an email to certification@reso.org.
-
 Once you have read and agreed to RESO's Terms and Conditions, check the box to confirm and select **Proceed**.
+
+<br />
+
+There is a **Contact RESO** button on this page that allows you to send an email to certification@reso.org should you have further questions.
 
 <br />
 
@@ -159,11 +164,11 @@ Once you have read and agreed to RESO's Terms and Conditions, check the box to c
 The Industry Alignment Report is a complimentary report available to all RESO members and organizations that are certified or in the process of becoming certified.
 
 - Visualize how your data compares to industry averages, such as RESO-standard and IDX payload fields.
-- Gain insights on what data elements might be added to improve alignment with the Data Dictionary and industry at large.
+- Gain insights on what data elements might be added to improve alignment with the Data Dictionary and the industry at large.
 
 <br />
 Access the Industry Alignment Report by selecting the status box of the Data Dictionary Endorsement.
 
 <img width="667" height="301" alt="image" src="https://github.com/user-attachments/assets/501bf320-33ce-4f7d-bd7a-50a18b776f9a" />
 
-For help with reviewing the report, see the **Industry Alignment Report Guide** (_link to guide_).
+For help with reviewing the report, see the **Industry Alignment Report Help Guide** (_link to guide_).

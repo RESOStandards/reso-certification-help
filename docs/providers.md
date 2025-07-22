@@ -28,7 +28,7 @@ Certification Statuses:
 - **Notified:** The provider has passed certification testing and has notified the customer to review and approve the results.
 - **Canceled:** A passed-status endorsement was canceled prior to the provider notifying the customer.
 
-See more information about viewing the **[Endorsements Page](https://certification-help.reso.org/#endorsements)**.
+See more information about viewing **[Endorsements](https://certification-help.reso.org/#endorsements)**.
 
 <br />
 
@@ -50,7 +50,7 @@ For organizations with multiple providers, Summary Reports include a dropdown at
 
 <br />
 
-The Summary Report offers two views, **Data Elements** and **Performance**, available via a dropdown in the top-left corner.
+The Summary Report offers two views, **Data Elements** and **Performance**, available via a dropdown in the top left corner.
 
 <br />
 

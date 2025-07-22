@@ -52,7 +52,7 @@ The **Availability Threshold** slider allows you to filter field and lookup coun
 
 By default, the slider includes all fields and lookups with availability greater than zero.
 
-Increasing the availability threshold percentage narrows the view to only those data elements that appear more frequently (e.g., a 25% setting will display only elements populated in at least 25% of samples).
+Increasing the availability threshold percentage narrows the view to only those data elements that are populated with data more frequently (e.g., a 25% setting will display only elements populated in at least 25% of samples).
 
 <br />
 

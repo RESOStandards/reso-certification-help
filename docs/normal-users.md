@@ -61,3 +61,11 @@ The token will then be displayed along with options to copy it to the clipboard 
 
 You may contact certification@reso.org for assistance.
 
+## RESO Alignment Reports
+
+Select Reports from the tool bar at the top and select the report you would like to create.
+- **Provider Alignment Report**
+  - TODO: Link to Report Help
+- **Market Alignment Report**
+  - TODO: Link to Report Help
+

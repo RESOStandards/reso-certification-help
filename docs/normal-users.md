@@ -3,7 +3,7 @@
 **[Endorsements](#endorsements)**<br />
 **[Summary Report](#summary-report)**<br />
 **[Data Dictionary Report](#data-dictionary-report)**<br />
-**[My Account](#my-account)** | [Creating a Token](#creating-a-token)
+**[My Account](#my-account)** | **[Creating a Token](#creating-a-token)**
 
 <br />
 
@@ -68,4 +68,5 @@ Select Reports from the tool bar at the top and select the report you would like
   - TODO: Link to Report Help
 - **Market Alignment Report**
   - TODO: Link to Report Help
+
 

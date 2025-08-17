@@ -81,6 +81,16 @@ Check the Anomalies box to filter the diagram to show only data elements whose a
 
 <img width="1661" height="83" alt="image" src="https://github.com/user-attachments/assets/66fd70eb-eedc-4591-9f02-e5f76e4c5fb4" />
 
+## Details
+
+The Details View of the report shows the individual data elements, their availability under each provider, the industry average availability and the number of unique recipients (usually MLSs) in a sortable table format.
+
+It contains the same filter options as the Diagram View, with the addition of the Heat Grid.
+
+### Heat Grid
+
+
+
 
 
 

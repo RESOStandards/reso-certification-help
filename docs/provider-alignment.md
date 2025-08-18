@@ -30,7 +30,7 @@ Select a region or intersection to see the specific data elements with their ava
 
 <img width="1746" height="1035" alt="image" src="https://github.com/user-attachments/assets/fe85f6e9-1f94-490e-8251-419620d81c21" />
 
-## Counts and Alignment Summary
+### Counts and Alignment Summary
 This section summarizes the counts and overall alignment of fields and lookups between the selected providers.
 
 <img width="836" height="173" alt="image" src="https://github.com/user-attachments/assets/f89dbb3e-7bfa-49e6-b22c-66adb62dcd1c" />
@@ -87,12 +87,20 @@ The Details View of the report shows the individual data elements, their availab
 
 This view can be used in conjunction with the diagram for organizations to see where their data elements differ between provider systems. These differences may include whether specific fields or lookups are not present for all systems. Additionally, the details view makes it easy to spot differences in availablity between systems. For example, an organization may want to investigate cases where a field is populated much more frequently in one system over another.
 
-The Details View contains the same [filter options](##Filters) as the Diagram View, with the addition of the [Heat Grid](###Heat-Grid).
+The Details View contains the same [Filter](##Filters) options as the [Diagram View](##-Venn-Diagram), with the addition of the [Heat Grid](###Heat-Grid).
 
 ### Heat Grid
 Check the Heat Grid box to to apply a color-coded layer to the data elements in the table, showing a range of availability differences between providers. The legend appears below the table.
 
 <img width="1746" height="1039" alt="image" src="https://github.com/user-attachments/assets/122825bb-bf82-4520-af36-6047937e0fc6" />
+
+## Print and Export
+Print or export the data from both report views by selecting the Print and Export buttons at the top right.
+
+<img width="144" height="97" alt="image" src="https://github.com/user-attachments/assets/3c66dde8-e40a-4728-8cba-28b9addb69aa" />
+
+The data elements in the export will follow the filters that are in place on screen. For example, filtering for only RESO fields with an availability threshold of 75% or above will also be applied to the data that is exported.
+
 
 
 

@@ -6,6 +6,22 @@ Many MLSs offer more than one API, which may contain differences in their data e
 
 This report provides both a high-level visual summary for presentations and a detailed view for internal analysis, allowing organizations to identify where better alignment of data elements may be needed.
 
+## Select Organization and Providers
+
+Select **Reports**, **Provider Alignment Report** from the toolbar.
+
+<img width="523" height="186" alt="image" src="https://github.com/user-attachments/assets/e55002a4-466b-44e7-a6a1-16eaa86c95fd" /><br/>
+
+Select the organization to be included in the report.
+
+<img width="1020" height="549" alt="image" src="https://github.com/user-attachments/assets/654c4a33-5dee-4565-a7ca-29a6ab05e79e" /><br/>
+
+The organization's provider systems, the Data Dictionary version of their certification, certification status and issue date will show below below.
+
+<img width="1750" height="1027" alt="image" src="https://github.com/user-attachments/assets/8f625d9d-9b91-4949-b810-985630481d36" /><br/>
+
+Select **Next**.
+
 ## Venn Diagram
 
 The Venn Diagram can display up to three providers at a time, with each provider represented by a circle.
@@ -31,7 +47,7 @@ Select a region or intersection to see the specific data elements with their ava
 <img width="1746" height="1035" alt="image" src="https://github.com/user-attachments/assets/fe85f6e9-1f94-490e-8251-419620d81c21" />
 
 ### Counts and Alignment Summary
-This section summarizes the counts and overall alignment of fields and lookups between the selected providers.
+This section summarizes the counts and overall alignment of fields and lookups between the selected providers. These counts change based on any [Filters](##Filters) selections.
 
 <img width="836" height="173" alt="image" src="https://github.com/user-attachments/assets/f89dbb3e-7bfa-49e6-b22c-66adb62dcd1c" />
 
@@ -51,8 +67,7 @@ Select which providers are included in the diagram (maximum of three).
 ### Data Elements Filter
 Filter the data in the diagram by classification of the data elements. RESO are standard Data Dictionary data elements, Local are unique to the system being viewed and IDX are those tagged with the IDX Payload.
 
-For example, an organization might want to identify where its IDX data elements differ between providers to make them more consistent. The RESO standard data elements can also be a point of focus for aligning data across different providers.
-
+For example, an organization might use the report to find where its IDX data elements differ between providers and then work to make them more consistent. The RESO standard data elements can also be a key focus for aligning data across different providers.
 <img width="838" height="103" alt="image" src="https://github.com/user-attachments/assets/5c2d0ee3-1481-4813-93b6-4fc2362e1ddd" />
 
 ### Report View Selection

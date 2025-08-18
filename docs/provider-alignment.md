@@ -40,7 +40,7 @@ Select All or Common to narrow the summary data. All includes every field and lo
 ## Filters
 The Provider Alignment Report can be narrowed to represent specific criteria with the options below.
 
-For example, an organization may want to focus on aligning the RESO standard data elements for the Property Resource between its providers. The report can also help them pinpoint fields that are populated with data (availability) significantly more often in one provider or another (**[Anomalies](###Anomalies**)).
+For example, an organization may want to focus on aligning the RESO standard data elements for the Property Resource between its providers. The report can also help them pinpoint fields that are populated with data (availability) significantly more often in one provider or another (see **[Anomalies](###Anomalies)**).
 
 ### Provider Selection
 

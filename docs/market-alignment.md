@@ -2,7 +2,7 @@
 
 The Market Alignment Report shows how well data lines up across multiple organizations. For example, it can compare the data from five different MLSs that all may use different API services.
 
-The report provides a detailed view of all data elements from the organizations, including their specific resources, fields and lookups, their useage and how they overlap with each other. This is especially useful for MLSs that are involved in or are considering becoming part of a data share.
+The report provides a detailed view of all data elements from the organizations, including their specific resources, fields and lookups, the frequency that they are filled with data and how they overlap with each other. This is especially useful for MLSs that are involved in or are considering becoming part of a data share.
 
 ## Selecting the Organizations and Systems
 Select **Reports**, **Market Alignment Report** from the toolbar.

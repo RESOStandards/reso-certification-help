@@ -6,7 +6,7 @@ Many MLSs offer more than one API, which may contain differences in their data e
 
 This report provides both a high-level visual summary for presentations and a detailed view for internal analysis, allowing organizations to identify where better alignment of data elements may be needed.
 
-## Select Organization and Providers
+## Select Organization and Provider Systems
 
 Select **Reports**, **Provider Alignment Report** from the toolbar.
 
@@ -16,45 +16,45 @@ Select the organization to be included in the report.
 
 <img width="1020" height="549" alt="image" src="https://github.com/user-attachments/assets/654c4a33-5dee-4565-a7ca-29a6ab05e79e" /><br/>
 
-The organization's provider systems, the Data Dictionary version of their certification, certification status and issue date will show below below.
+The organization's provider systems, the Data Dictionary version of their certification, certification status and issue date will show below.
 
 <img width="1750" height="1027" alt="image" src="https://github.com/user-attachments/assets/8f625d9d-9b91-4949-b810-985630481d36" /><br/>
 
 Select **Next**.
 
-## Venn Diagram
+## Diagram
 
 The Venn Diagram can display up to three providers at a time, with each provider represented by a circle.
 
-The overlapping sections indicate that the data elements in that section are used by each provider included in it.
+The overlapping sections indicate that the data elements in that section are used by every provider included in it.
 
-<img width="1735" height="1022" alt="image" src="https://github.com/user-attachments/assets/6d27ef22-cf99-4aad-bd83-92da9ea5c0b1" />
+<img width="1735" height="1022" alt="image" src="https://github.com/user-attachments/assets/6d27ef22-cf99-4aad-bd83-92da9ea5c0b1" /><br/>
 
 The Extended tooltips provide details about each provider, including the provider's name, Data Dictionary version and counts of RESO and Local data elements.
 
-<img width="268" height="134" alt="image" src="https://github.com/user-attachments/assets/7e62405e-082c-4af1-a5ce-916b73e99101" />
+<img width="268" height="134" alt="image" src="https://github.com/user-attachments/assets/7e62405e-082c-4af1-a5ce-916b73e99101" /><br/>
 
 Hover over a non-overlapping region to see a count of the RESO and Local data elements it includes. This represents data elements that are included for only that provider.
 
-<img width="1134" height="603" alt="image" src="https://github.com/user-attachments/assets/d6e0acfe-4f5f-4d7b-b4c3-c45be7093a85" />
+<img width="1134" height="603" alt="image" src="https://github.com/user-attachments/assets/d6e0acfe-4f5f-4d7b-b4c3-c45be7093a85" /><br/>
 
 Hover over an intersection to see the percentage of alignment and count of data elements between the overlapping providers. This represents the data elements that are included for every provider in that section.
 
-<img width="1097" height="615" alt="image" src="https://github.com/user-attachments/assets/0b5bc23d-9d11-46c8-a3c3-03fe197430cb" />
+<img width="1097" height="615" alt="image" src="https://github.com/user-attachments/assets/0b5bc23d-9d11-46c8-a3c3-03fe197430cb" /><br/>
 
 Select a region or intersection to see the specific data elements with their availability (how often they are populated with data) as compared to the industry average and the other providers represented on the diagram.
 
-<img width="1746" height="1035" alt="image" src="https://github.com/user-attachments/assets/fe85f6e9-1f94-490e-8251-419620d81c21" />
+<img width="1746" height="1035" alt="image" src="https://github.com/user-attachments/assets/fe85f6e9-1f94-490e-8251-419620d81c21" /><br/>
 
 ### Counts and Alignment Summary
 This section summarizes the counts and overall alignment of fields and lookups between the selected providers. These counts change based on any [Filters](##Filters) selections.
 
-<img width="836" height="173" alt="image" src="https://github.com/user-attachments/assets/f89dbb3e-7bfa-49e6-b22c-66adb62dcd1c" />
+<img width="836" height="173" alt="image" src="https://github.com/user-attachments/assets/f89dbb3e-7bfa-49e6-b22c-66adb62dcd1c" /><br/>
 
-Select All or Common to narrow the summary data. All includes every field and lookup, while Common displays only those shared across the selected providers.
+Select **All** or **Common** to narrow the summary data. All includes every field and lookup, while Common displays only those shared across the selected providers.
 
 ## Filters
-The Provider Alignment Report can be narrowed to represent specific criteria with the options below.
+The Provider Alignment Report can be narrowed to represent specific criteria with the Filter options below.
 
 For example, an organization may want to focus on aligning the RESO standard data elements for the Property Resource between its providers. The report can also help them pinpoint fields that are populated with data (availability) significantly more often in one provider or another (see **[Anomalies](###Anomalies)**).
 
@@ -62,39 +62,40 @@ For example, an organization may want to focus on aligning the RESO standard dat
 
 Select which providers are included in the diagram (maximum of three).
 
-<img width="1746" height="732" alt="image" src="https://github.com/user-attachments/assets/a592fb05-a95a-4fa4-af99-6333b79a8004" />
+<img width="1746" height="732" alt="image" src="https://github.com/user-attachments/assets/a592fb05-a95a-4fa4-af99-6333b79a8004" /><br/>
 
 ### Data Elements Filter
-Filter the data in the diagram by classification of the data elements. RESO are standard Data Dictionary data elements, Local are unique to the system being viewed and IDX are those tagged with the IDX Payload.
+Filter the data in the diagram by classification of the data elements. **RESO** are standard Data Dictionary data elements, **Local** are unique to the system being viewed and **IDX** are those tagged with the IDX Payload.
 
 For example, an organization might use the report to find where its IDX data elements differ between providers and then work to make them more consistent. The RESO standard data elements can also be a key focus for aligning data across different providers.
-<img width="838" height="103" alt="image" src="https://github.com/user-attachments/assets/5c2d0ee3-1481-4813-93b6-4fc2362e1ddd" />
+
+<img width="838" height="103" alt="image" src="https://github.com/user-attachments/assets/5c2d0ee3-1481-4813-93b6-4fc2362e1ddd" /><br/>
 
 ### Report View Selection
 
 Navigate between the Diagram and Details Report Views.
 
-<img width="189" height="103" alt="image" src="https://github.com/user-attachments/assets/8f631953-63e3-476c-bb9e-4f944874f73f" />
+<img width="189" height="103" alt="image" src="https://github.com/user-attachments/assets/8f631953-63e3-476c-bb9e-4f944874f73f" /><br/>
 
 ### Resource Selection
 Select a resource to narrow the diagram, summary counts and other metrics to data elements from only that resource.
 
-<img width="349" height="489" alt="image" src="https://github.com/user-attachments/assets/751c5682-c1f9-48b7-a1cc-975a1adfc023" />
+<img width="349" height="489" alt="image" src="https://github.com/user-attachments/assets/751c5682-c1f9-48b7-a1cc-975a1adfc023" /><br/>
 
 ### Fields and Lookups Filter
 Select whether fields or lookups are represented on the diagram. The report can be used to identify differences for either type of data element.
 
-<img width="327" height="80" alt="image" src="https://github.com/user-attachments/assets/cff1a623-7e5c-4d0c-a960-4d234cfee807" />
+<img width="327" height="80" alt="image" src="https://github.com/user-attachments/assets/cff1a623-7e5c-4d0c-a960-4d234cfee807" /><br/>
 
 ### Availability Threshold
 Increase the Availability Threshold percentage to narrow the diagram to data elements that are populated with data more frequently. For example, an organization may want to see how consistently their highly used (e.g. 75% or greater) data elements are represented across the providers.
 
-<img width="821" height="85" alt="image" src="https://github.com/user-attachments/assets/da5c8830-c487-4e6f-9a66-b55f7d7285f4" />
+<img width="821" height="85" alt="image" src="https://github.com/user-attachments/assets/da5c8830-c487-4e6f-9a66-b55f7d7285f4" /><br/>
 
 ### Anomalies
 Check the Anomalies box to filter the diagram to show only data elements whose availability varies by 25% or more between at least two of the selected providers. Anolalies provides a quick way to narrow the diagram to data elements that may need attention. For example, a field populated 76% of the time from one provider but only 18% from another.
 
-<img width="1661" height="83" alt="image" src="https://github.com/user-attachments/assets/66fd70eb-eedc-4591-9f02-e5f76e4c5fb4" />
+<img width="1661" height="83" alt="image" src="https://github.com/user-attachments/assets/66fd70eb-eedc-4591-9f02-e5f76e4c5fb4" /><br/>
 
 ## Details
 
@@ -107,12 +108,12 @@ The Details View contains the same [Filter](##Filters) options as the [Diagram V
 ### Heat Grid
 Check the Heat Grid box to to apply a color-coded layer to the data elements in the table, showing a range of availability differences between providers. The legend appears below the table.
 
-<img width="1746" height="1039" alt="image" src="https://github.com/user-attachments/assets/122825bb-bf82-4520-af36-6047937e0fc6" />
+<img width="1746" height="1039" alt="image" src="https://github.com/user-attachments/assets/122825bb-bf82-4520-af36-6047937e0fc6" /><br/>
 
 ## Print and Export
 Print or export the data from both report views by selecting the Print and Export buttons at the top right.
 
-<img width="144" height="97" alt="image" src="https://github.com/user-attachments/assets/3c66dde8-e40a-4728-8cba-28b9addb69aa" />
+<img width="144" height="97" alt="image" src="https://github.com/user-attachments/assets/3c66dde8-e40a-4728-8cba-28b9addb69aa" /><br/>
 
 The data elements in the export will follow the filters that are in place on screen. For example, filtering for only RESO fields with an availability threshold of 75% or above will also be applied to the data that is exported.
 

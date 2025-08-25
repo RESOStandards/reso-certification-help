@@ -1,10 +1,10 @@
 # Market Alignment Report
 
-The Market Alignment Report shows how well data lines up across multiple organizations. For example, it can compare the data from five different MLSs that all may use different API services.
+The Market Alignment Report combines organizations, such as MLSs, and their provider systems (organization may have multiple providers) as one entity and shows how well the data aligns across those systems. For example, it can compare the data from five different MLSs that may each have multiple providers systems.
 
 The report provides a detailed view of all data elements from the organizations, including their specific resources, fields and lookups, the frequency that they are filled with data and how they overlap with each other. This is especially useful for MLSs that are involved in or are considering becoming part of a data share.
 
-## Selecting the Organizations and Systems
+## Select the Organizations and Provider Systems
 Select **Reports**, **Market Alignment Report** from the toolbar.
 
 <img width="541" height="180" alt="image" src="https://github.com/user-attachments/assets/476d3c43-87d1-4b0a-9846-911ab7fb3966" /><br/>
@@ -80,9 +80,86 @@ Increase the Availability Threshold percentage to narrow the graph to data eleme
 ### Anomalies
 Check the Anomalies box to filter the graph to show only data elements whose availability varies by 25% or more between the systems.
 
-<img width="1661" height="83" alt="image" src="https://github.com/user-attachments/assets/66fd70eb-eedc-4591-9f02-e5f76e4c5fb4" />
+<img width="1661" height="83" alt="image" src="https://github.com/user-attachments/assets/66fd70eb-eedc-4591-9f02-e5f76e4c5fb4" /><br/>
 
+## Diagram
 
+The Venn Diagram can display up to three organizations and their providers systems at a time, with each organization/provider combo represented by a circle.
+
+The overlapping sections indicate that the data elements in that section are used by every organization/provider included in it.
+
+<img width="1735" height="1024" alt="image" src="https://github.com/user-attachments/assets/0854f0f1-7598-49ef-b643-8c7e1cda3910" /><br/>
+
+The Extended tooltips provide details about each organization/provider, including their names, Data Dictionary version and counts of RESO and Local data elements.
+
+<img width="276" height="138" alt="image" src="https://github.com/user-attachments/assets/14dac13e-6cac-467f-ac71-42c3e3732860" /><br/>
+
+Hover over a non-overlapping region to see a count of the RESO and Local data elements it includes. This represents data elements that are included for only that organization/provider.
+
+<img width="1087" height="599" alt="image" src="https://github.com/user-attachments/assets/3d45b096-dd6c-4925-a992-7ba31d180f01" /><br/>
+
+Hover over an intersection to see the percentage of alignment and count of data elements between the overlapping organizations/providers. This represents the data elements that are included for every organization/provider in that section.
+
+<img width="1038" height="582" alt="image" src="https://github.com/user-attachments/assets/7b1049ec-d0e5-4ef2-9b5a-d5a81b4beeea" /><br/>
+
+Select a region or intersection to see the specific data elements with their availability (how often they are populated with data) as compared to the industry average and the other organizations/providers represented on the diagram.
+
+<img width="1736" height="1021" alt="image" src="https://github.com/user-attachments/assets/dfeaa237-ce72-4dfb-a4f8-1726ca7cfa20" /><br/>
+
+### Counts and Alignment Summary
+
+This section summarizes the counts and overall alignment of fields and lookups between the selected organizations/providers. These counts change based on any [Filters](##Filters) selections.
+
+<img width="830" height="158" alt="image" src="https://github.com/user-attachments/assets/f1bb6346-21de-4de3-9a34-a624ed2227a1" /><br/>
+
+Select **All** or **Common** to narrow the summary data. All includes every field and lookup, while Common displays only those shared across the selected organizations/providers.
+
+## Filters
+
+The Market Alignment Report can be narrowed to represent specific criteria with the Filter options below.
+
+For example, a user might want to analyze how well fields from different systems in a specific market align with each other and with the RESO standard. More specifically, they may want to focus on just the Property Resource and the IDX data fields that are filled with data (availability) 50% of the time or more.
+
+### Organization and Provider System Selection
+
+Select which organizations/providers are included in the diagram (maximum of three).
+
+<img width="701" height="492" alt="image" src="https://github.com/user-attachments/assets/466f378a-7e41-4d10-b066-fc5e50cd41f1" /><br/>
+
+### Data Elements Filter
+Filter the data in the diagram by classification of the data elements. **RESO** are standard Data Dictionary data elements, **Local** are unique to the system being viewed and **IDX** are those tagged with the IDX Payload.
+
+<img width="838" height="103" alt="image" src="https://github.com/user-attachments/assets/5c2d0ee3-1481-4813-93b6-4fc2362e1ddd" /><br/>
+
+### Report View Selection
+
+Navigate between the Graph, Diagram and Details Report Views.
+
+<img width="244" height="87" alt="image" src="https://github.com/user-attachments/assets/3466964b-612b-4136-b240-d70c0cd78579" /><br/>
+
+### Resource Selection
+Select a resource to narrow the diagram, summary counts and other metrics to data elements from only that resource.
+
+<img width="349" height="489" alt="image" src="https://github.com/user-attachments/assets/751c5682-c1f9-48b7-a1cc-975a1adfc023" /><br/>
+
+### Fields and Lookups Filter
+Select whether fields or lookups are represented on the diagram.
+
+<img width="327" height="80" alt="image" src="https://github.com/user-attachments/assets/cff1a623-7e5c-4d0c-a960-4d234cfee807" /><br/>
+
+### Availability Threshold
+Increase the Availability Threshold percentage to narrow the diagram to data elements that are populated with data more frequently.
+
+<img width="821" height="85" alt="image" src="https://github.com/user-attachments/assets/da5c8830-c487-4e6f-9a66-b55f7d7285f4" /><br/>
+
+For example, a user may want to see how consistently the highly used (e.g. 75% or greater) IDX data elements are represented across multiple systems in a market.
+
+<img width="1740" height="1028" alt="image" src="https://github.com/user-attachments/assets/c7218f14-7616-40f2-b8e7-717b7498c551" /><br/>
+
+### Anomalies
+Check the Anomalies box to filter the diagram to show only data elements whose availability varies by 25% or more between at least two of the selected systems.
+
+<img width="1661" height="83" alt="image" src="https://github.com/user-attachments/assets/66fd70eb-eedc-4591-9f02-e5f76e4c5fb4" /><br/>
 
 
 

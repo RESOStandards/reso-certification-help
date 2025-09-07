@@ -20,7 +20,7 @@ For example, selecting “7” in the example below reveals the fields included 
 
 <img width="776" height="300" alt="image" src="https://github.com/user-attachments/assets/e1cfbb61-4b07-45fb-bbfa-36c9577127cb" />
 
-These fields may be considered for addition to improve industry alignment, or the organization may investigate why they are currently absent.
+Adding these fields may be considered to improve industry alignment, or the organization may investigate why they are currently absent.
 
 **Note:** The absence of a top 100 field doesn’t necessarily indicate a problem, as data needs can vary across markets.
 
@@ -28,7 +28,7 @@ These fields may be considered for addition to improve industry alignment, or th
 
 ### Print and Export
 
-Print the report as shown with print button at the top of the report.
+Print the report as shown with the print button at the top of the report.
 
 Select the export button to download the data element details as a CSV file, which can be opened in a spreadsheet application.
 
@@ -100,7 +100,7 @@ Check the Heat Grid box to add a color-coded layer showing availability ranges t
 
 ### Print and Export
 
-Print the report as shown with print button at the top of the report.
+Print the report as shown with the print button at the top of the report.
 
 Select the export button to download the data element details as a CSV file, which can be opened in a spreadsheet application.
 

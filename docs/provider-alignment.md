@@ -47,7 +47,7 @@ Select a region or intersection to see the specific data elements with their ava
 <img width="1746" height="1035" alt="image" src="https://github.com/user-attachments/assets/fe85f6e9-1f94-490e-8251-419620d81c21" /><br/>
 
 ### Counts and Alignment Summary
-This section summarizes the counts and overall alignment of fields and lookups between the selected providers. These counts change based on any [Filters](##Filters) selections.
+This section summarizes the counts and overall alignment of fields and lookups between the selected providers. These counts change based on any **[Filters](##filters)** selections.
 
 <img width="836" height="173" alt="image" src="https://github.com/user-attachments/assets/f89dbb3e-7bfa-49e6-b22c-66adb62dcd1c" /><br/>
 
@@ -56,7 +56,7 @@ Select **All** or **Common** to narrow the summary data. All includes every fiel
 ## Filters
 The Provider Alignment Report can be narrowed to represent specific criteria with the Filter options below.
 
-For example, an organization may want to focus on aligning the RESO standard data elements for the Property Resource between its providers. The report can also help them pinpoint fields that are populated with data (availability) significantly more often in one provider or another (see **[Anomalies](###Anomalies)**).
+For example, an organization may want to focus on aligning the RESO standard data elements for the Property Resource between its providers. The report can also help them pinpoint fields that are populated with data (availability) significantly more often in one provider or another (see **[Anomalies](###anomalies)**).
 
 ### Provider Selection
 
@@ -103,7 +103,7 @@ The Details View shows the individual data elements, their availability under ea
 
 This view can be used in conjunction with the diagram for organizations to see where their data elements differ between provider systems. These differences may include whether specific fields or lookups are not present for all systems. Additionally, the details view makes it easy to spot differences in availability between systems. For example, an organization may want to investigate cases where a field is populated much more frequently in one system over another.
 
-The Details View contains the same [Filters](##Filters) as the [Diagram](##Diagram) view, with the addition of the [Heat Grid](###Heat-Grid).
+The Details View contains the same **[Filters](##filters)** as the **[Diagram](##diagram)** view, with the addition of the **[Heat Grid](###heat-grid)**.
 
 ### Heat Grid
 Check the Heat Grid box to apply a color-coded layer to the data elements in the table, showing a range of availability differences between providers. The legend appears below the table.

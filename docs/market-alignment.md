@@ -161,7 +161,21 @@ Check the Anomalies box to filter the diagram to show only data elements whose a
 
 <img width="1661" height="83" alt="image" src="https://github.com/user-attachments/assets/66fd70eb-eedc-4591-9f02-e5f76e4c5fb4" /><br/>
 
+## Details
 
+The Details View shows the individual data elements, their availability under each provider system, the industry average availability and the number of unique recipients (usually MLSs) in a sortable table format.
+
+This view, when used with the diagram and graph, allows comparison of data elements and their availability across various organizations and provider systems within a market. For example, a user interested in a data share may use the report to assure that their critical fields are present in all of the systems that they may collaborate with.
+
+The Details View contains the same [Filter](##Filters) options as the Graph [Diagram View](##-Venn-Diagram), with the addition of the [Heat Grid](###Heat-Grid)
+
+### Heat Grid
+Check the Heat Grid box to to apply a color-coded layer to the data elements in the table, showing a range of availability differences between provider systems. The legend appears below the table.
+
+## Print and Export
+Print or export the data from both report views by selecting the Print and Export buttons at the top right.
+
+<img width="140" height="93" alt="image" src="https://github.com/user-attachments/assets/3052add5-a08c-4949-8006-6cec464da682" /><br/>
 
 
 

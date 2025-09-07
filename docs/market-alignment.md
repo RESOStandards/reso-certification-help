@@ -167,7 +167,7 @@ The Details View shows the individual data elements, their availability under ea
 
 This view, when used with the diagram and graph, allows comparison of data elements and their availability across various organizations and provider systems within a market. For example, a user interested in a data share may use the report to assure that their critical fields are present in all of the systems that they may collaborate with.
 
-The Details View contains the same [Filter](##Filters) options as the Graph [Diagram View](##-Venn-Diagram), with the addition of the [Heat Grid](###Heat-Grid)
+The Details View contains the same [Filters](##Filters) as the [Graph](##Graph) and [Diagram](##Diagram) views, with the addition of the [Heat Grid](###Heat-Grid).
 
 ### Heat Grid
 Check the Heat Grid box to to apply a color-coded layer to the data elements in the table, showing a range of availability differences between provider systems. The legend appears below the table.

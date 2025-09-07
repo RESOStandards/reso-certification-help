@@ -33,7 +33,7 @@ Hover over the alignment lines to see a count of the types of data elements they
 <img width="1674" height="584" alt="image" src="https://github.com/user-attachments/assets/358c928b-1aee-4a73-ab19-1ad72c62f6cf" /><br/>
 
 ### Counts and Alignment Summary
-This section summarizes the counts and overall alignment of fields and lookups between the selected organizations and providers. These counts change based on any [Filters](##Filters) selections.
+This section summarizes the counts and overall alignment of fields and lookups between the selected organizations and providers. These counts change based on any **[Filters](##filters)** selections.
 
 <img width="829" height="170" alt="image" src="https://github.com/user-attachments/assets/5666ac26-d95b-495a-9fdb-d38e81fd912e" /><br/>
 
@@ -108,7 +108,7 @@ Select a region or intersection to see the specific data elements with their ava
 
 ### Counts and Alignment Summary
 
-This section summarizes the counts and overall alignment of fields and lookups between the selected organizations/providers. These counts change based on any [Filters](##Filters) selections.
+This section summarizes the counts and overall alignment of fields and lookups between the selected organizations/providers. These counts change based on any **[Filters](##filters)** selections.
 
 <img width="830" height="158" alt="image" src="https://github.com/user-attachments/assets/f1bb6346-21de-4de3-9a34-a624ed2227a1" /><br/>
 
@@ -167,7 +167,7 @@ The Details View shows the individual data elements, their availability under ea
 
 This view, when used with the diagram and graph, allows comparison of data elements and their availability across various organizations and provider systems within a market. For example, a user interested in a data share may use the report to assure that their critical fields are present in all of the systems that they may collaborate with.
 
-The Details View contains the same [Filters](##Filters) as the [Graph](##Graph) and [Diagram](##Diagram) views, with the addition of the [Heat Grid](###Heat-Grid).
+The Details View contains the same **[Filters](##filters)** as the **[Graph](##graph)** and **[Diagram](##diagram**) views, with the addition of the **[Heat Grid](###heat-grid)**.
 
 ### Heat Grid
 Check the Heat Grid box to apply a color-coded layer to the data elements in the table, showing a range of availability differences between provider systems. The legend appears below the table.

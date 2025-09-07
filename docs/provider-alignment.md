@@ -101,12 +101,12 @@ Check the Anomalies box to filter the diagram to show only data elements whose a
 
 The Details View shows the individual data elements, their availability under each provider system, the industry average availability and the number of unique recipients (usually MLSs) in a sortable table format.
 
-This view can be used in conjunction with the diagram for organizations to see where their data elements differ between provider systems. These differences may include whether specific fields or lookups are not present for all systems. Additionally, the details view makes it easy to spot differences in availablity between systems. For example, an organization may want to investigate cases where a field is populated much more frequently in one system over another.
+This view can be used in conjunction with the diagram for organizations to see where their data elements differ between provider systems. These differences may include whether specific fields or lookups are not present for all systems. Additionally, the details view makes it easy to spot differences in availability between systems. For example, an organization may want to investigate cases where a field is populated much more frequently in one system over another.
 
 The Details View contains the same [Filters](##Filters) as the [Diagram](##Diagram) view, with the addition of the [Heat Grid](###Heat-Grid).
 
 ### Heat Grid
-Check the Heat Grid box to to apply a color-coded layer to the data elements in the table, showing a range of availability differences between providers. The legend appears below the table.
+Check the Heat Grid box to apply a color-coded layer to the data elements in the table, showing a range of availability differences between providers. The legend appears below the table.
 
 <img width="1746" height="1039" alt="image" src="https://github.com/user-attachments/assets/122825bb-bf82-4520-af36-6047937e0fc6" /><br/>
 

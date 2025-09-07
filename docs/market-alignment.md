@@ -1,6 +1,6 @@
 # Market Alignment Report
 
-The Market Alignment Report combines organizations, such as MLSs, and their provider systems (organization may have multiple providers) as one entity and shows how well the data aligns across those systems. For example, it can compare the data from five different MLSs that may each have multiple providers systems.
+The Market Alignment Report combines organizations, such as MLSs, and their provider systems (organization may have multiple providers) as one entity and shows how well the data aligns across those systems. For example, it can compare the data from five different MLSs that may each have multiple provider systems.
 
 The report provides a detailed view of all data elements from the organizations, including their specific resources, fields and lookups, the frequency that they are filled with data and how they overlap with each other. This is especially useful for MLSs that are involved in or are considering becoming part of a data share.
 
@@ -28,7 +28,7 @@ You can use the alignment ranges to focus on specific data elements. For example
 
 <img width="1688" height="726" alt="image" src="https://github.com/user-attachments/assets/9c384c79-dddf-42b6-92ff-19e18372e1d6" /><br/>
 
-Hover over the alignment lines to see a count of the types data elements they include.
+Hover over the alignment lines to see a count of the types of data elements they include.
 
 <img width="1674" height="584" alt="image" src="https://github.com/user-attachments/assets/358c928b-1aee-4a73-ab19-1ad72c62f6cf" /><br/>
 
@@ -170,7 +170,7 @@ This view, when used with the diagram and graph, allows comparison of data eleme
 The Details View contains the same [Filters](##Filters) as the [Graph](##Graph) and [Diagram](##Diagram) views, with the addition of the [Heat Grid](###Heat-Grid).
 
 ### Heat Grid
-Check the Heat Grid box to to apply a color-coded layer to the data elements in the table, showing a range of availability differences between provider systems. The legend appears below the table.
+Check the Heat Grid box to apply a color-coded layer to the data elements in the table, showing a range of availability differences between provider systems. The legend appears below the table.
 
 ## Print and Export
 Print or export the data from both report views by selecting the Print and Export buttons at the top right.

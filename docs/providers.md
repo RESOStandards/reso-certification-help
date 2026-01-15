@@ -262,12 +262,16 @@ Endorsements in a permanent status (**Certified**, **Legacy**, **Revoked**) will
 # My Account
 [BACK TO TOP](#table-of-contents)
 
-Select **My Account** at the top of the page to view your user details and access options to copy your provider token or create a new API token. If any account information is incorrect, please contact RESO at certification@reso.org.
+Use the **My Account** section my view user information, generate API tokens and download the testing configuration files needed for certification testing.
+
+Select **My Account** at the top of the page.
+
+If any account information displayed here is incorrect, please contact RESO at certification@reso.org.
 
 <br />
 
 ## Creating a Token
-A token is required to access certification data through the Web API.
+A token is required to access the RESO Variations Service a Web API.
 
 Log in to **[certification.reso.org](https://certification.reso.org)** with your username and password.
 
@@ -290,6 +294,12 @@ The token will then be displayed along with options to copy it to the clipboard 
 ![image](https://user-images.githubusercontent.com/88680702/164089795-39ccf57c-b6d6-405f-be4c-0b19cb7a22c0.png)
 
 <br />
+
+## Downloading a Testing Configuration File
+
+Select the "Download Certification Environment File" link towards the bottom left of the account details and [follow the instructions here]([url](https://github.com/RESOStandards/reso-certification-utils/blob/main/lib/certification/data-dictionary/README.md#command-line-use)) to configure the RESO SDK.
+
+https://files.slack.com/files-pri/T1F4EGZ8Q-F0A8C83TE67/image.png
 
 Should you require further assistance or have any questions, contact certification@reso.org.
 
@@ -339,5 +349,6 @@ For help with reviewing the report, see the **Industry Alignment Report Help Gui
 
 **TODO:** Preflight Check<br />
 **TODO:** Certification Dropdown Items
+
 
 

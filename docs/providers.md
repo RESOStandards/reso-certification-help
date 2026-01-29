@@ -297,18 +297,21 @@ The token will then be displayed along with options to copy it to the clipboard 
 
 ## Certification Testing
 
-1. Select **My Account** on the top toolbar (must be logged in with a provider account).
+**1. Select **My Account** on the top toolbar (must be logged in with a provider account)**
 <br />
 <img width="1440" height="366" alt="image" src="https://github.com/user-attachments/assets/a42c9e2d-bbc8-41c6-8214-2c296b63f312" />
 
-2. Download a Testing Configuration File
-<br />
-Select "Download Certification Environment File" from the link near the bottom of the page.
-<br />
-   <img width="1048" height="1016" alt="image" src="https://github.com/user-attachments/assets/36afc61f-8152-49f9-8b1c-2c6142a9667f" />
-3. Follow the instructions listed [here]([url]([https://www.reso.org/reso-alignment-reports-pricing/](https://github.com/RESOStandards/reso-certification-utils/blob/main/lib/certification/data-dictionary/README.md#command-line-use)))
+**2. Download a Testing Configuration File**
 
-Should you require further assistance or have any questions, contact dev@reso.org.
+- Select the "Download Certification Environment File" link near the bottom of the page.
+
+<img width="1048" height="1016" alt="image" src="https://github.com/user-attachments/assets/36afc61f-8152-49f9-8b1c-2c6142a9667f" />
+
+<br />
+
+**3. Run RESO Certification Testing Tool**
+- Follow the instructions listed [here](https://github.com/RESOStandards/reso-certification-utils/blob/main/lib/certification/data-dictionary/README.md#command-line-use)
+- Should you require further assistance or have any questions, contact dev@reso.org.
 
 # Alignment Reports
 
@@ -356,6 +359,7 @@ For help with reviewing the report, see the **Industry Alignment Report Help Gui
 
 **TODO:** Preflight Check<br />
 **TODO:** Certification Dropdown Items
+
 
 
 

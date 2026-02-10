@@ -337,7 +337,7 @@ Access the Industry Alignment Report by selecting the status box of the Data Dic
 <br />
 <br />
 
-For help with reviewing the report, see the **[Industry Alignment Report Help Guide]([url](https://github.com/RESOStandards/reso-certification-help/blob/help-guide-v4.0.0/docs/market-alignment.md))**
+For help with reviewing the report, see the **Industry Alignment Report Help Guide**
 
 <br />
 
@@ -345,7 +345,7 @@ For help with reviewing the report, see the **[Industry Alignment Report Help Gu
 - Shows differences in data outputs for MLSs that use more than one API (about 30% do)
 - Enables organizations, such as MLSs, to evaluate data consistency across multiple API services
 - Offers a visual summary for high-level presentations and detailed views of each system’s full data set for comparison and in-depth analysis
-- See the **[Provider Alignment Report Help Guide]([url](https://github.com/RESOStandards/reso-certification-help/blob/help-guide-v4.0.0/docs/provider-alignment.md))**
+- See the **Provider Alignment Report Help Guide**
 
 <br />
 
@@ -353,9 +353,10 @@ For help with reviewing the report, see the **[Industry Alignment Report Help Gu
 - Illustrates alignment across multiple organizations (e.g., comparing data from five different MLSs using different API vendors)
 - Provides a detailed view of all data elements across organizations, helping regional or statewide data share participants evaluate which API service is best suited for collaboration
 - Reveals alignment opportunities even across disparate systems
-- See the **[Market Alignment Report Help Guide]([url](https://github.com/RESOStandards/reso-certification-help/blob/help-guide-v4.0.0/docs/market-alignment.md))**
+- See the **Market Alignment Report Help Guide**
 
 <br />
+
 
 
 

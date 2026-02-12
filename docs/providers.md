@@ -315,7 +315,7 @@ The token will then be displayed along with options to copy it to the clipboard 
 
 # Alignment Reports
 
-In addition to the complimentary **Industry Alignment Report**, two premium reports – **Provider Alignment Report** and **Market Alignment Report** – are available under the Reports option in the toolbar. **See:** [Alignment Reports Pricing]([url](https://www.reso.org/reso-alignment-reports-pricing/))
+In addition to the complimentary **Industry Alignment Report**, two premium reports – **Provider Alignment Report** and **Market Alignment Report** – are also available (**See:** [RESO Alignment Reports](https://www.reso.org/reso-alignment-reports/) for further information and pricing).
 
 <img width="1088" height="255" alt="image" src="https://github.com/user-attachments/assets/d03eebf0-7eba-4d06-8027-56a858e8391f" />
 
@@ -337,7 +337,7 @@ Access the Industry Alignment Report by selecting the status box of the Data Dic
 <br />
 <br />
 
-For help with reviewing the report, see the **Industry Alignment Report Help Guide**
+For help with reviewing the report, see the **[Industry Alignment Report Help Guide](https://certification-help.reso.org/docs/industry-alignment.html)**
 
 <br />
 
@@ -345,7 +345,7 @@ For help with reviewing the report, see the **Industry Alignment Report Help Gui
 - Shows differences in data outputs for MLSs that use more than one API (about 30% do)
 - Enables organizations, such as MLSs, to evaluate data consistency across multiple API services
 - Offers a visual summary for high-level presentations and detailed views of each system’s full data set for comparison and in-depth analysis
-- See the **Provider Alignment Report Help Guide**
+- See the **[Provider Alignment Report Help Guide](https://certification-help.reso.org/docs/provider-alignment.html)**
 
 <br />
 
@@ -353,9 +353,10 @@ For help with reviewing the report, see the **Industry Alignment Report Help Gui
 - Illustrates alignment across multiple organizations (e.g., comparing data from five different MLSs using different API vendors)
 - Provides a detailed view of all data elements across organizations, helping regional or statewide data share participants evaluate which API service is best suited for collaboration
 - Reveals alignment opportunities even across disparate systems
-- See the **Market Alignment Report Help Guide**
+- See the **[Market Alignment Report Help Guide](https://certification-help.reso.org/docs/market-alignment.html)**
 
 <br />
+
 
 
 

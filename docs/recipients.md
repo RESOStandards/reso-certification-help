@@ -171,4 +171,5 @@ Access the Industry Alignment Report by selecting the status box of the Data Dic
 
 <img width="667" height="301" alt="image" src="https://github.com/user-attachments/assets/501bf320-33ce-4f7d-bd7a-50a18b776f9a" />
 
-For help with reviewing the report, see the **Industry Alignment Report Help Guide** (_link to guide_).
+For help with reviewing the report, see the **Industry Alignment Report Help Guide(https://certification-help.reso.org/docs/industry-alignment.html)**
+

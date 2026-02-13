@@ -64,9 +64,8 @@ You may contact certification@reso.org for assistance.
 ## RESO Alignment Reports
 
 Select Reports from the tool bar at the top and select the report you would like to create.
-- **Provider Alignment Report**
-  - TODO: Link to Report Help
-- **Market Alignment Report**
-  - TODO: Link to Report Help
+- **[Provider Alignment Report Help Guide](https://certification-help.reso.org/docs/provider-alignment.html)**
+- **[Market Alignment Report Help Guide](https://certification-help.reso.org/docs/market-alignment.html)**
+
 
 

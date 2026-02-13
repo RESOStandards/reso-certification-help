@@ -325,10 +325,10 @@ The report also shows which version of OData the RESO Web API Server was using, 
 # Other Guides
 [BACK TO TOP](#table-of-contents)
 
-**[Providers](/docs/providers.md):** For data providers like MLS vendors going through the RESO Certification process with their customers
+**[Providers](https://certification-help.reso.org/docs/admins.html):** For data providers like MLS vendors going through the RESO Certification process with their customers
 
-**[Recipients](/docs/recipients.md):** For customers of data providers like an MLS receiving certification from an MLS vendor
+**[Recipients](https://certification-help.reso.org/docs/recipients.html):** For customers of data providers like an MLS receiving certification from an MLS vendor
 
-**[Normal Users](/docs/normal-users.md):** For those that access RESO Certification System information from an API rather than the website
+**[Normal Users](https://certification-help.reso.org/docs/normal-users.html):** For those that access RESO Certification System information from an API rather than the website
 
-**[Admins](/docs/admins.md):** An administrator's guide to the RESO Certification System
+**[Admins](https://certification-help.reso.org/docs/admins.html):** An administrator's guide to the RESO Certification System
